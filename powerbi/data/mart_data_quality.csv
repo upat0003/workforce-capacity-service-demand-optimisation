@@ -1,0 +1,6 @@
+dataset,rule,failing_rows,total_rows
+employees,location_fk_invalid,0,150
+service_requests,client_fk_invalid,29,7353
+service_requests,complexity_score_missing,228,7353
+shifts,hours_outlier,0,17289
+employee_skills,certification_expired,451,801

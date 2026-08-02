@@ -1,0 +1,181 @@
+request_id,service_type_name,location_id,urgency,rank,employee_id,match_score
+REQ-000412,Nursing Review,LOC-07,Routine,1,EMP-00014,0.7844
+REQ-000412,Nursing Review,LOC-07,Routine,2,EMP-00084,0.7737
+REQ-000412,Nursing Review,LOC-07,Routine,3,EMP-00006,0.7727
+REQ-000772,Care Plan Review,LOC-03,Urgent,1,EMP-00023,0.7141
+REQ-000772,Care Plan Review,LOC-03,Urgent,2,EMP-00027,0.7064
+REQ-000772,Care Plan Review,LOC-03,Urgent,3,EMP-00083,0.7027
+REQ-001388,Transport Assistance,LOC-01,Priority,1,EMP-00027,0.803
+REQ-001388,Transport Assistance,LOC-01,Priority,2,EMP-00110,0.758
+REQ-001388,Transport Assistance,LOC-01,Priority,3,EMP-00089,0.7186
+REQ-001466,Nursing Review,LOC-09,Routine,1,EMP-00006,0.9227
+REQ-001466,Nursing Review,LOC-09,Routine,2,EMP-00126,0.8471
+REQ-001466,Nursing Review,LOC-09,Routine,3,EMP-00084,0.7737
+REQ-001828,In-Home Support Visit,LOC-01,Urgent,1,EMP-00025,0.8292
+REQ-001828,In-Home Support Visit,LOC-01,Urgent,2,EMP-00032,0.8114
+REQ-001828,In-Home Support Visit,LOC-01,Urgent,3,EMP-00023,0.8107
+REQ-002359,Transport Assistance,LOC-09,Routine,1,EMP-00057,0.8299
+REQ-002359,Transport Assistance,LOC-09,Routine,2,EMP-00027,0.803
+REQ-002359,Transport Assistance,LOC-09,Routine,3,EMP-00006,0.7894
+REQ-002715,Nursing Review,LOC-02,Urgent,1,EMP-00091,0.8302
+REQ-002715,Nursing Review,LOC-02,Urgent,2,EMP-00084,0.7737
+REQ-002715,Nursing Review,LOC-02,Urgent,3,EMP-00006,0.7727
+REQ-002746,Community Access Outing,LOC-10,Routine,1,EMP-00018,0.8658
+REQ-002746,Community Access Outing,LOC-10,Routine,2,EMP-00060,0.8542
+REQ-002746,Community Access Outing,LOC-10,Routine,3,EMP-00027,0.803
+REQ-002958,In-Home Support Visit,LOC-03,Routine,1,EMP-00023,0.9607
+REQ-002958,In-Home Support Visit,LOC-03,Routine,2,EMP-00083,0.9494
+REQ-002958,In-Home Support Visit,LOC-03,Routine,3,EMP-00036,0.9243
+REQ-003181,Nursing Review,LOC-06,Priority,1,EMP-00084,0.7737
+REQ-003181,Nursing Review,LOC-06,Priority,2,EMP-00006,0.7727
+REQ-003181,Nursing Review,LOC-06,Priority,3,EMP-00083,0.7327
+REQ-003240,Care Plan Review,LOC-03,Routine,1,EMP-00023,0.7141
+REQ-003240,Care Plan Review,LOC-03,Routine,2,EMP-00027,0.7064
+REQ-003240,Care Plan Review,LOC-03,Routine,3,EMP-00083,0.7027
+REQ-003320,In-Home Support Visit,LOC-02,Routine,1,EMP-00124,0.8366
+REQ-003320,In-Home Support Visit,LOC-02,Routine,2,EMP-00091,0.8302
+REQ-003320,In-Home Support Visit,LOC-02,Routine,3,EMP-00062,0.8251
+REQ-003416,In-Home Support Visit,LOC-02,Routine,1,EMP-00124,0.8366
+REQ-003416,In-Home Support Visit,LOC-02,Routine,2,EMP-00091,0.8302
+REQ-003416,In-Home Support Visit,LOC-02,Routine,3,EMP-00062,0.8251
+REQ-003676,Nursing Review,LOC-08,Urgent,1,EMP-00084,0.9237
+REQ-003676,Nursing Review,LOC-08,Urgent,2,EMP-00006,0.7727
+REQ-003676,Nursing Review,LOC-08,Urgent,3,EMP-00083,0.7327
+REQ-003953,Transport Assistance,LOC-07,Routine,1,EMP-00089,0.8686
+REQ-003953,Transport Assistance,LOC-07,Routine,2,EMP-00027,0.803
+REQ-003953,Transport Assistance,LOC-07,Routine,3,EMP-00110,0.758
+REQ-004120,Nursing Review,LOC-01,Routine,1,EMP-00084,0.7737
+REQ-004120,Nursing Review,LOC-01,Routine,2,EMP-00006,0.7727
+REQ-004120,Nursing Review,LOC-01,Routine,3,EMP-00083,0.7327
+REQ-004471,Behaviour Support Session,LOC-01,Routine,1,EMP-00061,0.813
+REQ-004471,Behaviour Support Session,LOC-01,Routine,2,EMP-00023,0.8107
+REQ-004471,Behaviour Support Session,LOC-01,Routine,3,EMP-00098,0.7938
+REQ-004610,Community Access Outing,LOC-09,Priority,1,EMP-00057,0.8299
+REQ-004610,Community Access Outing,LOC-09,Priority,2,EMP-00027,0.803
+REQ-004610,Community Access Outing,LOC-09,Priority,3,EMP-00006,0.7894
+REQ-005713,Care Plan Review,LOC-07,Priority,1,EMP-00146,0.698
+REQ-005713,Care Plan Review,LOC-07,Priority,2,EMP-00089,0.6886
+REQ-005713,Care Plan Review,LOC-07,Priority,3,EMP-00066,0.6797
+REQ-005968,Nursing Review,LOC-04,Urgent,1,EMP-00021,0.7975
+REQ-005968,Nursing Review,LOC-04,Urgent,2,EMP-00084,0.7737
+REQ-005968,Nursing Review,LOC-04,Urgent,3,EMP-00006,0.7727
+REQ-006024,In-Home Support Visit,LOC-10,Routine,1,EMP-00041,0.9171
+REQ-006024,In-Home Support Visit,LOC-10,Routine,2,EMP-00018,0.8658
+REQ-006024,In-Home Support Visit,LOC-10,Routine,3,EMP-00113,0.8377
+REQ-006166,Equipment Assessment,LOC-09,Priority,1,EMP-00039,0.8179
+REQ-006166,Equipment Assessment,LOC-09,Priority,2,EMP-00035,0.7465
+REQ-006166,Equipment Assessment,LOC-09,Priority,3,EMP-00096,0.6812
+REQ-006493,Complex Care Visit,LOC-09,Urgent,1,EMP-00122,0.7789
+REQ-006493,Complex Care Visit,LOC-09,Urgent,2,EMP-00118,0.7743
+REQ-006493,Complex Care Visit,LOC-09,Urgent,3,EMP-00057,0.7632
+REQ-007007,Allied Health Session,LOC-02,Routine,1,EMP-00085,0.8221
+REQ-007007,Allied Health Session,LOC-02,Routine,2,EMP-00146,0.7947
+REQ-007007,Allied Health Session,LOC-02,Routine,3,EMP-00150,0.79
+REQ-007234,In-Home Support Visit,LOC-03,Priority,1,EMP-00023,0.9607
+REQ-007234,In-Home Support Visit,LOC-03,Priority,2,EMP-00083,0.9494
+REQ-007234,In-Home Support Visit,LOC-03,Priority,3,EMP-00036,0.9243
+REQ-000900,Transport Assistance,LOC-06,Routine,1,EMP-00110,0.908
+REQ-000900,Transport Assistance,LOC-06,Routine,2,EMP-00069,0.8598
+REQ-000900,Transport Assistance,LOC-06,Routine,3,EMP-00027,0.803
+REQ-001473,Care Plan Review,LOC-01,Priority,1,EMP-00025,0.7159
+REQ-001473,Care Plan Review,LOC-01,Priority,2,EMP-00098,0.6805
+REQ-001473,Care Plan Review,LOC-01,Priority,3,EMP-00047,0.678
+REQ-002069,Care Plan Review,LOC-06,Priority,1,EMP-00069,0.6798
+REQ-002069,Care Plan Review,LOC-06,Priority,2,EMP-00110,0.6613
+REQ-002069,Care Plan Review,LOC-06,Priority,3,EMP-00096,0.6512
+REQ-002323,Equipment Assessment,LOC-01,Urgent,1,EMP-00035,0.7465
+REQ-002323,Equipment Assessment,LOC-01,Urgent,2,EMP-00096,0.6812
+REQ-002323,Equipment Assessment,LOC-01,Urgent,3,EMP-00027,0.6697
+REQ-003513,Community Access Outing,LOC-03,Urgent,1,EMP-00027,0.953
+REQ-003513,Community Access Outing,LOC-03,Urgent,2,EMP-00110,0.758
+REQ-003513,Community Access Outing,LOC-03,Urgent,3,EMP-00089,0.7186
+REQ-003528,Transport Assistance,LOC-08,Routine,1,EMP-00058,0.857
+REQ-003528,Transport Assistance,LOC-08,Routine,2,EMP-00027,0.803
+REQ-003528,Transport Assistance,LOC-08,Routine,3,EMP-00110,0.758
+REQ-003849,Care Plan Review,LOC-06,Priority,1,EMP-00069,0.6798
+REQ-003849,Care Plan Review,LOC-06,Priority,2,EMP-00110,0.6613
+REQ-003849,Care Plan Review,LOC-06,Priority,3,EMP-00096,0.6512
+REQ-003882,Community Access Outing,LOC-09,Emergency,1,EMP-00057,0.8299
+REQ-003882,Community Access Outing,LOC-09,Emergency,2,EMP-00027,0.803
+REQ-003882,Community Access Outing,LOC-09,Emergency,3,EMP-00006,0.7894
+REQ-004049,In-Home Support Visit,LOC-07,Urgent,1,EMP-00066,0.8597
+REQ-004049,In-Home Support Visit,LOC-07,Urgent,2,EMP-00118,0.8576
+REQ-004049,In-Home Support Visit,LOC-07,Urgent,3,EMP-00104,0.8319
+REQ-004081,Equipment Assessment,LOC-08,Routine,1,EMP-00128,0.7873
+REQ-004081,Equipment Assessment,LOC-08,Routine,2,EMP-00035,0.7465
+REQ-004081,Equipment Assessment,LOC-08,Routine,3,EMP-00080,0.682
+REQ-004508,Transport Assistance,LOC-05,Priority,1,EMP-00027,0.803
+REQ-004508,Transport Assistance,LOC-05,Priority,2,EMP-00008,0.7905
+REQ-004508,Transport Assistance,LOC-05,Priority,3,EMP-00110,0.758
+REQ-005347,Nursing Review,LOC-10,Urgent,1,EMP-00084,0.7737
+REQ-005347,Nursing Review,LOC-10,Urgent,2,EMP-00006,0.7727
+REQ-005347,Nursing Review,LOC-10,Urgent,3,EMP-00083,0.7327
+REQ-005890,In-Home Support Visit,LOC-01,Priority,1,EMP-00025,0.8292
+REQ-005890,In-Home Support Visit,LOC-01,Priority,2,EMP-00032,0.8114
+REQ-005890,In-Home Support Visit,LOC-01,Priority,3,EMP-00023,0.8107
+REQ-005899,Allied Health Session,LOC-02,Priority,1,EMP-00085,0.8221
+REQ-005899,Allied Health Session,LOC-02,Priority,2,EMP-00146,0.7947
+REQ-005899,Allied Health Session,LOC-02,Priority,3,EMP-00150,0.79
+REQ-006177,Equipment Assessment,LOC-04,Routine,1,EMP-00035,0.7465
+REQ-006177,Equipment Assessment,LOC-04,Routine,2,EMP-00096,0.6812
+REQ-006177,Equipment Assessment,LOC-04,Routine,3,EMP-00027,0.6697
+REQ-006380,Equipment Assessment,LOC-06,Routine,1,EMP-00096,0.8312
+REQ-006380,Equipment Assessment,LOC-06,Routine,2,EMP-00035,0.7465
+REQ-006380,Equipment Assessment,LOC-06,Routine,3,EMP-00027,0.6697
+REQ-006592,In-Home Support Visit,LOC-08,Urgent,1,EMP-00112,0.8881
+REQ-006592,In-Home Support Visit,LOC-08,Urgent,2,EMP-00128,0.854
+REQ-006592,In-Home Support Visit,LOC-08,Urgent,3,EMP-00032,0.8114
+REQ-006677,Nursing Review,LOC-05,Routine,1,EMP-00035,0.8299
+REQ-006677,Nursing Review,LOC-05,Routine,2,EMP-00032,0.8281
+REQ-006677,Nursing Review,LOC-05,Routine,3,EMP-00084,0.7737
+REQ-000040,Transport Assistance,LOC-01,Priority,1,EMP-00027,0.803
+REQ-000040,Transport Assistance,LOC-01,Priority,2,EMP-00110,0.758
+REQ-000040,Transport Assistance,LOC-01,Priority,3,EMP-00089,0.7186
+REQ-000063,Community Access Outing,LOC-10,Urgent,1,EMP-00018,0.8658
+REQ-000063,Community Access Outing,LOC-10,Urgent,2,EMP-00060,0.8542
+REQ-000063,Community Access Outing,LOC-10,Urgent,3,EMP-00027,0.803
+REQ-000299,Allied Health Session,LOC-02,Routine,1,EMP-00085,0.8221
+REQ-000299,Allied Health Session,LOC-02,Routine,2,EMP-00146,0.7947
+REQ-000299,Allied Health Session,LOC-02,Routine,3,EMP-00150,0.79
+REQ-000385,Behaviour Support Session,LOC-05,Urgent,1,EMP-00061,0.813
+REQ-000385,Behaviour Support Session,LOC-05,Urgent,2,EMP-00023,0.8107
+REQ-000385,Behaviour Support Session,LOC-05,Urgent,3,EMP-00018,0.7825
+REQ-000488,Behaviour Support Session,LOC-09,Priority,1,EMP-00061,0.813
+REQ-000488,Behaviour Support Session,LOC-09,Priority,2,EMP-00023,0.8107
+REQ-000488,Behaviour Support Session,LOC-09,Priority,3,EMP-00018,0.7825
+REQ-000719,Allied Health Session,LOC-03,Routine,1,EMP-00085,0.8221
+REQ-000719,Allied Health Session,LOC-03,Routine,2,EMP-00146,0.7947
+REQ-000719,Allied Health Session,LOC-03,Routine,3,EMP-00120,0.7577
+REQ-001063,Equipment Assessment,LOC-07,Routine,1,EMP-00035,0.7465
+REQ-001063,Equipment Assessment,LOC-07,Routine,2,EMP-00055,0.6843
+REQ-001063,Equipment Assessment,LOC-07,Routine,3,EMP-00096,0.6812
+REQ-001137,Nursing Review,LOC-07,Urgent,1,EMP-00014,0.7844
+REQ-001137,Nursing Review,LOC-07,Urgent,2,EMP-00084,0.7737
+REQ-001137,Nursing Review,LOC-07,Urgent,3,EMP-00006,0.7727
+REQ-001166,Care Plan Review,LOC-07,Routine,1,EMP-00146,0.698
+REQ-001166,Care Plan Review,LOC-07,Routine,2,EMP-00089,0.6886
+REQ-001166,Care Plan Review,LOC-07,Routine,3,EMP-00066,0.6797
+REQ-001245,Community Access Outing,LOC-03,Routine,1,EMP-00027,0.953
+REQ-001245,Community Access Outing,LOC-03,Routine,2,EMP-00110,0.758
+REQ-001245,Community Access Outing,LOC-03,Routine,3,EMP-00089,0.7186
+REQ-001354,Allied Health Session,LOC-04,Priority,1,EMP-00085,0.8221
+REQ-001354,Allied Health Session,LOC-04,Priority,2,EMP-00146,0.7947
+REQ-001354,Allied Health Session,LOC-04,Priority,3,EMP-00086,0.707
+REQ-001582,Nursing Review,LOC-01,Routine,1,EMP-00084,0.7737
+REQ-001582,Nursing Review,LOC-01,Routine,2,EMP-00006,0.7727
+REQ-001582,Nursing Review,LOC-01,Routine,3,EMP-00083,0.7327
+REQ-001702,In-Home Support Visit,LOC-08,Routine,1,EMP-00112,0.8881
+REQ-001702,In-Home Support Visit,LOC-08,Routine,2,EMP-00128,0.854
+REQ-001702,In-Home Support Visit,LOC-08,Routine,3,EMP-00032,0.8114
+REQ-002203,Equipment Assessment,LOC-02,Routine,1,EMP-00056,0.7499
+REQ-002203,Equipment Assessment,LOC-02,Routine,2,EMP-00035,0.7465
+REQ-002203,Equipment Assessment,LOC-02,Routine,3,EMP-00096,0.6812
+REQ-002229,Transport Assistance,LOC-10,Routine,1,EMP-00018,0.8658
+REQ-002229,Transport Assistance,LOC-10,Routine,2,EMP-00060,0.8542
+REQ-002229,Transport Assistance,LOC-10,Routine,3,EMP-00027,0.803
+REQ-002524,Nursing Review,LOC-10,Emergency,1,EMP-00084,0.7737
+REQ-002524,Nursing Review,LOC-10,Emergency,2,EMP-00006,0.7727
+REQ-002524,Nursing Review,LOC-10,Emergency,3,EMP-00083,0.7327
+REQ-002573,Behaviour Support Session,LOC-05,Priority,1,EMP-00061,0.813
+REQ-002573,Behaviour Support Session,LOC-05,Priority,2,EMP-00023,0.8107
+REQ-002573,Behaviour Support Session,LOC-05,Priority,3,EMP-00018,0.7825

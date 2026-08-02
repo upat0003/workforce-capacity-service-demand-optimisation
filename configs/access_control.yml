@@ -1,0 +1,47 @@
+# Role-based access control policy consumed by python/governance/access_control.py.
+# This drives the simulated authorisation check used in the demo pipeline and is
+# documented in full in governance/access_control_matrix.md.
+roles:
+  workforce_analyst:
+    description: "Builds forecasts and scheduling recommendations"
+    datasets: [gold, silver, powerbi_extracts]
+    can_view_pii: false
+    can_override_schedule: false
+    can_approve_leave: false
+  regional_coordinator:
+    description: "Approves rosters, leave and schedule overrides for their region"
+    datasets: [gold, silver, powerbi_extracts]
+    can_view_pii: true
+    can_override_schedule: true
+    can_approve_leave: true
+    row_level_filter: "region_id = :assigned_region"
+  people_and_culture:
+    description: "Owns employee master data and fairness reporting"
+    datasets: [bronze.employees, silver, gold, powerbi_extracts]
+    can_view_pii: true
+    can_override_schedule: false
+    can_approve_leave: true
+  executive:
+    description: "Read-only access to aggregated executive marts"
+    datasets: [gold.executive_marts, powerbi_extracts]
+    can_view_pii: false
+    can_override_schedule: false
+    can_approve_leave: false
+  data_platform_engineer:
+    description: "Operates ingestion, transformation and model pipelines"
+    datasets: [bronze, silver, gold, artifacts]
+    can_view_pii: false
+    can_override_schedule: false
+    can_approve_leave: false
+  model_risk_reviewer:
+    description: "Reviews model cards, drift reports and fairness assessments"
+    datasets: [artifacts.monitoring, governance]
+    can_view_pii: false
+    can_override_schedule: false
+    can_approve_leave: false
+
+protected_attributes_excluded_from_models:
+  - gender
+  - age_band
+  - preferred_language
+  - primary_role_is_bilingual

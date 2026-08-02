@@ -1,0 +1,482 @@
+{
+  "run_started_at": "2026-08-02T06:07:42.383074+00:00",
+  "stages": {
+    "data": {
+      "locations": 10,
+      "skills": 14,
+      "service_types": 9,
+      "case_complexity": 4,
+      "service_level_targets": 360,
+      "employees": 151,
+      "employee_skills": 801,
+      "availability": 1310,
+      "leave": 640,
+      "clients": 520,
+      "service_requests": 7353,
+      "shifts": 17289,
+      "overtime": 5521,
+      "appointments": 6865,
+      "waiting_times": 6865,
+      "cancellations": 2099,
+      "outcomes": 4350
+    },
+    "warehouse": {
+      "status": "warehouse built"
+    },
+    "features": {
+      "demand_features": 337,
+      "demand_location_shares": 10,
+      "complexity_features": 6822,
+      "cancellation_features": 6573,
+      "sla_breach_features": 6573,
+      "workload_capacity_features": 530
+    },
+    "models": {
+      "generated_at": "2026-08-02T06:07:55.442435+00:00",
+      "components": {
+        "demand_forecasting": {
+          "metrics": {
+            "baseline_seasonal_naive_mae": 4.81,
+            "baseline_seasonal_naive_mape": 0.2341,
+            "challenger_gbrt_mae": 3.765,
+            "challenger_gbrt_mape": 0.1919,
+            "challenger_gbrt_rmse": 4.742,
+            "improvement_vs_baseline_pct": 18.04,
+            "test_days": 42,
+            "n_train_rows": 295,
+            "n_test_rows": 42
+          },
+          "status": "warning"
+        },
+        "complexity_prediction": {
+          "metrics": {
+            "baseline_majority_class_accuracy": 0.3658,
+            "baseline_majority_class_macro_f1": 0.1339,
+            "challenger_accuracy": 0.4437,
+            "challenger_macro_f1": 0.398,
+            "labels": [
+              "Critical",
+              "High",
+              "Low",
+              "Medium"
+            ],
+            "confusion_matrix": [
+              [
+                47,
+                50,
+                13,
+                45
+              ],
+              [
+                40,
+                73,
+                67,
+                147
+              ],
+              [
+                11,
+                36,
+                363,
+                190
+              ],
+              [
+                20,
+                102,
+                228,
+                274
+              ]
+            ],
+            "n_train": 5116,
+            "n_test": 1706
+          },
+          "status": "healthy",
+          "top_features": null
+        },
+        "cancellation_prediction": {
+          "metrics": {
+            "baseline_logreg_roc_auc": 0.547,
+            "baseline_logreg_pr_auc": 0.3519,
+            "challenger_hgb_roc_auc": 0.662,
+            "challenger_hgb_pr_auc": 0.439,
+            "positive_rate": 0.3064,
+            "n_train": 4929,
+            "n_test": 1644
+          },
+          "status": "warning"
+        },
+        "service_level_breach_prediction": {
+          "metrics": {
+            "baseline_urgency_only_roc_auc": 0.5223,
+            "challenger_hgb_roc_auc": 0.9358,
+            "operating_threshold": 0.35,
+            "precision_at_threshold": 0.4387,
+            "recall_at_threshold": 0.8395,
+            "breach_rate": 0.0986,
+            "n_train": 4929,
+            "n_test": 1644
+          },
+          "status": "healthy"
+        },
+        "workload_estimation": {
+          "metrics": {
+            "baseline_linear_mae_hours": 26.67,
+            "baseline_linear_mape": 0.119,
+            "challenger_hgb_mae_hours": 18.42,
+            "challenger_hgb_mape": 0.0769,
+            "n_train": 397,
+            "n_test": 133
+          },
+          "status": "healthy"
+        },
+        "capacity_gap_prediction": {
+          "metrics": {
+            "baseline_mean_mae_fte": 2.127,
+            "challenger_hgb_mae_fte": 0.072,
+            "mean_gap_fte": -6.607,
+            "n_train": 397,
+            "n_test": 133
+          },
+          "status": "healthy",
+          "current_gap_by_region_fte": {
+            "LOC-01": -1.57,
+            "LOC-04": -4.55,
+            "LOC-06": -4.82,
+            "LOC-07": -5.75,
+            "LOC-10": -5.81,
+            "LOC-02": -6.1,
+            "LOC-09": -8.5,
+            "LOC-03": -8.54,
+            "LOC-08": -9.15,
+            "LOC-05": -10.62
+          }
+        },
+        "skill_matching": {
+          "requests_scored": 60,
+          "avg_top_match_score": 0.817
+        },
+        "scheduling_optimiser": {
+          "requests_considered": 473,
+          "requests_assigned": 438,
+          "requests_unassigned": 35,
+          "fill_rate_pct": 92.6,
+          "avg_hours_per_active_employee": 4.03,
+          "workload_gini_coefficient": 0.267,
+          "employees_utilised": 108,
+          "employees_available": 108
+        },
+        "shift_recommendation": {
+          "week_start_date": "2026-07-27",
+          "regions_needing_more_capacity": 0,
+          "regions_with_surplus_capacity": 10,
+          "total_recommended_shift_additions": 0
+        },
+        "scenario_planning": {
+          "scenarios": [
+            {
+              "scenario": "Baseline (no change)",
+              "demand_growth_pct": 0,
+              "staffing_change_pct": 0,
+              "required_hours_per_week": 18.1,
+              "contracted_hours_per_week": 265.0,
+              "capacity_gap_hours": -246.9,
+              "capacity_gap_fte": -6.5,
+              "projected_overtime_hours_per_week": 11.3,
+              "projected_utilisation": 0.068
+            },
+            {
+              "scenario": "Winter demand surge",
+              "demand_growth_pct": 15,
+              "staffing_change_pct": 0,
+              "required_hours_per_week": 20.9,
+              "contracted_hours_per_week": 265.0,
+              "capacity_gap_hours": -244.1,
+              "capacity_gap_fte": -6.42,
+              "projected_overtime_hours_per_week": 11.3,
+              "projected_utilisation": 0.079
+            },
+            {
+              "scenario": "Planned staffing uplift",
+              "demand_growth_pct": 0,
+              "staffing_change_pct": 8,
+              "required_hours_per_week": 18.1,
+              "contracted_hours_per_week": 286.2,
+              "capacity_gap_hours": -268.1,
+              "capacity_gap_fte": -7.05,
+              "projected_overtime_hours_per_week": 11.3,
+              "projected_utilisation": 0.063
+            },
+            {
+              "scenario": "Surge + uplift (recommended)",
+              "demand_growth_pct": 15,
+              "staffing_change_pct": 8,
+              "required_hours_per_week": 20.9,
+              "contracted_hours_per_week": 286.2,
+              "capacity_gap_hours": -265.3,
+              "capacity_gap_fte": -6.98,
+              "projected_overtime_hours_per_week": 11.3,
+              "projected_utilisation": 0.073
+            },
+            {
+              "scenario": "Budget-constrained (staffing freeze)",
+              "demand_growth_pct": 15,
+              "staffing_change_pct": -5,
+              "required_hours_per_week": 20.9,
+              "contracted_hours_per_week": 251.8,
+              "capacity_gap_hours": -230.9,
+              "capacity_gap_fte": -6.08,
+              "projected_overtime_hours_per_week": 11.3,
+              "projected_utilisation": 0.083
+            }
+          ]
+        }
+      }
+    },
+    "governance": {
+      "data_quality": {
+        "rules_evaluated": 7,
+        "rules_passed": 6,
+        "rules_failed": 1,
+        "rules_errored": 0,
+        "overall_pass_rate_pct": 90.25
+      },
+      "model_monitoring": {
+        "feature_drift_psi": {
+          "requests": 0.3178,
+          "avg_complexity_score": 0.1565,
+          "rolling_mean_7": 1.4543
+        },
+        "feature_drift_status": {
+          "requests": "breach",
+          "avg_complexity_score": "warning",
+          "rolling_mean_7": "breach"
+        },
+        "model_threshold_status": {
+          "demand_forecasting": "warning",
+          "complexity_prediction": "healthy",
+          "cancellation_prediction": "warning",
+          "service_level_breach_prediction": "healthy",
+          "workload_estimation": "healthy",
+          "capacity_gap_prediction": "healthy"
+        },
+        "models_in_breach": [],
+        "retraining_recommended": true,
+        "retraining_criteria": "breach threshold sustained for 2 consecutive monitoring cycles OR PSI breach on 2+ features"
+      },
+      "fairness": {
+        "cohorts_evaluated": [
+          {
+            "dimension": "gender",
+            "workload_gap_pct": 1.64,
+            "overtime_gap_pct": 9.35,
+            "workload_status": "within_threshold",
+            "overtime_status": "within_threshold",
+            "cohort_breakdown": [
+              {
+                "gender": "Female",
+                "avg_hours_per_shift": 8.15,
+                "avg_overtime_rate_pct": 10.84,
+                "cohort_shift_count": 9074
+              },
+              {
+                "gender": "Male",
+                "avg_hours_per_shift": 8.13,
+                "avg_overtime_rate_pct": 10.54,
+                "cohort_shift_count": 7335
+              },
+              {
+                "gender": "Non-binary / Other",
+                "avg_hours_per_shift": 8.26,
+                "avg_overtime_rate_pct": 11.53,
+                "cohort_shift_count": 880
+              }
+            ]
+          },
+          {
+            "dimension": "age_band",
+            "workload_gap_pct": 1.14,
+            "overtime_gap_pct": 23.11,
+            "workload_status": "within_threshold",
+            "overtime_status": "within_threshold",
+            "cohort_breakdown": [
+              {
+                "age_band": "18-24",
+                "avg_hours_per_shift": 8.11,
+                "avg_overtime_rate_pct": 10.57,
+                "cohort_shift_count": 1011
+              },
+              {
+                "age_band": "25-34",
+                "avg_hours_per_shift": 8.13,
+                "avg_overtime_rate_pct": 10.3,
+                "cohort_shift_count": 4262
+              },
+              {
+                "age_band": "35-44",
+                "avg_hours_per_shift": 8.13,
+                "avg_overtime_rate_pct": 10.01,
+                "cohort_shift_count": 4301
+              },
+              {
+                "age_band": "45-54",
+                "avg_hours_per_shift": 8.19,
+                "avg_overtime_rate_pct": 12.32,
+                "cohort_shift_count": 3620
+              },
+              {
+                "age_band": "55-64",
+                "avg_hours_per_shift": 8.18,
+                "avg_overtime_rate_pct": 10.69,
+                "cohort_shift_count": 2278
+              },
+              {
+                "age_band": "65+",
+                "avg_hours_per_shift": 8.1,
+                "avg_overtime_rate_pct": 10.36,
+                "cohort_shift_count": 1817
+              }
+            ]
+          }
+        ],
+        "any_breach": false,
+        "suppressed_small_cohort_floor": 8,
+        "protected_attributes_excluded_from_models": [
+          "gender",
+          "age_band",
+          "preferred_language",
+          "primary_role_is_bilingual"
+        ]
+      },
+      "access_control": {
+        "requests_evaluated": 9,
+        "allowed": 6,
+        "denied": 3,
+        "results": [
+          {
+            "role": "workforce_analyst",
+            "dataset": "gold",
+            "wants_pii": false,
+            "decision": "allowed",
+            "row_level_filter": null,
+            "region_scope": null
+          },
+          {
+            "role": "workforce_analyst",
+            "dataset": "bronze.employees",
+            "wants_pii": true,
+            "decision": "denied",
+            "reason": "role 'workforce_analyst' has no grant for dataset 'bronze.employees'"
+          },
+          {
+            "role": "regional_coordinator",
+            "dataset": "silver",
+            "wants_pii": true,
+            "decision": "allowed",
+            "row_level_filter": "region_id = :assigned_region",
+            "region_scope": "LOC-02"
+          },
+          {
+            "role": "executive",
+            "dataset": "gold.executive_marts",
+            "wants_pii": false,
+            "decision": "allowed",
+            "row_level_filter": null,
+            "region_scope": null
+          },
+          {
+            "role": "executive",
+            "dataset": "silver",
+            "wants_pii": true,
+            "decision": "denied",
+            "reason": "role 'executive' has no grant for dataset 'silver'"
+          },
+          {
+            "role": "people_and_culture",
+            "dataset": "bronze.employees",
+            "wants_pii": true,
+            "decision": "allowed",
+            "row_level_filter": null,
+            "region_scope": null
+          },
+          {
+            "role": "data_platform_engineer",
+            "dataset": "artifacts",
+            "wants_pii": false,
+            "decision": "allowed",
+            "row_level_filter": null,
+            "region_scope": null
+          },
+          {
+            "role": "model_risk_reviewer",
+            "dataset": "governance",
+            "wants_pii": false,
+            "decision": "allowed",
+            "row_level_filter": null,
+            "region_scope": null
+          },
+          {
+            "role": "model_risk_reviewer",
+            "dataset": "bronze.employees",
+            "wants_pii": true,
+            "decision": "denied",
+            "reason": "role 'model_risk_reviewer' has no grant for dataset 'bronze.employees'"
+          }
+        ]
+      },
+      "override_audit": {
+        "logged_at": "2026-08-02T06:07:55.580551+00:00",
+        "total_appointments": 6573,
+        "total_overrides": 323,
+        "override_rate_pct": 4.91,
+        "override_reasons": [
+          {
+            "override_reason": "Skill match unavailable",
+            "override_count": 93
+          },
+          {
+            "override_reason": "Urgent reassignment",
+            "override_count": 88
+          },
+          {
+            "override_reason": "Client preference",
+            "override_count": 78
+          },
+          {
+            "override_reason": "Continuity of care",
+            "override_count": 64
+          }
+        ],
+        "review_status": "Reviewed by regional coordinator sample; no unauthorised overrides identified in this run"
+      }
+    },
+    "export": {
+      "tables_exported": 25,
+      "tables": {
+        "dim_employee": 150,
+        "dim_employee_governed": 150,
+        "dim_client": 500,
+        "dim_location": 10,
+        "dim_service_type": 9,
+        "dim_skill": 14,
+        "dim_case_complexity": 4,
+        "dim_date": 455,
+        "fact_service_requests": 7046,
+        "fact_appointments": 6573,
+        "fact_shifts": 17289,
+        "fact_overtime": 5521,
+        "mart_daily_demand": 6742,
+        "mart_weekly_overtime": 1876,
+        "mart_capacity_utilisation": 9279,
+        "mart_fairness_workload": 89,
+        "mart_service_outcomes": 1076,
+        "mart_data_quality": 5,
+        "demand_forecast_30d.csv": "copied",
+        "demand_forecast_30d_org.csv": "copied",
+        "shift_recommendations.csv": "copied",
+        "scheduling_optimiser_assignments.csv": "copied",
+        "skill_match_recommendations.csv": "copied",
+        "scenario_planning.csv": "copied",
+        "data_quality_report.csv": "copied"
+      }
+    }
+  }
+}

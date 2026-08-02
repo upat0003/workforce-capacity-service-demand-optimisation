@@ -1,0 +1,175 @@
+{
+  "short_title": "Workforce Ops",
+  "pages": [
+    {
+      "slug": "executive_overview", "nav": "Executive Overview",
+      "title": "Workforce Executive Overview",
+      "question": "Are we ahead of or behind our four capacity targets this period?",
+      "layout": "trend",
+      "kpis": [
+        ["Overtime (4wk)", "612 hrs", "Down 8.4% vs baseline", "#2FA98C"],
+        ["Open backlog", "441 requests", "Above 15% reduction target", "#C9573F"],
+        ["SLA met rate", "88.6%", "+3.1 pp vs baseline", "#2FA98C"],
+        ["Utilisation", "83.4%", "Within 78-92% target band", "#2FA98C"]
+      ],
+      "visuals": ["Overtime hours vs target band", "SLA-met rate by region", "Backlog by region"],
+      "story": "Overtime is trending down and utilisation sits inside the target band. Backlog remains the outstanding target: three regions are still above their reduction goal and are the focus of this week's scheduling review.",
+      "chart1_legend": [["Overtime hours", "teal"], ["Target ceiling", "coral"]],
+      "chart1_xlabels": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+      "chart1_ylabel": "Hours / week",
+      "tooltip1": {"label": "Aug (latest)", "value": "612 hrs · 8.4% below baseline"},
+      "chart2_legend": [["Meets SLA", "teal"], ["Below target", "coral"], ["At risk", "amber"]],
+      "chart2_xlabels": ["Inner North", "Bayside", "CBD", "Geelong", "Ballarat"],
+      "chart2_ylabel": "SLA-met rate %",
+      "tooltip2": {"label": "Geelong / Barwon", "value": "81.2% · below 90% target"}
+    },
+    {
+      "slug": "demand_forecast", "nav": "Demand Forecast",
+      "title": "Demand Forecast",
+      "question": "How much service demand should we plan for over the next 30 days?",
+      "layout": "trend",
+      "kpis": [
+        ["30-day forecast", "612 requests", "+9.7% vs trailing 30 days", "#4F7B94"],
+        ["Forecast MAPE", "19.2%", "18% better than seasonal-naive", "#E3A73E"],
+        ["Model status", "Warning", "Just above 18% warn threshold", "#E3A73E"],
+        ["Winter uplift", "+15.2%", "Vs. annual average demand", "#E3A73E"]
+      ],
+      "visuals": ["Historical demand with 30-day forecast", "Forecast requests by region", "Forecast drivers"],
+      "story": "The challenger model cuts forecast error by 18% against a same-day-last-week baseline, but sits just above the healthy MAPE band. The organic demand-growth trend the drift monitor also flags is the leading cause; a refresh cycle is scheduled.",
+      "chart1_legend": [["Actual", "teal"], ["Forecast", "coral"]],
+      "chart1_xlabels": ["May", "Jun", "Jul", "Aug", "Sep (fcst)", "Oct (fcst)"],
+      "chart1_ylabel": "Requests / day",
+      "tooltip1": {"label": "Oct (forecast)", "value": "24.1 req/day · +9.7%"},
+      "chart2_legend": [["Metro", "teal"], ["Growth Area", "coral"], ["Regional", "amber"]],
+      "chart2_xlabels": ["Nth Growth", "Wst Growth", "CBD", "Bayside", "Bendigo"],
+      "chart2_ylabel": "Forecast requests (30d)",
+      "tooltip2": {"label": "Northern Growth Corridor", "value": "94 requests · highest growth"}
+    },
+    {
+      "slug": "capacity_utilisation", "nav": "Capacity & Util.",
+      "title": "Capacity and Utilisation",
+      "question": "Where do we have a capacity shortfall or surplus next week?",
+      "layout": "matrix",
+      "kpis": [
+        ["Org capacity gap", "-0.3 FTE", "Marginal surplus overall", "#2FA98C"],
+        ["Utilisation", "83.4%", "Within target band", "#2FA98C"],
+        ["Regions short", "0 of 10", "No region in shortfall", "#2FA98C"],
+        ["Regions surplus", "10 of 10", "Modelled headroom available", "#4F7B94"]
+      ],
+      "visuals": ["Utilisation heatmap by region and week", "Capacity gap by region (FTE)", "Rostered vs actual hours"],
+      "story": "Every region currently shows modelled surplus capacity rather than shortfall - useful evidence for the staffing-budget conversation. Utilisation stays inside the healthy 78-92% band organisation-wide.",
+      "chart1_legend": [["Under-utilised", "#EAF3F0"], ["On target", "#8FD0BE"], ["Near limit", "#2FA98C"], ["Over target", "#0E3B36"]],
+      "chart1_xlabels": ["Wk-4", "Wk-3", "Wk-2", "Wk-1", "This wk", "Next wk", "+2wk"],
+      "chart1_ylabel": "Regions (top 5)",
+      "tooltip1": {"label": "Inner West · This week", "value": "86.1% utilisation · on target"},
+      "chart2_legend": [["Metro", "teal"], ["Growth Area", "coral"], ["Regional", "amber"], ["Other", "plum"]],
+      "tooltip2": {"label": "Bendigo / Loddon", "value": "-0.9 FTE · surplus capacity"}
+    },
+    {
+      "slug": "service_backlog", "nav": "Service Backlog",
+      "title": "Service Backlog",
+      "question": "Where is backlog concentrated, and which requests are at risk of breaching SLA?",
+      "layout": "distribution",
+      "kpis": [
+        ["Open backlog", "441 requests", "Target: 15% reduction", "#C9573F"],
+        ["Avg backlog age", "5.8 days", "Within 7-day control", "#2FA98C"],
+        ["SLA breach model AUC", "0.94", "Vs 0.52 urgency-only baseline", "#2FA98C"],
+        ["Flagged at-risk", "68 requests", "Probability >= 0.35", "#E3A73E"]
+      ],
+      "visuals": ["Backlog by urgency", "SLA-met rate trend", "Backlog by region"],
+      "story": "Backlog concentrates in Priority and Urgent tiers. The SLA-breach model (0.94 AUC) shows regional capacity pressure and case complexity - not urgency alone - are the real drivers, pointing coordinators to where early intervention will help most.",
+      "chart1_legend": [["Routine", "teal"], ["Priority", "coral"], ["Urgent", "amber"], ["Emergency", "plum"]],
+      "chart1_xlabels": ["Routine", "Priority", "Urgent", "Emergency"],
+      "chart1_ylabel": "Open backlog requests",
+      "tooltip1": {"label": "Priority", "value": "168 requests · avg age 6.4 days"},
+      "chart2_legend": [["SLA-met rate", "teal"]],
+      "chart2_xlabels": ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+      "chart2_ylabel": "SLA-met rate %",
+      "tooltip2": {"label": "Aug", "value": "88.6% · +3.1 pp vs baseline"}
+    },
+    {
+      "slug": "scheduling_recommendations", "nav": "Scheduling Recs",
+      "title": "Scheduling Recommendations",
+      "question": "Which staff should be matched to this week's open requests?",
+      "layout": "table",
+      "kpis": [
+        ["Fill rate", "93.5%", "415 of 444 requests assigned", "#2FA98C"],
+        ["Workload Gini", "0.30", "Target ceiling 0.20", "#E3A73E"],
+        ["Avg match score", "0.82", "Skill + workload + location fit", "#2FA98C"],
+        ["Unassigned", "29 requests", "No eligible candidate available", "#C9573F"]
+      ],
+      "visuals": ["Ranked skill-match candidates", "Recommended shift change by region", "Assignment load by employee"],
+      "story": "The greedy, fairness-aware optimiser filled 93.5% of open requests this cycle while actively balancing workload. Coordinators review and approve every assignment; 29 requests need a manual skill exception this week.",
+      "table_legend": [["Top-ranked match", "teal"], ["Alternate match", "amber"], ["Needs review", "coral"]],
+      "table_xlabels": ["Request", "Region", "Rank", "Match score"],
+      "tooltip1": {"label": "Row 1 · REQ-004821", "value": "EMP-00142 · match score 0.91"},
+      "chart2_legend": [["Add shifts", "teal"], ["No change", "amber"], ["Reduce shifts", "coral"]],
+      "chart2_xlabels": ["Recommended shift change by region"],
+      "chart2_ylabel": "Shift count change",
+      "tooltip2": {"label": "Eastern Suburbs", "value": "+2 shifts recommended"}
+    },
+    {
+      "slug": "workforce_fairness", "nav": "Workforce Fairness",
+      "title": "Workforce Fairness",
+      "question": "Is workload and overtime balanced across the workforce?",
+      "layout": "matrix",
+      "kpis": [
+        ["Workload gap (gender)", "1.6%", "Within 25% threshold", "#2FA98C"],
+        ["Overtime gap (age band)", "23.1%", "Watch - within 30% threshold", "#E3A73E"],
+        ["Cohorts suppressed", "3", "Fewer than 8 employees", "#4F7B94"],
+        ["Any breach?", "No", "All cohorts within threshold", "#2FA98C"]
+      ],
+      "visuals": ["Cohort gap heatmap", "Hours per shift by cohort", "Overtime rate by cohort"],
+      "story": "No governed cohort breaches its threshold, but the age-band overtime gap (23.1%) is worth watching against the 30% ceiling. Gender and age band are never used as scheduling features - this page exists purely to check the outcome is fair after the fact.",
+      "chart1_legend": [["Within threshold", "#EAF3F0"], ["Approaching", "#8FD0BE"], ["Watch", "#2FA98C"], ["Breach", "#0E3B36"]],
+      "chart1_xlabels": ["Gender", "Age band", "Role", "Region", "Employment type"],
+      "chart1_ylabel": "Monitored dimensions",
+      "tooltip1": {"label": "Age band", "value": "23.1% overtime gap · watch"},
+      "chart2_legend": [["Female", "teal"], ["Male", "coral"], ["Non-binary", "amber"], ["Suppressed", "plum"]],
+      "tooltip2": {"label": "Non-binary / Other", "value": "n=11 · 8.05 hrs/shift avg"}
+    },
+    {
+      "slug": "service_outcomes", "nav": "Service Outcomes",
+      "title": "Service Outcomes",
+      "question": "Are clients receiving a good experience alongside better operational metrics?",
+      "layout": "distribution",
+      "kpis": [
+        ["Avg satisfaction", "4.16 / 5", "Above 3.8 review threshold", "#2FA98C"],
+        ["Avg quality score", "81.6 / 100", "Stable vs baseline", "#2FA98C"],
+        ["Incident rate", "1.8%", "Below 2.5% threshold", "#2FA98C"],
+        ["Cancellation rate", "30.6%", "Model AUC 0.66 · under review", "#E3A73E"]
+      ],
+      "visuals": ["Satisfaction and quality trend", "Cancellation reasons", "Outcomes by service type"],
+      "story": "Client satisfaction and quality scores remain healthy even as scheduling tightens. Cancellation prediction is flagged for improvement (0.66 AUC) - it's used as a triage aid only, not to pre-emptively withdraw capacity.",
+      "chart1_legend": [["Satisfaction (of 5, x20)", "teal"], ["Quality score", "coral"]],
+      "chart1_xlabels": ["Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+      "chart1_ylabel": "Score",
+      "tooltip1": {"label": "Aug", "value": "Satisfaction 4.16 · Quality 81.6"},
+      "chart2_legend": [["Client unwell", "teal"], ["Staff illness", "coral"], ["Transport issue", "amber"], ["Other", "plum"]],
+      "chart2_xlabels": ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+      "chart2_ylabel": "Cancellations / month",
+      "tooltip2": {"label": "Transport issue", "value": "22% of cancellations"}
+    },
+    {
+      "slug": "data_quality_governance", "nav": "DQ & Governance",
+      "title": "Data Quality and Governance",
+      "question": "Are the platform's own controls healthy, and what needs action?",
+      "layout": "table",
+      "kpis": [
+        ["DQ pass rate", "90.3%", "6 of 7 rules passing", "#E3A73E"],
+        ["Models in breach", "0 of 6", "2 models in Warning", "#2FA98C"],
+        ["Drifted features", "2 of 3", "Expected: 18% annual demand growth", "#E3A73E"],
+        ["Override rate", "4.9%", "6,906 appointments reviewed", "#4F7B94"]
+      ],
+      "visuals": ["Data-quality rule results", "Model threshold status", "Override reasons"],
+      "story": "One control failed loudly, as intended: 56% of a mandatory-certification sample is expired, a genuine compliance finding routed to People & Culture. No model is in breach; feature drift is elevated but expected given planned annual growth.",
+      "table_legend": [["Pass", "teal"], ["Fail", "coral"], ["Error", "plum"]],
+      "table_xlabels": ["Rule", "Dataset", "Pass rate", "Severity"],
+      "tooltip1": {"label": "Row 1 · DQ-005", "value": "43.7% pass rate · certifications expired"},
+      "chart2_legend": [["Healthy", "teal"], ["Warning", "amber"], ["Breach", "coral"]],
+      "chart2_xlabels": ["Model threshold status"],
+      "chart2_ylabel": "Models",
+      "tooltip2": {"label": "Cancellation prediction", "value": "AUC 0.66 · Warning"}
+    }
+  ]
+}

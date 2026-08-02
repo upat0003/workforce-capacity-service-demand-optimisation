@@ -1,0 +1,11 @@
+# Copy to ~/.dbt/profiles.yml (or set DBT_PROFILES_DIR) to run dbt against the
+# local DuckDB warehouse produced by python/transformation/build_bronze.py.
+wfcso:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../artifacts/warehouse.duckdb'
+      threads: 4
+    # A Fabric target would instead use the fabricspark or sqlserver dbt adapter
+    # pointed at the Lakehouse SQL endpoint. Kept out of scope for the local demo.

@@ -1,0 +1,11 @@
+location_id,region_name,region_type,site_type
+LOC-01,Melbourne CBD,Metro,Office
+LOC-02,Inner North,Metro,Community Hub
+LOC-04,Bayside,Metro,Depot
+LOC-05,Eastern Suburbs,Metro,Community Hub
+LOC-06,Northern Growth Corridor,Growth Area,Depot
+LOC-03,Inner West,Metro,Community Hub
+LOC-07,Western Growth Corridor,Growth Area,Depot
+LOC-09,Ballarat / Grampians,Regional,Office
+LOC-08,Geelong / Barwon,Regional,Office
+LOC-10,Bendigo / Loddon,Regional,Office

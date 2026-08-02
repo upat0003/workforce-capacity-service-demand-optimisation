@@ -1,0 +1,39 @@
+{
+  "name": "Workforce Capacity - Teal & Coral",
+  "dataColors": [
+    "#1F8A72",
+    "#E8785F",
+    "#E3A73E",
+    "#4F7B94",
+    "#8F5C7C",
+    "#2FA98C",
+    "#C9573F",
+    "#7A9E3B"
+  ],
+  "background": "#F5F8F7",
+  "foreground": "#1C2E2B",
+  "tableAccent": "#1F8A72",
+  "good": "#2FA98C",
+  "neutral": "#E3A73E",
+  "bad": "#C9573F",
+  "maximum": "#0E3B36",
+  "center": "#E3A73E",
+  "minimum": "#F5F8F7",
+  "null": "#B7C4C1",
+  "textClasses": {
+    "callout": { "fontSize": 32, "color": "#0E3B36" },
+    "title": { "fontSize": 16, "color": "#0E3B36", "fontFace": "Segoe UI Semibold" },
+    "header": { "fontSize": 13, "color": "#4A5E5A" },
+    "label": { "fontSize": 11, "color": "#4A5E5A" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DCE6E3" } } }],
+        "outspacePane": [{ "backgroundColor": { "solid": { "color": "#F5F8F7" } } }]
+      }
+    }
+  },
+  "note": "Palette designed for this project: a warm teal-green primary (nav #0E3B36, chart teal #1F8A72) paired with a coral/salmon accent (#E8785F), evoking a people-first, human-capacity theme distinct from sibling portfolio projects. See powerbi/dashboard_specification.md for usage guidance."
+}

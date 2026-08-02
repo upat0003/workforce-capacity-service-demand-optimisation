@@ -1,0 +1,15 @@
+skill_id,skill_name,skill_category,mandatory_flag
+SK-05,Mental Health First Aid,Clinical,False
+SK-07,Driver Licence - Light Vehicle,Technical,True
+SK-09,Community Language - Vietnamese,Language,False
+SK-02,Manual Handling,Safety,True
+SK-11,Behaviour Support Practitioner,Clinical,False
+SK-01,First Aid Certificate,Safety,True
+SK-03,Medication Assistance,Clinical,True
+SK-04,Dementia Care Specialist,Clinical,False
+SK-08,Community Language - Mandarin,Language,False
+SK-12,Allied Health Assistant,Clinical,False
+SK-13,Equipment Fitting and Assessment,Technical,False
+SK-06,Complex Care Certification,Clinical,False
+SK-10,Community Language - Arabic,Language,False
+SK-14,Palliative Care,Clinical,False

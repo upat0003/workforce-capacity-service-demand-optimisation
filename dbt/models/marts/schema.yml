@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: fct_daily_demand
+    description: "Daily service-demand volumes by location, service type and urgency, with SLA and backlog counters."
+    columns:
+      - name: date_key
+        tests: [not_null]
+      - name: requests
+        tests: [not_null]
+  - name: fct_weekly_overtime
+    description: "Weekly rostered vs. actual hours and overtime by location and role."
+    columns:
+      - name: week_start_date
+        tests: [not_null]

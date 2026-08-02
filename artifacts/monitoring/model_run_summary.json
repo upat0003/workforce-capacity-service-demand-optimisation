@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-08-02T06:10:40.211189+00:00",
+  "components": {
+    "demand_forecasting": {
+      "metrics": {
+        "baseline_seasonal_naive_mae": 4.81,
+        "baseline_seasonal_naive_mape": 0.2341,
+        "challenger_gbrt_mae": 3.765,
+        "challenger_gbrt_mape": 0.1919,
+        "challenger_gbrt_rmse": 4.742,
+        "improvement_vs_baseline_pct": 18.04,
+        "test_days": 42,
+        "n_train_rows": 295,
+        "n_test_rows": 42
+      },
+      "status": "warning"
+    },
+    "complexity_prediction": {
+      "metrics": {
+        "baseline_majority_class_accuracy": 0.3658,
+        "baseline_majority_class_macro_f1": 0.1339,
+        "challenger_accuracy": 0.4437,
+        "challenger_macro_f1": 0.398,
+        "labels": [
+          "Critical",
+          "High",
+          "Low",
+          "Medium"
+        ],
+        "confusion_matrix": [
+          [
+            47,
+            50,
+            13,
+            45
+          ],
+          [
+            40,
+            73,
+            67,
+            147
+          ],
+          [
+            11,
+            36,
+            363,
+            190
+          ],
+          [
+            20,
+            102,
+            228,
+            274
+          ]
+        ],
+        "n_train": 5116,
+        "n_test": 1706
+      },
+      "status": "healthy",
+      "top_features": null
+    },
+    "cancellation_prediction": {
+      "metrics": {
+        "baseline_logreg_roc_auc": 0.547,
+        "baseline_logreg_pr_auc": 0.3519,
+        "challenger_hgb_roc_auc": 0.662,
+        "challenger_hgb_pr_auc": 0.439,
+        "positive_rate": 0.3064,
+        "n_train": 4929,
+        "n_test": 1644
+      },
+      "status": "warning"
+    },
+    "service_level_breach_prediction": {
+      "metrics": {
+        "baseline_urgency_only_roc_auc": 0.5223,
+        "challenger_hgb_roc_auc": 0.9358,
+        "operating_threshold": 0.35,
+        "precision_at_threshold": 0.4387,
+        "recall_at_threshold": 0.8395,
+        "breach_rate": 0.0986,
+        "n_train": 4929,
+        "n_test": 1644
+      },
+      "status": "healthy"
+    },
+    "workload_estimation": {
+      "metrics": {
+        "baseline_linear_mae_hours": 26.67,
+        "baseline_linear_mape": 0.119,
+        "challenger_hgb_mae_hours": 18.42,
+        "challenger_hgb_mape": 0.0769,
+        "n_train": 397,
+        "n_test": 133
+      },
+      "status": "healthy"
+    },
+    "capacity_gap_prediction": {
+      "metrics": {
+        "baseline_mean_mae_fte": 2.127,
+        "challenger_hgb_mae_fte": 0.073,
+        "mean_gap_fte": -6.607,
+        "n_train": 397,
+        "n_test": 133
+      },
+      "status": "healthy",
+      "current_gap_by_region_fte": {
+        "LOC-01": -1.57,
+        "LOC-04": -4.55,
+        "LOC-06": -4.82,
+        "LOC-07": -5.75,
+        "LOC-10": -5.81,
+        "LOC-02": -6.1,
+        "LOC-09": -8.5,
+        "LOC-03": -8.54,
+        "LOC-08": -9.15,
+        "LOC-05": -10.62
+      }
+    },
+    "skill_matching": {
+      "requests_scored": 60,
+      "avg_top_match_score": 0.837
+    },
+    "scheduling_optimiser": {
+      "requests_considered": 473,
+      "requests_assigned": 429,
+      "requests_unassigned": 44,
+      "fill_rate_pct": 90.7,
+      "avg_hours_per_active_employee": 3.96,
+      "workload_gini_coefficient": 0.279,
+      "employees_utilised": 108,
+      "employees_available": 108
+    },
+    "shift_recommendation": {
+      "week_start_date": "2026-07-27",
+      "regions_needing_more_capacity": 0,
+      "regions_with_surplus_capacity": 10,
+      "total_recommended_shift_additions": 0
+    },
+    "scenario_planning": {
+      "scenarios": [
+        {
+          "scenario": "Baseline (no change)",
+          "demand_growth_pct": 0,
+          "staffing_change_pct": 0,
+          "required_hours_per_week": 18.1,
+          "contracted_hours_per_week": 265.0,
+          "capacity_gap_hours": -246.9,
+          "capacity_gap_fte": -6.5,
+          "projected_overtime_hours_per_week": 11.3,
+          "projected_utilisation": 0.068
+        },
+        {
+          "scenario": "Winter demand surge",
+          "demand_growth_pct": 15,
+          "staffing_change_pct": 0,
+          "required_hours_per_week": 20.9,
+          "contracted_hours_per_week": 265.0,
+          "capacity_gap_hours": -244.1,
+          "capacity_gap_fte": -6.42,
+          "projected_overtime_hours_per_week": 11.3,
+          "projected_utilisation": 0.079
+        },
+        {
+          "scenario": "Planned staffing uplift",
+          "demand_growth_pct": 0,
+          "staffing_change_pct": 8,
+          "required_hours_per_week": 18.1,
+          "contracted_hours_per_week": 286.2,
+          "capacity_gap_hours": -268.1,
+          "capacity_gap_fte": -7.05,
+          "projected_overtime_hours_per_week": 11.3,
+          "projected_utilisation": 0.063
+        },
+        {
+          "scenario": "Surge + uplift (recommended)",
+          "demand_growth_pct": 15,
+          "staffing_change_pct": 8,
+          "required_hours_per_week": 20.9,
+          "contracted_hours_per_week": 286.2,
+          "capacity_gap_hours": -265.3,
+          "capacity_gap_fte": -6.98,
+          "projected_overtime_hours_per_week": 11.3,
+          "projected_utilisation": 0.073
+        },
+        {
+          "scenario": "Budget-constrained (staffing freeze)",
+          "demand_growth_pct": 15,
+          "staffing_change_pct": -5,
+          "required_hours_per_week": 20.9,
+          "contracted_hours_per_week": 251.8,
+          "capacity_gap_hours": -230.9,
+          "capacity_gap_fte": -6.08,
+          "projected_overtime_hours_per_week": 11.3,
+          "projected_utilisation": 0.083
+        }
+      ]
+    }
+  }
+}

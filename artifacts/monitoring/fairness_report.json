@@ -1,0 +1,84 @@
+{
+  "cohorts_evaluated": [
+    {
+      "dimension": "gender",
+      "workload_gap_pct": 1.64,
+      "overtime_gap_pct": 9.35,
+      "workload_status": "within_threshold",
+      "overtime_status": "within_threshold",
+      "cohort_breakdown": [
+        {
+          "gender": "Female",
+          "avg_hours_per_shift": 8.15,
+          "avg_overtime_rate_pct": 10.84,
+          "cohort_shift_count": 9074
+        },
+        {
+          "gender": "Male",
+          "avg_hours_per_shift": 8.13,
+          "avg_overtime_rate_pct": 10.54,
+          "cohort_shift_count": 7335
+        },
+        {
+          "gender": "Non-binary / Other",
+          "avg_hours_per_shift": 8.26,
+          "avg_overtime_rate_pct": 11.53,
+          "cohort_shift_count": 880
+        }
+      ]
+    },
+    {
+      "dimension": "age_band",
+      "workload_gap_pct": 1.14,
+      "overtime_gap_pct": 23.11,
+      "workload_status": "within_threshold",
+      "overtime_status": "within_threshold",
+      "cohort_breakdown": [
+        {
+          "age_band": "18-24",
+          "avg_hours_per_shift": 8.11,
+          "avg_overtime_rate_pct": 10.57,
+          "cohort_shift_count": 1011
+        },
+        {
+          "age_band": "25-34",
+          "avg_hours_per_shift": 8.13,
+          "avg_overtime_rate_pct": 10.3,
+          "cohort_shift_count": 4262
+        },
+        {
+          "age_band": "35-44",
+          "avg_hours_per_shift": 8.13,
+          "avg_overtime_rate_pct": 10.01,
+          "cohort_shift_count": 4301
+        },
+        {
+          "age_band": "45-54",
+          "avg_hours_per_shift": 8.19,
+          "avg_overtime_rate_pct": 12.32,
+          "cohort_shift_count": 3620
+        },
+        {
+          "age_band": "55-64",
+          "avg_hours_per_shift": 8.18,
+          "avg_overtime_rate_pct": 10.69,
+          "cohort_shift_count": 2278
+        },
+        {
+          "age_band": "65+",
+          "avg_hours_per_shift": 8.1,
+          "avg_overtime_rate_pct": 10.36,
+          "cohort_shift_count": 1817
+        }
+      ]
+    }
+  ],
+  "any_breach": false,
+  "suppressed_small_cohort_floor": 8,
+  "protected_attributes_excluded_from_models": [
+    "gender",
+    "age_band",
+    "preferred_language",
+    "primary_role_is_bilingual"
+  ]
+}

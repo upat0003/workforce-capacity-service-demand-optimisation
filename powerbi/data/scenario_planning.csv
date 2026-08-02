@@ -1,0 +1,6 @@
+scenario,demand_growth_pct,staffing_change_pct,required_hours_per_week,contracted_hours_per_week,capacity_gap_hours,capacity_gap_fte,projected_overtime_hours_per_week,projected_utilisation
+Baseline (no change),0,0,18.1,265.0,-246.9,-6.5,11.3,0.068
+Winter demand surge,15,0,20.9,265.0,-244.1,-6.42,11.3,0.079
+Planned staffing uplift,0,8,18.1,286.2,-268.1,-7.05,11.3,0.063
+Surge + uplift (recommended),15,8,20.9,286.2,-265.3,-6.98,11.3,0.073
+Budget-constrained (staffing freeze),15,-5,20.9,251.8,-230.9,-6.08,11.3,0.083

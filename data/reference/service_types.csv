@@ -1,0 +1,10 @@
+service_type_id,service_type_name,standard_duration_minutes,requires_skill_id,complexity_weight,category
+SVC-01,In-Home Support Visit,60,SK-02,1.0,Personal Support
+SVC-02,Community Access Outing,120,SK-07,1.2,Social Support
+SVC-03,Nursing Review,45,SK-03,1.6,Clinical
+SVC-04,Equipment Assessment,60,SK-13,1.3,Clinical
+SVC-05,Care Plan Review,45,,1.1,Coordination
+SVC-06,Transport Assistance,40,SK-07,0.8,Social Support
+SVC-07,Allied Health Session,50,SK-12,1.4,Clinical
+SVC-08,Complex Care Visit,90,SK-06,2.0,Clinical
+SVC-09,Behaviour Support Session,60,SK-11,1.8,Clinical

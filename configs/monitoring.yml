@@ -1,0 +1,53 @@
+# Baseline metrics and alert thresholds for the workforce capacity control layer.
+# Baselines are computed once from the frozen synthetic history and used as the
+# fixed comparison point for the target improvements in docs/business_case.md.
+
+business_targets:
+  overtime_reduction_pct:            {baseline_label: "trailing 90-day overtime hours", target_min: 10, target_max: 20}
+  backlog_reduction_pct:              {baseline_label: "open backlog requests > SLA", target: 15}
+  service_level_improvement_pct:      {baseline_label: "SLA-met rate", target: 10}
+  scheduling_effort_reduction_pct:    {baseline_label: "manual scheduling minutes / week", target: 20}
+  workload_balance_gini_target:       {baseline_label: "Gini coefficient of rostered hours", target_max: 0.20}
+  client_wait_time_reduction_pct:     {baseline_label: "median days request-to-appointment", target: 12}
+  utilisation_target_band:            {target_min: 0.78, target_max: 0.92}
+
+model_thresholds:
+  demand_forecast:
+    metric: mape
+    warn_above: 0.18
+    breach_above: 0.25
+  complexity_prediction:
+    # Complexity tier is fundamentally a client-level attribute being inferred from
+    # request-level intake metadata alone (no case-history features are used - see
+    # governance/model_card.md); a 4-class macro-F1 ceiling well under 0.60 is the
+    # realistic, honestly-calibrated expectation for this problem framing.
+    metric: macro_f1
+    warn_below: 0.38
+    breach_below: 0.28
+  cancellation_prediction:
+    metric: roc_auc
+    warn_below: 0.68
+    breach_below: 0.60
+  service_level_breach_prediction:
+    metric: roc_auc
+    warn_below: 0.70
+    breach_below: 0.62
+  capacity_gap_prediction:
+    metric: mae_fte
+    warn_above: 1.5
+    breach_above: 2.5
+
+fairness_thresholds:
+  max_workload_gap_pct: 25           # gap between highest and lowest utilised employee cohort
+  max_overtime_gap_pct: 30
+  min_cohort_size_for_reporting: 8   # suppress cohorts smaller than this (small-number privacy rule)
+
+data_quality_thresholds:
+  min_pass_rate_pct: 97
+  max_missing_critical_field_pct: 3
+  max_orphan_key_pct: 1
+
+model_monitoring:
+  psi_warn: 0.10
+  psi_breach: 0.25
+  retraining_trigger: "breach threshold sustained for 2 consecutive monitoring cycles OR PSI breach on 2+ features"

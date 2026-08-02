@@ -1,0 +1,35 @@
+name: quality-gate
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      NUMEXPR_NUM_THREADS: "1"
+      RANDOM_SEED: "42"
+      WFCSO_DEV_MODE: "true"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - run: pip install -r requirements.txt
+      - run: ruff check python tests
+      - run: python -m python.run_pipeline --stage all
+      - run: pytest --cov=python --cov-report=term-missing
+      - run: python powerbi/Templates/render_mockups.py
+      - name: Verify Power BI screenshots were rendered
+        run: |
+          test "$(ls powerbi/Screenshots | wc -l)" -eq 8
+          test "$(ls powerbi/Mockups | wc -l)" -eq 8
+      - name: Validate JSON configuration and spec files
+        run: |
+          python -c "import json,glob
+          for f in glob.glob('**/*.json', recursive=True):
+              if '/node_modules/' in f or '/.git/' in f:
+                  continue
+              json.load(open(f))
+              print('ok', f)"

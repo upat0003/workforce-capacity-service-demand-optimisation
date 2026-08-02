@@ -1,0 +1,23 @@
+{
+  "feature_drift_psi": {
+    "requests": 0.3178,
+    "avg_complexity_score": 0.1565,
+    "rolling_mean_7": 1.4543
+  },
+  "feature_drift_status": {
+    "requests": "breach",
+    "avg_complexity_score": "warning",
+    "rolling_mean_7": "breach"
+  },
+  "model_threshold_status": {
+    "demand_forecasting": "warning",
+    "complexity_prediction": "healthy",
+    "cancellation_prediction": "warning",
+    "service_level_breach_prediction": "healthy",
+    "workload_estimation": "healthy",
+    "capacity_gap_prediction": "healthy"
+  },
+  "models_in_breach": [],
+  "retraining_recommended": true,
+  "retraining_criteria": "breach threshold sustained for 2 consecutive monitoring cycles OR PSI breach on 2+ features"
+}

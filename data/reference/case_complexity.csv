@@ -1,0 +1,5 @@
+complexity_tier,score_range,definition,service_time_multiplier,min_skill_level
+Low,0-25,"Stable clients with routine, low-risk service needs",1.0,1
+Medium,26-50,Some clinical or behavioural needs requiring monitoring,1.25,2
+High,51-75,Multiple co-occurring needs requiring specialist skills,1.6,3
+Critical,76-100,High-acuity clients requiring senior or specialist staff,2.1,3

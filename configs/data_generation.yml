@@ -1,0 +1,33 @@
+# Synthetic data generation parameters.
+# WFCSO_DEV_MODE=true (default) uses the row counts below, which are sized to keep
+# the repository light while still producing a full year of realistic seasonal
+# demand and roster history. See docs/architecture.md "Scaling to production" for
+# how these multipliers map to a full production deployment.
+random_seed: 42
+
+horizon:
+  start_date: "2025-08-01"
+  end_date: "2026-07-31"     # 365 days of history, ending the day before "today"
+
+dev_mode:
+  n_locations: 10
+  n_skills: 14
+  n_service_types: 9
+  n_employees: 150
+  n_clients: 520
+  avg_requests_per_day: 17
+  target_leave_records: 640
+  target_availability_exceptions: 260
+
+production_scale_multiplier:
+  employees: 12          # 150 -> ~1,800 employees across a state-wide footprint
+  clients: 20             # 520 -> ~10,400 active clients
+  requests_per_day: 15    # 17/day -> ~255/day across all regions
+
+data_quality_injection:
+  missing_value_rate: 0.035
+  duplicate_record_rate: 0.006
+  orphan_foreign_key_rate: 0.004
+  outlier_rate: 0.012
+  inconsistent_casing_rate: 0.02
+  future_dated_error_rate: 0.002

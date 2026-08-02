@@ -1,0 +1,2100 @@
+cancellation_id,appointment_id,cancelled_by,cancellation_reason,notice_hours,rebooked_flag
+CAN-00001,APT-000001,Client,Other,1.5,True
+CAN-00002,APT-000003,Employee,Other,0.0,False
+CAN-00003,APT-000004,Employee,Other,23.4,True
+CAN-00004,APT-000005,Client,Weather,21.5,True
+CAN-00005,APT-000006,Client,Staff illness,16.2,False
+CAN-00006,APT-000009,Client,Staff illness,4.9,True
+CAN-00007,APT-000011,Client,Client unavailable,16.2,True
+CAN-00008,APT-000014,Employee,Duplicate booking,25.5,True
+CAN-00009,APT-000015,Client,Duplicate booking,9.5,False
+CAN-00010,APT-000018,Organisation,Transport issue,28.1,False
+CAN-00011,APT-000022,Client,Client declined,23.3,True
+CAN-00012,APT-000025,Employee,Duplicate booking,0.0,True
+CAN-00013,APT-000028,Client,Transport issue,18.3,True
+CAN-00014,APT-000029,Client,Weather,0.0,False
+CAN-00015,APT-000031,Organisation,Staff illness,32.9,False
+CAN-00016,APT-000036,Client,Weather,15.1,True
+CAN-00017,APT-000037,Client,Client declined,16.4,False
+CAN-00018,APT-000041,Employee,Duplicate booking,42.5,True
+CAN-00019,APT-000044,Organisation,Duplicate booking,19.7,True
+CAN-00020,APT-000045,Client,Client unwell,14.8,False
+CAN-00021,APT-000046,Client,Transport issue,3.4,True
+CAN-00022,APT-000058,Employee,Transport issue,37.0,False
+CAN-00023,APT-000061,Organisation,Transport issue,8.7,True
+CAN-00024,APT-000063,Employee,Client unwell,0.0,True
+CAN-00025,APT-000064,Employee,Staff illness,0.0,True
+CAN-00026,APT-000068,Client,Weather,1.1,True
+CAN-00027,APT-000076,Client,Staff illness,27.5,False
+CAN-00028,APT-000084,Employee,Transport issue,20.9,True
+CAN-00029,APT-000085,Client,Weather,0.0,True
+CAN-00030,APT-000086,Organisation,Client unavailable,61.2,False
+CAN-00031,APT-000092,Employee,Duplicate booking,34.0,False
+CAN-00032,APT-000094,Client,Client unavailable,53.4,True
+CAN-00033,APT-000095,Employee,Client declined,8.7,True
+CAN-00034,APT-000106,Employee,Transport issue,0.0,False
+CAN-00035,APT-000110,Client,Other,0.0,True
+CAN-00036,APT-000113,Organisation,Other,25.4,False
+CAN-00037,APT-000115,Client,Staff illness,15.1,False
+CAN-00038,APT-000125,Client,Client unwell,3.6,True
+CAN-00039,APT-000130,Client,Client unavailable,27.3,True
+CAN-00040,APT-000133,Client,Client unwell,30.8,False
+CAN-00041,APT-000134,Client,Client declined,0.0,True
+CAN-00042,APT-000136,Client,Client unavailable,16.4,False
+CAN-00043,APT-000138,Employee,Other,0.0,True
+CAN-00044,APT-000140,Client,Weather,56.4,True
+CAN-00045,APT-000141,Client,Duplicate booking,0.0,True
+CAN-00046,APT-000144,Organisation,Client declined,0.0,True
+CAN-00047,APT-000145,Client,Client unwell,25.2,True
+CAN-00048,APT-000147,Client,Client declined,21.1,True
+CAN-00049,APT-000148,Employee,Transport issue,16.8,True
+CAN-00050,APT-000152,Organisation,Weather,27.8,True
+CAN-00051,APT-000153,Organisation,Staff illness,13.2,True
+CAN-00052,APT-000154,Client,Other,15.7,True
+CAN-00053,APT-000155,Client,Weather,21.5,False
+CAN-00054,APT-000159,Employee,Other,41.4,True
+CAN-00055,APT-000160,Employee,Weather,36.4,True
+CAN-00056,APT-000161,Organisation,Client declined,27.3,False
+CAN-00057,APT-000162,Employee,Weather,40.5,True
+CAN-00058,APT-000163,Employee,Duplicate booking,38.6,True
+CAN-00059,APT-000167,Client,Client unavailable,28.6,False
+CAN-00060,APT-000168,Organisation,Staff illness,31.8,True
+CAN-00061,APT-000178,Employee,Client unavailable,21.5,True
+CAN-00062,APT-000181,Organisation,Weather,6.3,True
+CAN-00063,APT-000184,Client,Staff illness,24.0,False
+CAN-00064,APT-000189,Client,Client unavailable,28.5,True
+CAN-00065,APT-000190,Client,Client unavailable,47.1,True
+CAN-00066,APT-000194,Employee,Duplicate booking,50.2,False
+CAN-00067,APT-000198,Organisation,Client declined,29.6,True
+CAN-00068,APT-000205,Organisation,Duplicate booking,12.7,True
+CAN-00069,APT-000207,Client,Other,12.2,True
+CAN-00070,APT-000208,Employee,Staff illness,0.0,True
+CAN-00071,APT-000209,Client,Duplicate booking,15.4,True
+CAN-00072,APT-000215,Client,Client unavailable,17.8,False
+CAN-00073,APT-000218,Client,Other,0.5,True
+CAN-00074,APT-000227,Client,Client unavailable,0.0,True
+CAN-00075,APT-000232,Employee,Staff illness,41.7,False
+CAN-00076,APT-000233,Client,Other,2.3,True
+CAN-00077,APT-000237,Client,Other,0.0,False
+CAN-00078,APT-000238,Employee,Client unwell,8.3,False
+CAN-00079,APT-000239,Employee,Client unwell,10.6,False
+CAN-00080,APT-000243,Organisation,Other,24.0,True
+CAN-00081,APT-000244,Client,Client declined,16.6,False
+CAN-00082,APT-000251,Client,Other,51.3,True
+CAN-00083,APT-000255,Employee,Duplicate booking,38.7,True
+CAN-00084,APT-000260,Client,Client unwell,29.4,False
+CAN-00085,APT-000263,Employee,Staff illness,13.5,False
+CAN-00086,APT-000264,Client,Client unavailable,4.6,True
+CAN-00087,APT-000266,Client,Staff illness,30.9,True
+CAN-00088,APT-000270,Client,Transport issue,36.2,True
+CAN-00089,APT-000271,Client,Client unavailable,20.8,True
+CAN-00090,APT-000272,Organisation,Weather,31.3,False
+CAN-00091,APT-000273,Organisation,Client unwell,0.0,True
+CAN-00092,APT-000274,Client,Weather,60.6,False
+CAN-00093,APT-000275,Client,Other,26.7,False
+CAN-00094,APT-000276,Client,Client declined,0.0,True
+CAN-00095,APT-000277,Client,Staff illness,7.3,True
+CAN-00096,APT-000285,Organisation,Client declined,0.0,False
+CAN-00097,APT-000287,Client,Other,45.1,False
+CAN-00098,APT-000291,Organisation,Duplicate booking,36.9,True
+CAN-00099,APT-000293,Employee,Other,3.2,True
+CAN-00100,APT-000296,Client,Client unavailable,20.1,True
+CAN-00101,APT-000297,Employee,Client unwell,36.9,False
+CAN-00102,APT-000298,Client,Duplicate booking,0.0,True
+CAN-00103,APT-000299,Employee,Transport issue,38.5,True
+CAN-00104,APT-000306,Client,Staff illness,53.3,True
+CAN-00105,APT-000308,Client,Transport issue,0.0,True
+CAN-00106,APT-000313,Organisation,Client unavailable,35.8,False
+CAN-00107,APT-000316,Client,Staff illness,0.0,True
+CAN-00108,APT-000317,Organisation,Client unwell,31.4,True
+CAN-00109,APT-000320,Employee,Client unwell,49.5,True
+CAN-00110,APT-000321,Client,Staff illness,37.1,True
+CAN-00111,APT-000322,Client,Transport issue,1.9,True
+CAN-00112,APT-000323,Client,Other,40.1,False
+CAN-00113,APT-000325,Client,Weather,8.7,False
+CAN-00114,APT-000332,Client,Staff illness,0.0,True
+CAN-00115,APT-000342,Client,Staff illness,30.8,True
+CAN-00116,APT-000343,Employee,Transport issue,17.0,False
+CAN-00117,APT-000347,Client,Other,16.2,True
+CAN-00118,APT-000355,Client,Other,44.6,True
+CAN-00119,APT-000356,Employee,Client unavailable,14.4,True
+CAN-00120,APT-000359,Organisation,Weather,22.8,True
+CAN-00121,APT-000360,Client,Staff illness,54.1,False
+CAN-00122,APT-000362,Client,Staff illness,35.7,True
+CAN-00123,APT-000367,Client,Transport issue,37.8,True
+CAN-00124,APT-000369,Client,Duplicate booking,0.0,True
+CAN-00125,APT-000376,Organisation,Client declined,43.5,True
+CAN-00126,APT-000380,Client,Client declined,33.3,False
+CAN-00127,APT-000381,Client,Other,13.7,True
+CAN-00128,APT-000385,Organisation,Weather,18.0,False
+CAN-00129,APT-000387,Client,Staff illness,42.9,False
+CAN-00130,APT-000391,Employee,Client unavailable,8.2,True
+CAN-00131,APT-000392,Client,Client unavailable,20.3,False
+CAN-00132,APT-000395,Organisation,Other,55.7,False
+CAN-00133,APT-000397,Organisation,Staff illness,16.7,True
+CAN-00134,APT-000405,Organisation,Weather,21.5,True
+CAN-00135,APT-000406,Client,Transport issue,51.3,True
+CAN-00136,APT-000407,Client,Other,0.0,True
+CAN-00137,APT-000409,Client,Duplicate booking,87.5,True
+CAN-00138,APT-000410,Client,Weather,43.1,True
+CAN-00139,APT-000413,Client,Duplicate booking,23.4,True
+CAN-00140,APT-000414,Client,Staff illness,32.4,True
+CAN-00141,APT-000416,Client,Transport issue,17.5,True
+CAN-00142,APT-000419,Client,Staff illness,26.5,False
+CAN-00143,APT-000421,Employee,Client unwell,12.3,True
+CAN-00144,APT-000426,Organisation,Weather,3.3,False
+CAN-00145,APT-000432,Client,Client declined,47.5,True
+CAN-00146,APT-000442,Employee,Duplicate booking,20.3,False
+CAN-00147,APT-000446,Employee,Client unwell,32.6,True
+CAN-00148,APT-000448,Organisation,Duplicate booking,26.2,True
+CAN-00149,APT-000453,Organisation,Client unwell,16.3,False
+CAN-00150,APT-000455,Client,Transport issue,0.0,False
+CAN-00151,APT-000456,Employee,Client unavailable,23.4,True
+CAN-00152,APT-000457,Organisation,Client unavailable,0.0,False
+CAN-00153,APT-000458,Client,Weather,44.2,True
+CAN-00154,APT-000460,Employee,Client unwell,12.1,True
+CAN-00155,APT-000463,Organisation,Client unwell,7.3,True
+CAN-00156,APT-000470,Client,Duplicate booking,40.8,True
+CAN-00157,APT-000471,Employee,Weather,30.1,False
+CAN-00158,APT-000474,Employee,Client unwell,0.0,True
+CAN-00159,APT-000483,Employee,Client declined,12.7,False
+CAN-00160,APT-000484,Client,Other,0.0,False
+CAN-00161,APT-000487,Client,Weather,12.3,True
+CAN-00162,APT-000489,Employee,Other,7.6,True
+CAN-00163,APT-000493,Client,Transport issue,5.9,True
+CAN-00164,APT-000495,Client,Other,47.6,False
+CAN-00165,APT-000508,Organisation,Other,40.1,False
+CAN-00166,APT-000510,Employee,Staff illness,0.0,False
+CAN-00167,APT-000511,Organisation,Client declined,0.0,True
+CAN-00168,APT-000513,Organisation,Client unavailable,20.5,True
+CAN-00169,APT-000521,Client,Client unavailable,1.7,False
+CAN-00170,APT-000530,Client,Transport issue,0.0,False
+CAN-00171,APT-000531,Client,Client unavailable,56.6,True
+CAN-00172,APT-000541,Employee,Duplicate booking,28.3,True
+CAN-00173,APT-000542,Client,Transport issue,7.9,True
+CAN-00174,APT-000543,Client,Duplicate booking,0.0,True
+CAN-00175,APT-000547,Organisation,Staff illness,43.7,True
+CAN-00176,APT-000548,Client,Other,30.9,False
+CAN-00177,APT-000549,Employee,Client unwell,45.5,True
+CAN-00178,APT-000555,Client,Staff illness,49.5,False
+CAN-00179,APT-000556,Employee,Duplicate booking,0.0,True
+CAN-00180,APT-000560,Client,Other,9.6,False
+CAN-00181,APT-000562,Employee,Other,16.4,False
+CAN-00182,APT-000563,Employee,Transport issue,42.5,True
+CAN-00183,APT-000564,Organisation,Other,22.1,True
+CAN-00184,APT-000567,Employee,Duplicate booking,7.3,True
+CAN-00185,APT-000569,Client,Client declined,38.7,True
+CAN-00186,APT-000572,Employee,Staff illness,8.8,True
+CAN-00187,APT-000575,Client,Weather,13.7,True
+CAN-00188,APT-000577,Client,Other,14.9,True
+CAN-00189,APT-000604,Client,Duplicate booking,0.0,False
+CAN-00190,APT-000607,Client,Client unwell,45.7,True
+CAN-00191,APT-000609,Client,Client unwell,6.3,True
+CAN-00192,APT-000617,Client,Other,23.9,False
+CAN-00193,APT-000619,Employee,Client unavailable,10.2,True
+CAN-00194,APT-000623,Client,Weather,0.0,True
+CAN-00195,APT-000627,Organisation,Duplicate booking,7.4,False
+CAN-00196,APT-000628,Organisation,Client declined,18.6,True
+CAN-00197,APT-000630,Client,Client unwell,0.0,True
+CAN-00198,APT-000634,Client,Client unwell,20.0,True
+CAN-00199,APT-000639,Employee,Client unavailable,4.2,False
+CAN-00200,APT-000642,Client,Duplicate booking,49.5,False
+CAN-00201,APT-000643,Organisation,Weather,34.0,True
+CAN-00202,APT-000645,Organisation,Client declined,64.5,True
+CAN-00203,APT-000657,Client,Staff illness,9.9,True
+CAN-00204,APT-000658,Employee,Client declined,15.3,True
+CAN-00205,APT-000660,Client,Staff illness,8.1,True
+CAN-00206,APT-000663,Employee,Client unwell,34.3,True
+CAN-00207,APT-000665,Employee,Duplicate booking,12.2,False
+CAN-00208,APT-000667,Client,Client unavailable,19.7,False
+CAN-00209,APT-000668,Client,Weather,26.3,True
+CAN-00210,APT-000670,Client,Client unavailable,55.9,True
+CAN-00211,APT-000673,Client,Staff illness,36.5,True
+CAN-00212,APT-000674,Client,Client unavailable,13.1,False
+CAN-00213,APT-000677,Client,Other,3.6,True
+CAN-00214,APT-000678,Client,Client unwell,24.4,True
+CAN-00215,APT-000682,Organisation,Staff illness,76.6,True
+CAN-00216,APT-000683,Employee,Transport issue,31.2,True
+CAN-00217,APT-000685,Organisation,Client unavailable,7.3,False
+CAN-00218,APT-000688,Client,Transport issue,8.8,True
+CAN-00219,APT-000691,Client,Weather,0.0,True
+CAN-00220,APT-000698,Organisation,Duplicate booking,57.0,False
+CAN-00221,APT-000700,Organisation,Weather,12.2,False
+CAN-00222,APT-000706,Client,Transport issue,3.6,True
+CAN-00223,APT-000708,Client,Weather,4.1,False
+CAN-00224,APT-000714,Client,Staff illness,34.2,True
+CAN-00225,APT-000715,Client,Duplicate booking,23.1,True
+CAN-00226,APT-000721,Client,Weather,60.8,True
+CAN-00227,APT-000722,Organisation,Staff illness,47.0,True
+CAN-00228,APT-000723,Client,Client unwell,34.3,False
+CAN-00229,APT-000729,Employee,Duplicate booking,16.1,True
+CAN-00230,APT-000730,Client,Weather,96.8,False
+CAN-00231,APT-000731,Client,Client unwell,0.0,True
+CAN-00232,APT-000733,Client,Other,23.1,False
+CAN-00233,APT-000734,Employee,Weather,47.2,False
+CAN-00234,APT-000738,Client,Staff illness,23.2,False
+CAN-00235,APT-000747,Employee,Duplicate booking,31.8,True
+CAN-00236,APT-000749,Client,Staff illness,31.0,False
+CAN-00237,APT-000750,Client,Client declined,22.6,True
+CAN-00238,APT-000752,Organisation,Staff illness,0.0,True
+CAN-00239,APT-000759,Organisation,Transport issue,5.2,False
+CAN-00240,APT-000761,Client,Client unwell,24.2,True
+CAN-00241,APT-000774,Client,Transport issue,0.0,True
+CAN-00242,APT-000779,Client,Client declined,17.9,True
+CAN-00243,APT-000781,Client,Client unavailable,0.0,True
+CAN-00244,APT-000785,Client,Weather,46.7,True
+CAN-00245,APT-000786,Client,Weather,0.0,True
+CAN-00246,APT-000787,Organisation,Staff illness,36.6,False
+CAN-00247,APT-000789,Client,Weather,21.4,False
+CAN-00248,APT-000792,Employee,Client declined,32.7,False
+CAN-00249,APT-000793,Employee,Transport issue,0.0,True
+CAN-00250,APT-000800,Employee,Client unwell,3.3,True
+CAN-00251,APT-000803,Client,Duplicate booking,0.0,False
+CAN-00252,APT-000805,Client,Staff illness,71.6,True
+CAN-00253,APT-000807,Client,Client unavailable,34.8,True
+CAN-00254,APT-000818,Client,Weather,10.6,False
+CAN-00255,APT-000822,Client,Staff illness,26.1,True
+CAN-00256,APT-000823,Client,Other,57.5,True
+CAN-00257,APT-000825,Organisation,Other,12.2,True
+CAN-00258,APT-000826,Client,Client declined,12.0,True
+CAN-00259,APT-000832,Client,Client unavailable,32.0,True
+CAN-00260,APT-000839,Client,Weather,28.3,True
+CAN-00261,APT-000847,Organisation,Staff illness,7.4,True
+CAN-00262,APT-000851,Client,Transport issue,7.8,True
+CAN-00263,APT-000852,Client,Duplicate booking,2.1,False
+CAN-00264,APT-000854,Client,Weather,0.0,True
+CAN-00265,APT-000856,Organisation,Transport issue,50.3,True
+CAN-00266,APT-000861,Client,Client unwell,0.0,False
+CAN-00267,APT-000862,Client,Weather,0.0,True
+CAN-00268,APT-000865,Client,Staff illness,0.0,True
+CAN-00269,APT-000867,Employee,Transport issue,0.0,True
+CAN-00270,APT-000871,Client,Staff illness,0.0,True
+CAN-00271,APT-000873,Client,Staff illness,0.0,True
+CAN-00272,APT-000875,Client,Client unwell,0.0,True
+CAN-00273,APT-000878,Organisation,Weather,27.3,True
+CAN-00274,APT-000879,Organisation,Client unwell,9.2,True
+CAN-00275,APT-000881,Client,Duplicate booking,16.1,True
+CAN-00276,APT-000883,Client,Other,3.7,True
+CAN-00277,APT-000884,Client,Client declined,0.0,True
+CAN-00278,APT-000886,Employee,Duplicate booking,28.1,False
+CAN-00279,APT-000889,Employee,Staff illness,0.0,True
+CAN-00280,APT-000890,Organisation,Staff illness,37.1,True
+CAN-00281,APT-000893,Organisation,Client unwell,4.9,True
+CAN-00282,APT-000896,Employee,Transport issue,17.3,False
+CAN-00283,APT-000898,Client,Other,19.7,True
+CAN-00284,APT-000899,Client,Client unavailable,56.7,True
+CAN-00285,APT-000910,Organisation,Duplicate booking,9.7,False
+CAN-00286,APT-000911,Employee,Duplicate booking,0.0,False
+CAN-00287,APT-000920,Employee,Other,9.8,False
+CAN-00288,APT-000922,Organisation,Client unwell,24.9,True
+CAN-00289,APT-000923,Employee,Duplicate booking,24.9,True
+CAN-00290,APT-000924,Organisation,Other,67.8,True
+CAN-00291,APT-000926,Client,Duplicate booking,24.6,False
+CAN-00292,APT-000930,Client,Client declined,12.1,True
+CAN-00293,APT-000932,Client,Client unavailable,13.4,True
+CAN-00294,APT-000935,Organisation,Duplicate booking,11.8,True
+CAN-00295,APT-000936,Organisation,Duplicate booking,8.2,True
+CAN-00296,APT-000937,Organisation,Client unwell,57.1,True
+CAN-00297,APT-000948,Client,Other,14.9,False
+CAN-00298,APT-000949,Client,Weather,35.0,True
+CAN-00299,APT-000951,Client,Other,46.8,True
+CAN-00300,APT-000953,Organisation,Client declined,22.9,False
+CAN-00301,APT-000955,Employee,Client declined,6.1,False
+CAN-00302,APT-000956,Organisation,Other,7.1,False
+CAN-00303,APT-000957,Organisation,Other,18.4,True
+CAN-00304,APT-000961,Organisation,Duplicate booking,21.0,True
+CAN-00305,APT-000964,Client,Weather,17.7,True
+CAN-00306,APT-000966,Employee,Client declined,20.9,True
+CAN-00307,APT-000970,Organisation,Staff illness,31.0,True
+CAN-00308,APT-000972,Employee,Weather,8.5,True
+CAN-00309,APT-000975,Employee,Staff illness,8.7,True
+CAN-00310,APT-000983,Organisation,Staff illness,13.0,True
+CAN-00311,APT-000990,Organisation,Client unavailable,10.4,True
+CAN-00312,APT-000995,Client,Staff illness,24.9,True
+CAN-00313,APT-000997,Client,Client unavailable,9.2,True
+CAN-00314,APT-001000,Employee,Duplicate booking,27.8,True
+CAN-00315,APT-001003,Client,Other,0.0,False
+CAN-00316,APT-001006,Employee,Other,0.0,True
+CAN-00317,APT-001009,Client,Client unavailable,36.8,True
+CAN-00318,APT-001010,Client,Duplicate booking,46.0,False
+CAN-00319,APT-001012,Employee,Duplicate booking,23.7,True
+CAN-00320,APT-001021,Organisation,Staff illness,0.0,False
+CAN-00321,APT-001023,Client,Transport issue,28.5,True
+CAN-00322,APT-001024,Client,Client unavailable,28.0,True
+CAN-00323,APT-001029,Client,Transport issue,0.0,False
+CAN-00324,APT-001030,Client,Weather,29.1,False
+CAN-00325,APT-001031,Client,Transport issue,0.0,False
+CAN-00326,APT-001032,Client,Weather,11.4,True
+CAN-00327,APT-001034,Client,Transport issue,0.0,True
+CAN-00328,APT-001036,Employee,Transport issue,32.6,True
+CAN-00329,APT-001037,Employee,Client declined,36.1,True
+CAN-00330,APT-001043,Employee,Other,0.0,False
+CAN-00331,APT-001045,Employee,Transport issue,33.1,False
+CAN-00332,APT-001048,Employee,Client unavailable,12.2,False
+CAN-00333,APT-001049,Employee,Transport issue,0.0,True
+CAN-00334,APT-001057,Client,Transport issue,31.3,True
+CAN-00335,APT-001058,Client,Client declined,0.0,True
+CAN-00336,APT-001059,Organisation,Staff illness,0.0,False
+CAN-00337,APT-001061,Employee,Transport issue,18.0,True
+CAN-00338,APT-001063,Client,Transport issue,19.9,True
+CAN-00339,APT-001067,Employee,Weather,27.7,True
+CAN-00340,APT-001068,Organisation,Client unavailable,23.1,True
+CAN-00341,APT-001069,Employee,Client unwell,5.8,True
+CAN-00342,APT-001072,Client,Transport issue,42.2,False
+CAN-00343,APT-001073,Employee,Client unwell,8.1,False
+CAN-00344,APT-001074,Client,Staff illness,0.0,False
+CAN-00345,APT-001076,Client,Duplicate booking,0.0,True
+CAN-00346,APT-001079,Organisation,Other,31.5,True
+CAN-00347,APT-001083,Organisation,Other,8.2,True
+CAN-00348,APT-001084,Organisation,Transport issue,27.8,True
+CAN-00349,APT-001086,Organisation,Client declined,5.4,False
+CAN-00350,APT-001108,Client,Client unwell,33.1,False
+CAN-00351,APT-001118,Employee,Client declined,52.0,True
+CAN-00352,APT-001119,Client,Transport issue,18.0,True
+CAN-00353,APT-001124,Employee,Client unwell,22.4,True
+CAN-00354,APT-001128,Client,Other,0.0,True
+CAN-00355,APT-001129,Employee,Other,0.0,True
+CAN-00356,APT-001131,Client,Transport issue,14.5,True
+CAN-00357,APT-001147,Employee,Other,38.5,True
+CAN-00358,APT-001151,Client,Staff illness,0.0,True
+CAN-00359,APT-001152,Employee,Client declined,0.0,True
+CAN-00360,APT-001158,Employee,Client unavailable,30.3,False
+CAN-00361,APT-001159,Organisation,Duplicate booking,25.2,True
+CAN-00362,APT-001169,Employee,Client unwell,16.6,False
+CAN-00363,APT-001173,Client,Client unavailable,24.0,True
+CAN-00364,APT-001176,Client,Client declined,14.8,False
+CAN-00365,APT-001178,Client,Client unavailable,29.2,True
+CAN-00366,APT-001180,Organisation,Duplicate booking,35.3,False
+CAN-00367,APT-001183,Client,Client unavailable,55.2,True
+CAN-00368,APT-001197,Client,Client unwell,32.4,True
+CAN-00369,APT-001204,Client,Transport issue,5.8,True
+CAN-00370,APT-001209,Client,Weather,5.2,False
+CAN-00371,APT-001212,Organisation,Other,27.0,False
+CAN-00372,APT-001213,Client,Client unwell,15.2,True
+CAN-00373,APT-001216,Client,Client unavailable,17.1,False
+CAN-00374,APT-001217,Client,Client unwell,0.0,False
+CAN-00375,APT-001219,Client,Transport issue,0.0,False
+CAN-00376,APT-001220,Client,Staff illness,33.6,True
+CAN-00377,APT-001222,Employee,Other,32.8,True
+CAN-00378,APT-001224,Organisation,Client unwell,23.8,True
+CAN-00379,APT-001231,Organisation,Client unwell,23.8,True
+CAN-00380,APT-001232,Client,Client unavailable,49.1,False
+CAN-00381,APT-001233,Client,Client declined,0.0,True
+CAN-00382,APT-001236,Client,Weather,12.3,False
+CAN-00383,APT-001239,Organisation,Weather,33.3,False
+CAN-00384,APT-001242,Organisation,Other,7.2,False
+CAN-00385,APT-001243,Organisation,Other,17.6,True
+CAN-00386,APT-001244,Client,Client unwell,0.0,True
+CAN-00387,APT-001246,Organisation,Other,29.4,True
+CAN-00388,APT-001254,Organisation,Weather,3.6,True
+CAN-00389,APT-001257,Client,Client unavailable,36.2,True
+CAN-00390,APT-001258,Client,Weather,0.0,True
+CAN-00391,APT-001259,Employee,Transport issue,8.1,True
+CAN-00392,APT-001260,Client,Staff illness,21.9,False
+CAN-00393,APT-001262,Client,Weather,80.9,True
+CAN-00394,APT-001265,Client,Client unavailable,48.5,True
+CAN-00395,APT-001267,Client,Weather,46.2,False
+CAN-00396,APT-001269,Client,Transport issue,39.6,False
+CAN-00397,APT-001270,Client,Transport issue,2.6,True
+CAN-00398,APT-001271,Client,Transport issue,15.3,True
+CAN-00399,APT-001277,Client,Client unwell,0.0,True
+CAN-00400,APT-001281,Employee,Client unwell,16.1,False
+CAN-00401,APT-001283,Client,Other,0.0,False
+CAN-00402,APT-001284,Client,Client unwell,25.9,False
+CAN-00403,APT-001292,Client,Client unavailable,51.0,False
+CAN-00404,APT-001297,Employee,Client unavailable,25.5,True
+CAN-00405,APT-001304,Organisation,Client declined,10.1,True
+CAN-00406,APT-001306,Client,Staff illness,0.0,False
+CAN-00407,APT-001309,Employee,Other,42.6,False
+CAN-00408,APT-001311,Client,Client declined,0.0,True
+CAN-00409,APT-001312,Client,Client unavailable,0.0,True
+CAN-00410,APT-001314,Client,Client unwell,43.4,False
+CAN-00411,APT-001315,Client,Weather,32.8,False
+CAN-00412,APT-001317,Employee,Staff illness,39.6,True
+CAN-00413,APT-001319,Client,Other,18.1,True
+CAN-00414,APT-001321,Organisation,Client declined,30.8,True
+CAN-00415,APT-001322,Organisation,Client declined,0.0,False
+CAN-00416,APT-001323,Organisation,Other,9.0,False
+CAN-00417,APT-001332,Client,Transport issue,0.0,False
+CAN-00418,APT-001344,Organisation,Weather,19.5,False
+CAN-00419,APT-001346,Organisation,Weather,15.6,False
+CAN-00420,APT-001349,Client,Duplicate booking,0.0,True
+CAN-00421,APT-001350,Organisation,Staff illness,34.7,True
+CAN-00422,APT-001359,Employee,Duplicate booking,0.0,True
+CAN-00423,APT-001363,Client,Client unwell,9.1,False
+CAN-00424,APT-001364,Client,Client unavailable,15.5,True
+CAN-00425,APT-001370,Employee,Staff illness,31.9,True
+CAN-00426,APT-001371,Organisation,Other,22.7,False
+CAN-00427,APT-001373,Organisation,Transport issue,2.9,True
+CAN-00428,APT-001374,Client,Client unwell,1.7,True
+CAN-00429,APT-001375,Client,Client unwell,85.2,False
+CAN-00430,APT-001382,Organisation,Duplicate booking,2.7,False
+CAN-00431,APT-001383,Employee,Other,13.3,True
+CAN-00432,APT-001387,Employee,Client declined,31.7,False
+CAN-00433,APT-001390,Organisation,Client unavailable,27.2,False
+CAN-00434,APT-001393,Employee,Staff illness,33.3,True
+CAN-00435,APT-001394,Client,Transport issue,32.1,True
+CAN-00436,APT-001395,Client,Staff illness,0.0,True
+CAN-00437,APT-001401,Client,Client declined,2.3,False
+CAN-00438,APT-001402,Client,Transport issue,38.1,True
+CAN-00439,APT-001403,Organisation,Other,25.9,True
+CAN-00440,APT-001404,Employee,Duplicate booking,12.2,True
+CAN-00441,APT-001410,Client,Client declined,9.8,False
+CAN-00442,APT-001412,Employee,Weather,30.9,True
+CAN-00443,APT-001413,Employee,Weather,0.0,False
+CAN-00444,APT-001415,Client,Staff illness,60.0,False
+CAN-00445,APT-001417,Organisation,Transport issue,20.6,True
+CAN-00446,APT-001420,Client,Transport issue,16.2,True
+CAN-00447,APT-001422,Client,Weather,0.0,True
+CAN-00448,APT-001423,Client,Staff illness,0.0,False
+CAN-00449,APT-001428,Employee,Client unwell,12.9,True
+CAN-00450,APT-001433,Client,Duplicate booking,0.0,False
+CAN-00451,APT-001446,Organisation,Transport issue,39.3,True
+CAN-00452,APT-001447,Employee,Client unavailable,9.5,True
+CAN-00453,APT-001451,Client,Weather,6.7,True
+CAN-00454,APT-001454,Client,Transport issue,30.8,True
+CAN-00455,APT-001455,Client,Client unwell,0.0,False
+CAN-00456,APT-001457,Client,Duplicate booking,19.2,True
+CAN-00457,APT-001465,Client,Staff illness,6.2,False
+CAN-00458,APT-001466,Employee,Staff illness,19.8,False
+CAN-00459,APT-001471,Organisation,Client unwell,7.7,True
+CAN-00460,APT-001473,Client,Client unwell,14.9,True
+CAN-00461,APT-001474,Client,Client unavailable,20.9,False
+CAN-00462,APT-001479,Client,Staff illness,26.2,True
+CAN-00463,APT-001480,Organisation,Client unavailable,0.0,True
+CAN-00464,APT-001483,Employee,Weather,12.7,True
+CAN-00465,APT-001486,Organisation,Client unwell,25.1,True
+CAN-00466,APT-001487,Client,Staff illness,1.7,False
+CAN-00467,APT-001488,Organisation,Duplicate booking,32.8,True
+CAN-00468,APT-001490,Employee,Client unavailable,41.3,True
+CAN-00469,APT-001495,Organisation,Duplicate booking,16.0,False
+CAN-00470,APT-001497,Employee,Other,34.2,True
+CAN-00471,APT-001510,Client,Weather,37.4,True
+CAN-00472,APT-001516,Organisation,Other,15.2,True
+CAN-00473,APT-001517,Organisation,Duplicate booking,0.0,False
+CAN-00474,APT-001518,Organisation,Transport issue,42.6,True
+CAN-00475,APT-001520,Client,Staff illness,22.9,True
+CAN-00476,APT-001521,Client,Staff illness,43.5,True
+CAN-00477,APT-001522,Client,Duplicate booking,33.0,True
+CAN-00478,APT-001525,Employee,Staff illness,43.0,True
+CAN-00479,APT-001526,Client,Other,27.5,True
+CAN-00480,APT-001530,Client,Staff illness,0.0,True
+CAN-00481,APT-001533,Employee,Client unavailable,29.1,False
+CAN-00482,APT-001542,Client,Staff illness,0.0,True
+CAN-00483,APT-001546,Client,Transport issue,28.5,True
+CAN-00484,APT-001547,Organisation,Duplicate booking,23.0,True
+CAN-00485,APT-001551,Employee,Client unwell,10.2,True
+CAN-00486,APT-001564,Client,Duplicate booking,17.7,True
+CAN-00487,APT-001568,Client,Client unwell,3.8,True
+CAN-00488,APT-001570,Organisation,Duplicate booking,22.1,True
+CAN-00489,APT-001574,Organisation,Client declined,33.3,False
+CAN-00490,APT-001579,Client,Client unavailable,4.4,True
+CAN-00491,APT-001580,Employee,Client unavailable,57.4,True
+CAN-00492,APT-001587,Client,Transport issue,19.8,True
+CAN-00493,APT-001590,Client,Client unwell,8.1,True
+CAN-00494,APT-001594,Client,Client unavailable,10.1,True
+CAN-00495,APT-001596,Employee,Client declined,19.6,True
+CAN-00496,APT-001598,Client,Weather,28.9,True
+CAN-00497,APT-001600,Client,Client declined,13.9,True
+CAN-00498,APT-001601,Employee,Staff illness,38.9,True
+CAN-00499,APT-001602,Employee,Weather,20.7,True
+CAN-00500,APT-001605,Client,Client declined,32.0,True
+CAN-00501,APT-001611,Organisation,Client unwell,5.5,False
+CAN-00502,APT-001618,Employee,Transport issue,5.9,True
+CAN-00503,APT-001619,Organisation,Client unavailable,21.5,True
+CAN-00504,APT-001625,Client,Client unwell,10.9,True
+CAN-00505,APT-001630,Client,Transport issue,26.5,True
+CAN-00506,APT-001633,Client,Staff illness,32.3,True
+CAN-00507,APT-001634,Client,Staff illness,23.2,False
+CAN-00508,APT-001641,Client,Transport issue,29.5,True
+CAN-00509,APT-001644,Client,Other,0.0,True
+CAN-00510,APT-001646,Client,Client unavailable,18.8,True
+CAN-00511,APT-001648,Client,Client unavailable,6.1,True
+CAN-00512,APT-001651,Organisation,Client unavailable,27.5,False
+CAN-00513,APT-001653,Client,Staff illness,0.0,True
+CAN-00514,APT-001654,Client,Staff illness,3.0,False
+CAN-00515,APT-001655,Organisation,Duplicate booking,36.8,False
+CAN-00516,APT-001662,Employee,Staff illness,0.8,True
+CAN-00517,APT-001669,Client,Other,42.9,True
+CAN-00518,APT-001672,Organisation,Transport issue,0.0,True
+CAN-00519,APT-001679,Client,Duplicate booking,38.5,True
+CAN-00520,APT-001682,Employee,Client unavailable,33.4,False
+CAN-00521,APT-001685,Organisation,Other,12.7,True
+CAN-00522,APT-001690,Client,Duplicate booking,0.3,False
+CAN-00523,APT-001692,Client,Other,3.0,True
+CAN-00524,APT-001693,Organisation,Duplicate booking,12.1,True
+CAN-00525,APT-001697,Client,Client unwell,16.1,True
+CAN-00526,APT-001700,Employee,Weather,17.5,False
+CAN-00527,APT-001702,Client,Transport issue,59.9,False
+CAN-00528,APT-001706,Organisation,Client unavailable,8.4,True
+CAN-00529,APT-001712,Client,Other,0.0,True
+CAN-00530,APT-001717,Organisation,Client unavailable,36.3,True
+CAN-00531,APT-001719,Employee,Client unwell,17.2,False
+CAN-00532,APT-001720,Employee,Client unavailable,12.0,False
+CAN-00533,APT-001723,Client,Client unwell,29.2,False
+CAN-00534,APT-001725,Employee,Weather,17.0,True
+CAN-00535,APT-001739,Employee,Client unavailable,13.6,True
+CAN-00536,APT-001744,Client,Client declined,0.0,False
+CAN-00537,APT-001745,Employee,Transport issue,66.4,False
+CAN-00538,APT-001748,Organisation,Client declined,41.0,True
+CAN-00539,APT-001750,Employee,Staff illness,73.1,True
+CAN-00540,APT-001752,Organisation,Weather,34.8,False
+CAN-00541,APT-001754,Client,Staff illness,42.3,True
+CAN-00542,APT-001758,Employee,Weather,24.9,False
+CAN-00543,APT-001760,Employee,Transport issue,0.0,True
+CAN-00544,APT-001769,Organisation,Client unwell,23.5,True
+CAN-00545,APT-001771,Employee,Client unavailable,3.3,True
+CAN-00546,APT-001774,Client,Other,0.0,True
+CAN-00547,APT-001775,Client,Client declined,0.0,True
+CAN-00548,APT-001779,Client,Transport issue,29.7,True
+CAN-00549,APT-001781,Client,Weather,66.6,True
+CAN-00550,APT-001784,Client,Client declined,7.9,False
+CAN-00551,APT-001786,Client,Other,0.0,False
+CAN-00552,APT-001792,Client,Weather,20.5,True
+CAN-00553,APT-001799,Client,Client declined,13.6,False
+CAN-00554,APT-001800,Client,Client declined,52.8,True
+CAN-00555,APT-001801,Organisation,Client unwell,59.1,True
+CAN-00556,APT-001802,Employee,Weather,3.1,False
+CAN-00557,APT-001805,Organisation,Other,0.0,False
+CAN-00558,APT-001807,Client,Client unavailable,0.0,True
+CAN-00559,APT-001812,Client,Duplicate booking,14.4,False
+CAN-00560,APT-001815,Employee,Client declined,44.5,False
+CAN-00561,APT-001818,Client,Client declined,0.0,True
+CAN-00562,APT-001820,Client,Duplicate booking,6.9,True
+CAN-00563,APT-001822,Client,Transport issue,17.2,False
+CAN-00564,APT-001828,Organisation,Other,0.0,False
+CAN-00565,APT-001833,Employee,Client unavailable,47.0,True
+CAN-00566,APT-001834,Client,Staff illness,29.0,False
+CAN-00567,APT-001836,Client,Duplicate booking,0.0,True
+CAN-00568,APT-001839,Client,Staff illness,34.5,True
+CAN-00569,APT-001844,Client,Client unwell,37.0,False
+CAN-00570,APT-001849,Client,Client declined,16.8,True
+CAN-00571,APT-001851,Employee,Client declined,1.3,True
+CAN-00572,APT-001860,Client,Weather,7.1,True
+CAN-00573,APT-001867,Organisation,Weather,33.0,False
+CAN-00574,APT-001868,Employee,Duplicate booking,0.0,True
+CAN-00575,APT-001874,Client,Other,0.0,False
+CAN-00576,APT-001875,Client,Weather,17.0,True
+CAN-00577,APT-001877,Client,Client unavailable,10.8,False
+CAN-00578,APT-001884,Organisation,Weather,2.2,True
+CAN-00579,APT-001887,Client,Client unwell,0.0,True
+CAN-00580,APT-001890,Client,Transport issue,21.2,True
+CAN-00581,APT-001891,Employee,Transport issue,71.7,True
+CAN-00582,APT-001894,Organisation,Client unavailable,0.0,False
+CAN-00583,APT-001904,Client,Client declined,0.0,True
+CAN-00584,APT-001908,Employee,Duplicate booking,13.9,True
+CAN-00585,APT-001911,Client,Transport issue,33.0,True
+CAN-00586,APT-001913,Organisation,Other,38.8,False
+CAN-00587,APT-001918,Client,Client declined,13.4,True
+CAN-00588,APT-001920,Organisation,Staff illness,42.3,False
+CAN-00589,APT-001922,Client,Client unwell,17.1,True
+CAN-00590,APT-001929,Client,Transport issue,26.5,True
+CAN-00591,APT-001930,Organisation,Staff illness,0.0,True
+CAN-00592,APT-001931,Client,Other,18.6,False
+CAN-00593,APT-001934,Employee,Staff illness,46.3,False
+CAN-00594,APT-001936,Organisation,Duplicate booking,3.4,True
+CAN-00595,APT-001937,Employee,Staff illness,9.2,True
+CAN-00596,APT-001940,Client,Weather,29.5,True
+CAN-00597,APT-001946,Organisation,Client declined,1.1,True
+CAN-00598,APT-001950,Client,Duplicate booking,0.0,True
+CAN-00599,APT-001952,Client,Client declined,4.8,False
+CAN-00600,APT-001954,Organisation,Transport issue,6.0,True
+CAN-00601,APT-001959,Client,Duplicate booking,18.7,True
+CAN-00602,APT-001961,Client,Transport issue,24.7,False
+CAN-00603,APT-001962,Organisation,Client unwell,14.8,True
+CAN-00604,APT-001963,Employee,Weather,32.5,True
+CAN-00605,APT-001967,Employee,Client unwell,20.4,True
+CAN-00606,APT-001970,Client,Client unwell,0.0,True
+CAN-00607,APT-001973,Employee,Client declined,2.8,True
+CAN-00608,APT-001974,Organisation,Staff illness,27.7,True
+CAN-00609,APT-001975,Client,Transport issue,11.8,False
+CAN-00610,APT-001976,Employee,Other,49.6,True
+CAN-00611,APT-001979,Client,Client unavailable,11.9,True
+CAN-00612,APT-001980,Client,Duplicate booking,49.6,True
+CAN-00613,APT-001982,Client,Transport issue,0.0,False
+CAN-00614,APT-001983,Organisation,Client declined,32.5,False
+CAN-00615,APT-001986,Client,Client declined,22.3,True
+CAN-00616,APT-001988,Client,Other,6.1,True
+CAN-00617,APT-001996,Client,Client unwell,13.2,False
+CAN-00618,APT-002000,Organisation,Client unavailable,4.3,True
+CAN-00619,APT-002002,Client,Transport issue,3.3,False
+CAN-00620,APT-002007,Employee,Client unavailable,11.9,True
+CAN-00621,APT-002011,Employee,Other,8.0,True
+CAN-00622,APT-002016,Client,Staff illness,3.5,True
+CAN-00623,APT-002020,Client,Transport issue,8.8,True
+CAN-00624,APT-002021,Organisation,Other,15.5,True
+CAN-00625,APT-002022,Client,Other,26.1,False
+CAN-00626,APT-002025,Employee,Client unavailable,22.5,True
+CAN-00627,APT-002034,Employee,Client declined,0.0,True
+CAN-00628,APT-002041,Organisation,Staff illness,6.5,True
+CAN-00629,APT-002042,Client,Client unavailable,4.4,True
+CAN-00630,APT-002044,Client,Weather,0.2,False
+CAN-00631,APT-002047,Client,Weather,17.5,True
+CAN-00632,APT-002056,Employee,Transport issue,11.8,True
+CAN-00633,APT-002057,Organisation,Other,20.6,False
+CAN-00634,APT-002061,Client,Staff illness,45.0,False
+CAN-00635,APT-002072,Employee,Other,3.4,True
+CAN-00636,APT-002083,Employee,Client unwell,0.0,True
+CAN-00637,APT-002087,Client,Transport issue,9.4,False
+CAN-00638,APT-002090,Client,Staff illness,3.8,True
+CAN-00639,APT-002093,Employee,Duplicate booking,9.3,False
+CAN-00640,APT-002097,Employee,Transport issue,15.1,True
+CAN-00641,APT-002098,Client,Client unwell,56.8,True
+CAN-00642,APT-002100,Employee,Weather,47.2,True
+CAN-00643,APT-002103,Organisation,Duplicate booking,34.9,True
+CAN-00644,APT-002106,Client,Staff illness,14.0,True
+CAN-00645,APT-002109,Employee,Client unavailable,12.6,True
+CAN-00646,APT-002110,Employee,Client declined,8.5,True
+CAN-00647,APT-002112,Client,Weather,0.0,True
+CAN-00648,APT-002114,Client,Transport issue,0.0,False
+CAN-00649,APT-002115,Client,Transport issue,19.6,True
+CAN-00650,APT-002118,Client,Client declined,41.1,True
+CAN-00651,APT-002125,Organisation,Weather,0.0,False
+CAN-00652,APT-002126,Employee,Other,0.0,True
+CAN-00653,APT-002128,Client,Weather,31.7,True
+CAN-00654,APT-002131,Client,Other,57.6,True
+CAN-00655,APT-002134,Client,Duplicate booking,9.9,True
+CAN-00656,APT-002135,Client,Client declined,22.9,True
+CAN-00657,APT-002143,Client,Weather,41.8,True
+CAN-00658,APT-002147,Organisation,Other,45.5,True
+CAN-00659,APT-002150,Organisation,Other,3.5,False
+CAN-00660,APT-002151,Client,Client unavailable,30.0,True
+CAN-00661,APT-002160,Employee,Transport issue,11.6,True
+CAN-00662,APT-002162,Organisation,Client unavailable,13.4,False
+CAN-00663,APT-002164,Employee,Weather,38.8,True
+CAN-00664,APT-002166,Client,Client declined,0.0,True
+CAN-00665,APT-002167,Client,Client declined,28.4,False
+CAN-00666,APT-002174,Organisation,Other,0.1,True
+CAN-00667,APT-002179,Organisation,Client declined,0.0,False
+CAN-00668,APT-002180,Employee,Staff illness,4.7,False
+CAN-00669,APT-002184,Client,Client unavailable,0.0,False
+CAN-00670,APT-002191,Employee,Duplicate booking,11.5,False
+CAN-00671,APT-002196,Employee,Other,43.7,True
+CAN-00672,APT-002197,Organisation,Weather,52.8,False
+CAN-00673,APT-002198,Client,Transport issue,16.1,False
+CAN-00674,APT-002202,Client,Duplicate booking,0.0,False
+CAN-00675,APT-002210,Employee,Duplicate booking,13.6,True
+CAN-00676,APT-002211,Client,Client unavailable,0.0,True
+CAN-00677,APT-002214,Employee,Client unwell,9.9,True
+CAN-00678,APT-002217,Employee,Client declined,29.9,False
+CAN-00679,APT-002219,Client,Client declined,2.1,True
+CAN-00680,APT-002222,Client,Other,0.0,True
+CAN-00681,APT-002226,Client,Transport issue,5.2,True
+CAN-00682,APT-002228,Client,Transport issue,48.6,False
+CAN-00683,APT-002229,Client,Client declined,0.0,False
+CAN-00684,APT-002230,Client,Weather,12.4,True
+CAN-00685,APT-002238,Client,Other,12.1,False
+CAN-00686,APT-002239,Client,Other,47.6,False
+CAN-00687,APT-002244,Employee,Weather,8.1,True
+CAN-00688,APT-002245,Client,Client declined,47.7,False
+CAN-00689,APT-002247,Client,Duplicate booking,11.8,True
+CAN-00690,APT-002248,Employee,Transport issue,0.0,True
+CAN-00691,APT-002254,Client,Client unavailable,2.5,False
+CAN-00692,APT-002257,Client,Client unwell,0.0,True
+CAN-00693,APT-002262,Client,Staff illness,20.4,True
+CAN-00694,APT-002269,Organisation,Client unavailable,18.2,True
+CAN-00695,APT-002271,Client,Weather,61.6,True
+CAN-00696,APT-002272,Client,Client declined,19.9,True
+CAN-00697,APT-002278,Employee,Client unwell,24.1,True
+CAN-00698,APT-002280,Organisation,Client unwell,27.0,True
+CAN-00699,APT-002283,Client,Weather,29.7,True
+CAN-00700,APT-002285,Client,Staff illness,0.0,True
+CAN-00701,APT-002287,Client,Transport issue,22.5,False
+CAN-00702,APT-002292,Client,Client unwell,32.0,True
+CAN-00703,APT-002298,Client,Transport issue,14.7,False
+CAN-00704,APT-002307,Client,Transport issue,0.0,False
+CAN-00705,APT-002313,Client,Duplicate booking,28.8,True
+CAN-00706,APT-002315,Organisation,Weather,0.0,True
+CAN-00707,APT-002317,Client,Staff illness,11.8,True
+CAN-00708,APT-002318,Organisation,Client declined,0.3,True
+CAN-00709,APT-002323,Employee,Other,0.0,True
+CAN-00710,APT-002328,Client,Weather,0.0,True
+CAN-00711,APT-002330,Client,Other,44.9,True
+CAN-00712,APT-002334,Client,Staff illness,17.1,True
+CAN-00713,APT-002337,Employee,Duplicate booking,19.7,True
+CAN-00714,APT-002348,Client,Client unwell,40.9,True
+CAN-00715,APT-002349,Client,Duplicate booking,18.2,True
+CAN-00716,APT-002366,Employee,Weather,11.0,False
+CAN-00717,APT-002369,Employee,Other,88.0,True
+CAN-00718,APT-002370,Employee,Staff illness,12.5,False
+CAN-00719,APT-002371,Client,Duplicate booking,0.0,False
+CAN-00720,APT-002379,Employee,Transport issue,0.0,False
+CAN-00721,APT-002382,Client,Client unavailable,0.0,False
+CAN-00722,APT-002384,Client,Duplicate booking,16.6,True
+CAN-00723,APT-002393,Employee,Staff illness,1.8,True
+CAN-00724,APT-002399,Employee,Client unavailable,3.4,True
+CAN-00725,APT-002400,Organisation,Other,0.0,True
+CAN-00726,APT-002403,Client,Client unavailable,10.7,False
+CAN-00727,APT-002409,Organisation,Transport issue,0.0,True
+CAN-00728,APT-002414,Client,Client unavailable,7.8,False
+CAN-00729,APT-002416,Organisation,Other,0.0,False
+CAN-00730,APT-002424,Employee,Transport issue,3.1,False
+CAN-00731,APT-002425,Client,Client declined,27.0,False
+CAN-00732,APT-002426,Client,Weather,0.0,True
+CAN-00733,APT-002428,Client,Duplicate booking,33.8,True
+CAN-00734,APT-002431,Client,Other,20.2,True
+CAN-00735,APT-002434,Employee,Duplicate booking,35.9,False
+CAN-00736,APT-002435,Employee,Client unavailable,31.3,False
+CAN-00737,APT-002440,Client,Client unavailable,59.4,False
+CAN-00738,APT-002443,Employee,Transport issue,15.9,False
+CAN-00739,APT-002446,Organisation,Duplicate booking,0.0,False
+CAN-00740,APT-002450,Client,Client declined,0.0,True
+CAN-00741,APT-002455,Client,Other,34.3,True
+CAN-00742,APT-002457,Client,Other,0.0,True
+CAN-00743,APT-002461,Organisation,Client unavailable,41.4,False
+CAN-00744,APT-002466,Organisation,Client unavailable,49.8,True
+CAN-00745,APT-002467,Employee,Weather,38.5,True
+CAN-00746,APT-002471,Employee,Weather,0.0,False
+CAN-00747,APT-002473,Organisation,Client unwell,0.0,True
+CAN-00748,APT-002477,Client,Transport issue,18.3,True
+CAN-00749,APT-002480,Employee,Client unavailable,20.8,True
+CAN-00750,APT-002481,Organisation,Weather,49.0,True
+CAN-00751,APT-002486,Client,Weather,0.0,True
+CAN-00752,APT-002487,Employee,Client declined,7.1,True
+CAN-00753,APT-002488,Organisation,Client unavailable,28.3,True
+CAN-00754,APT-002489,Client,Transport issue,22.7,True
+CAN-00755,APT-002507,Client,Client unavailable,0.0,True
+CAN-00756,APT-002513,Client,Client declined,5.6,True
+CAN-00757,APT-002516,Organisation,Duplicate booking,0.0,True
+CAN-00758,APT-002521,Client,Duplicate booking,52.4,True
+CAN-00759,APT-002524,Client,Other,0.0,True
+CAN-00760,APT-002525,Employee,Transport issue,24.3,True
+CAN-00761,APT-002528,Employee,Other,0.0,False
+CAN-00762,APT-002534,Organisation,Client declined,0.0,True
+CAN-00763,APT-002538,Client,Weather,8.5,True
+CAN-00764,APT-002541,Organisation,Client declined,24.3,True
+CAN-00765,APT-002547,Organisation,Transport issue,37.7,True
+CAN-00766,APT-002559,Organisation,Staff illness,18.6,False
+CAN-00767,APT-002563,Client,Other,17.5,False
+CAN-00768,APT-002567,Organisation,Client unavailable,34.4,False
+CAN-00769,APT-002569,Employee,Staff illness,23.3,True
+CAN-00770,APT-002570,Client,Client unavailable,23.8,True
+CAN-00771,APT-002574,Employee,Transport issue,19.9,False
+CAN-00772,APT-002576,Organisation,Duplicate booking,20.8,False
+CAN-00773,APT-002579,Client,Duplicate booking,23.0,True
+CAN-00774,APT-002581,Organisation,Transport issue,0.0,True
+CAN-00775,APT-002590,Client,Client unavailable,7.1,True
+CAN-00776,APT-002591,Client,Client declined,31.5,True
+CAN-00777,APT-002592,Client,Transport issue,18.3,True
+CAN-00778,APT-002594,Employee,Duplicate booking,56.4,True
+CAN-00779,APT-002595,Employee,Other,33.2,False
+CAN-00780,APT-002597,Client,Other,0.0,False
+CAN-00781,APT-002598,Organisation,Staff illness,10.5,True
+CAN-00782,APT-002602,Employee,Client declined,11.7,False
+CAN-00783,APT-002608,Client,Duplicate booking,0.0,True
+CAN-00784,APT-002617,Client,Client unavailable,7.0,True
+CAN-00785,APT-002620,Client,Staff illness,48.4,True
+CAN-00786,APT-002622,Client,Weather,18.9,True
+CAN-00787,APT-002624,Client,Staff illness,18.1,True
+CAN-00788,APT-002627,Employee,Other,33.3,True
+CAN-00789,APT-002628,Employee,Client unavailable,26.8,False
+CAN-00790,APT-002630,Employee,Client declined,34.1,False
+CAN-00791,APT-002632,Organisation,Duplicate booking,50.2,True
+CAN-00792,APT-002638,Client,Client declined,14.9,True
+CAN-00793,APT-002642,Client,Other,18.7,True
+CAN-00794,APT-002650,Client,Client unwell,22.2,True
+CAN-00795,APT-002653,Client,Duplicate booking,63.8,False
+CAN-00796,APT-002654,Client,Transport issue,27.5,False
+CAN-00797,APT-002658,Employee,Client unwell,17.4,True
+CAN-00798,APT-002659,Client,Other,42.9,True
+CAN-00799,APT-002662,Organisation,Duplicate booking,20.4,True
+CAN-00800,APT-002663,Organisation,Client unavailable,0.0,False
+CAN-00801,APT-002664,Employee,Client unavailable,0.0,False
+CAN-00802,APT-002671,Organisation,Staff illness,22.3,True
+CAN-00803,APT-002674,Client,Client declined,17.3,False
+CAN-00804,APT-002675,Client,Other,0.0,False
+CAN-00805,APT-002677,Employee,Client declined,22.0,True
+CAN-00806,APT-002678,Employee,Weather,26.8,True
+CAN-00807,APT-002680,Organisation,Weather,11.4,False
+CAN-00808,APT-002686,Client,Client declined,19.1,True
+CAN-00809,APT-002688,Client,Other,3.3,True
+CAN-00810,APT-002689,Employee,Transport issue,14.5,True
+CAN-00811,APT-002691,Organisation,Staff illness,22.6,False
+CAN-00812,APT-002692,Organisation,Staff illness,25.1,True
+CAN-00813,APT-002693,Client,Staff illness,29.2,True
+CAN-00814,APT-002699,Organisation,Duplicate booking,16.1,False
+CAN-00815,APT-002703,Client,Client declined,39.3,True
+CAN-00816,APT-002704,Organisation,Client unavailable,8.6,True
+CAN-00817,APT-002707,Employee,Duplicate booking,11.9,False
+CAN-00818,APT-002708,Client,Client declined,54.6,False
+CAN-00819,APT-002714,Employee,Weather,23.1,True
+CAN-00820,APT-002721,Employee,Transport issue,27.8,True
+CAN-00821,APT-002728,Organisation,Duplicate booking,0.0,False
+CAN-00822,APT-002729,Organisation,Client unwell,33.9,True
+CAN-00823,APT-002733,Client,Client declined,14.1,False
+CAN-00824,APT-002736,Client,Client unavailable,45.2,True
+CAN-00825,APT-002743,Client,Duplicate booking,0.0,True
+CAN-00826,APT-002744,Employee,Transport issue,50.6,False
+CAN-00827,APT-002745,Organisation,Client declined,26.4,False
+CAN-00828,APT-002746,Client,Staff illness,0.0,False
+CAN-00829,APT-002749,Employee,Duplicate booking,0.0,True
+CAN-00830,APT-002750,Organisation,Duplicate booking,43.0,True
+CAN-00831,APT-002751,Employee,Duplicate booking,50.3,False
+CAN-00832,APT-002757,Client,Client declined,42.2,True
+CAN-00833,APT-002759,Employee,Other,25.9,True
+CAN-00834,APT-002774,Organisation,Client unwell,4.1,True
+CAN-00835,APT-002778,Client,Other,43.0,False
+CAN-00836,APT-002781,Client,Client declined,26.0,False
+CAN-00837,APT-002782,Client,Client unavailable,25.1,True
+CAN-00838,APT-002783,Client,Other,0.0,False
+CAN-00839,APT-002784,Client,Transport issue,41.0,True
+CAN-00840,APT-002789,Employee,Client unavailable,23.3,True
+CAN-00841,APT-002790,Organisation,Client declined,20.6,True
+CAN-00842,APT-002792,Client,Client unwell,40.3,True
+CAN-00843,APT-002793,Employee,Client declined,0.0,True
+CAN-00844,APT-002794,Client,Other,0.0,True
+CAN-00845,APT-002804,Organisation,Weather,8.4,True
+CAN-00846,APT-002808,Client,Staff illness,2.4,True
+CAN-00847,APT-002810,Organisation,Client declined,30.1,True
+CAN-00848,APT-002811,Employee,Client unwell,12.8,False
+CAN-00849,APT-002813,Employee,Client unavailable,47.1,False
+CAN-00850,APT-002816,Employee,Weather,65.3,True
+CAN-00851,APT-002817,Client,Other,42.1,True
+CAN-00852,APT-002822,Client,Other,0.0,False
+CAN-00853,APT-002823,Employee,Duplicate booking,36.1,True
+CAN-00854,APT-002824,Client,Staff illness,9.2,True
+CAN-00855,APT-002827,Organisation,Weather,55.7,True
+CAN-00856,APT-002835,Organisation,Duplicate booking,0.8,True
+CAN-00857,APT-002837,Client,Client unavailable,0.0,True
+CAN-00858,APT-002838,Employee,Client unwell,0.0,True
+CAN-00859,APT-002840,Client,Transport issue,38.6,False
+CAN-00860,APT-002848,Organisation,Client unwell,14.0,False
+CAN-00861,APT-002851,Client,Weather,45.5,True
+CAN-00862,APT-002853,Employee,Client unavailable,20.7,True
+CAN-00863,APT-002855,Employee,Weather,27.4,False
+CAN-00864,APT-002859,Client,Weather,10.2,True
+CAN-00865,APT-002862,Client,Client declined,0.0,True
+CAN-00866,APT-002866,Employee,Staff illness,38.5,False
+CAN-00867,APT-002867,Employee,Duplicate booking,57.1,True
+CAN-00868,APT-002875,Client,Other,32.5,True
+CAN-00869,APT-002877,Client,Duplicate booking,7.5,False
+CAN-00870,APT-002880,Client,Staff illness,7.8,True
+CAN-00871,APT-002881,Client,Client declined,18.8,False
+CAN-00872,APT-002882,Employee,Transport issue,4.7,True
+CAN-00873,APT-002883,Organisation,Transport issue,73.6,True
+CAN-00874,APT-002886,Organisation,Staff illness,41.1,True
+CAN-00875,APT-002889,Client,Client unavailable,11.4,True
+CAN-00876,APT-002890,Employee,Staff illness,7.6,True
+CAN-00877,APT-002896,Employee,Staff illness,14.3,False
+CAN-00878,APT-002898,Employee,Client unavailable,0.0,False
+CAN-00879,APT-002902,Client,Other,7.8,True
+CAN-00880,APT-002907,Client,Transport issue,30.1,True
+CAN-00881,APT-002913,Client,Transport issue,27.1,True
+CAN-00882,APT-002916,Client,Staff illness,0.0,True
+CAN-00883,APT-002920,Client,Client unavailable,16.2,True
+CAN-00884,APT-002921,Client,Client declined,0.0,True
+CAN-00885,APT-002928,Client,Client unavailable,0.0,True
+CAN-00886,APT-002930,Employee,Client unwell,16.1,False
+CAN-00887,APT-002931,Client,Duplicate booking,24.8,True
+CAN-00888,APT-002935,Employee,Weather,27.4,True
+CAN-00889,APT-002942,Client,Transport issue,0.0,False
+CAN-00890,APT-002945,Organisation,Client unwell,17.1,True
+CAN-00891,APT-002950,Client,Client unavailable,0.0,True
+CAN-00892,APT-002954,Client,Transport issue,42.6,False
+CAN-00893,APT-002960,Organisation,Transport issue,36.1,True
+CAN-00894,APT-002963,Organisation,Client declined,5.1,True
+CAN-00895,APT-002966,Client,Other,39.4,False
+CAN-00896,APT-002973,Client,Client declined,0.0,False
+CAN-00897,APT-002977,Client,Staff illness,17.6,False
+CAN-00898,APT-002979,Client,Other,23.5,True
+CAN-00899,APT-002983,Organisation,Client unwell,0.0,False
+CAN-00900,APT-002987,Employee,Transport issue,0.0,True
+CAN-00901,APT-002989,Client,Client unavailable,46.8,False
+CAN-00902,APT-002990,Client,Transport issue,3.2,False
+CAN-00903,APT-002992,Client,Weather,42.6,True
+CAN-00904,APT-002993,Client,Transport issue,44.3,False
+CAN-00905,APT-002994,Client,Client unwell,22.5,False
+CAN-00906,APT-003003,Employee,Client declined,57.4,True
+CAN-00907,APT-003007,Employee,Client declined,0.0,True
+CAN-00908,APT-003010,Client,Transport issue,17.0,False
+CAN-00909,APT-003017,Employee,Other,29.7,False
+CAN-00910,APT-003019,Client,Other,39.2,False
+CAN-00911,APT-003021,Organisation,Client unavailable,24.2,True
+CAN-00912,APT-003022,Client,Duplicate booking,24.2,True
+CAN-00913,APT-003026,Employee,Staff illness,15.2,True
+CAN-00914,APT-003027,Client,Weather,36.9,True
+CAN-00915,APT-003036,Employee,Client unwell,0.0,False
+CAN-00916,APT-003041,Employee,Staff illness,9.2,True
+CAN-00917,APT-003043,Client,Client unwell,28.5,False
+CAN-00918,APT-003046,Client,Staff illness,9.3,True
+CAN-00919,APT-003047,Organisation,Transport issue,30.1,False
+CAN-00920,APT-003048,Organisation,Client unavailable,0.0,True
+CAN-00921,APT-003050,Organisation,Client declined,10.5,True
+CAN-00922,APT-003052,Employee,Client unavailable,28.0,True
+CAN-00923,APT-003054,Employee,Other,26.8,False
+CAN-00924,APT-003055,Employee,Duplicate booking,0.0,True
+CAN-00925,APT-003059,Client,Client unavailable,0.0,False
+CAN-00926,APT-003060,Organisation,Weather,14.1,True
+CAN-00927,APT-003069,Organisation,Transport issue,13.0,True
+CAN-00928,APT-003074,Employee,Client declined,46.1,True
+CAN-00929,APT-003078,Client,Staff illness,46.5,True
+CAN-00930,APT-003082,Organisation,Client unwell,0.0,False
+CAN-00931,APT-003087,Client,Staff illness,23.6,False
+CAN-00932,APT-003090,Client,Other,24.0,False
+CAN-00933,APT-003097,Organisation,Client unwell,53.1,True
+CAN-00934,APT-003098,Employee,Client unavailable,17.1,True
+CAN-00935,APT-003100,Client,Staff illness,22.6,False
+CAN-00936,APT-003102,Client,Client declined,0.0,True
+CAN-00937,APT-003103,Client,Client unavailable,0.0,False
+CAN-00938,APT-003116,Client,Client unwell,12.4,True
+CAN-00939,APT-003130,Client,Staff illness,0.0,True
+CAN-00940,APT-003134,Client,Client declined,13.6,False
+CAN-00941,APT-003137,Organisation,Weather,40.9,True
+CAN-00942,APT-003138,Client,Other,1.8,True
+CAN-00943,APT-003142,Employee,Staff illness,1.8,True
+CAN-00944,APT-003148,Client,Client unwell,23.2,False
+CAN-00945,APT-003155,Employee,Staff illness,2.1,False
+CAN-00946,APT-003163,Organisation,Client unwell,33.2,True
+CAN-00947,APT-003166,Employee,Staff illness,0.0,True
+CAN-00948,APT-003169,Client,Client declined,17.7,False
+CAN-00949,APT-003171,Client,Staff illness,0.0,True
+CAN-00950,APT-003179,Employee,Client unavailable,23.9,True
+CAN-00951,APT-003180,Client,Weather,28.1,True
+CAN-00952,APT-003181,Client,Duplicate booking,28.4,True
+CAN-00953,APT-003184,Employee,Staff illness,35.3,False
+CAN-00954,APT-003189,Client,Weather,18.3,False
+CAN-00955,APT-003207,Client,Duplicate booking,22.1,True
+CAN-00956,APT-003211,Client,Transport issue,45.2,True
+CAN-00957,APT-003215,Employee,Staff illness,0.0,False
+CAN-00958,APT-003218,Organisation,Transport issue,18.7,False
+CAN-00959,APT-003220,Organisation,Duplicate booking,30.6,False
+CAN-00960,APT-003227,Client,Client unwell,27.4,True
+CAN-00961,APT-003228,Organisation,Transport issue,38.2,False
+CAN-00962,APT-003230,Client,Transport issue,58.6,False
+CAN-00963,APT-003233,Employee,Transport issue,5.0,True
+CAN-00964,APT-003235,Organisation,Other,28.2,True
+CAN-00965,APT-003236,Client,Other,27.3,True
+CAN-00966,APT-003237,Client,Client declined,17.2,True
+CAN-00967,APT-003248,Employee,Staff illness,38.3,True
+CAN-00968,APT-003253,Client,Other,0.0,True
+CAN-00969,APT-003257,Organisation,Weather,19.8,True
+CAN-00970,APT-003261,Employee,Weather,31.9,True
+CAN-00971,APT-003263,Client,Client unavailable,50.2,False
+CAN-00972,APT-003268,Client,Client unavailable,25.6,False
+CAN-00973,APT-003271,Client,Staff illness,46.9,True
+CAN-00974,APT-003276,Client,Other,19.9,True
+CAN-00975,APT-003277,Client,Staff illness,12.7,True
+CAN-00976,APT-003286,Employee,Weather,0.0,True
+CAN-00977,APT-003295,Employee,Staff illness,0.0,True
+CAN-00978,APT-003296,Client,Weather,19.5,True
+CAN-00979,APT-003298,Client,Transport issue,4.2,True
+CAN-00980,APT-003300,Organisation,Duplicate booking,0.0,True
+CAN-00981,APT-003307,Organisation,Client unwell,1.9,True
+CAN-00982,APT-003308,Client,Weather,0.0,True
+CAN-00983,APT-003309,Employee,Client unwell,6.0,True
+CAN-00984,APT-003313,Employee,Duplicate booking,46.5,True
+CAN-00985,APT-003314,Client,Client unwell,41.1,True
+CAN-00986,APT-003316,Employee,Client declined,27.2,True
+CAN-00987,APT-003317,Client,Client unavailable,0.0,True
+CAN-00988,APT-003320,Client,Client unavailable,12.8,True
+CAN-00989,APT-003323,Client,Client unwell,21.9,True
+CAN-00990,APT-003325,Organisation,Duplicate booking,26.7,True
+CAN-00991,APT-003326,Employee,Other,17.8,True
+CAN-00992,APT-003327,Organisation,Client unwell,28.0,True
+CAN-00993,APT-003332,Client,Weather,3.9,False
+CAN-00994,APT-003333,Client,Duplicate booking,5.8,True
+CAN-00995,APT-003335,Employee,Duplicate booking,0.0,True
+CAN-00996,APT-003338,Employee,Other,28.4,False
+CAN-00997,APT-003343,Organisation,Other,0.0,True
+CAN-00998,APT-003348,Client,Transport issue,40.7,True
+CAN-00999,APT-003350,Employee,Transport issue,12.4,True
+CAN-01000,APT-003354,Client,Duplicate booking,43.7,True
+CAN-01001,APT-003358,Organisation,Transport issue,6.4,False
+CAN-01002,APT-003360,Organisation,Client declined,35.2,True
+CAN-01003,APT-003364,Client,Client unwell,4.7,True
+CAN-01004,APT-003366,Client,Other,21.4,True
+CAN-01005,APT-003367,Client,Client unavailable,23.9,True
+CAN-01006,APT-003369,Client,Client unavailable,19.8,False
+CAN-01007,APT-003371,Client,Weather,0.0,False
+CAN-01008,APT-003372,Organisation,Client unavailable,0.6,True
+CAN-01009,APT-003380,Client,Client unavailable,39.5,True
+CAN-01010,APT-003383,Employee,Duplicate booking,2.1,True
+CAN-01011,APT-003386,Organisation,Client unwell,52.5,True
+CAN-01012,APT-003389,Client,Transport issue,19.3,True
+CAN-01013,APT-003394,Employee,Client declined,0.0,True
+CAN-01014,APT-003398,Client,Client unwell,0.0,True
+CAN-01015,APT-003400,Client,Client unavailable,37.8,False
+CAN-01016,APT-003406,Employee,Transport issue,19.0,True
+CAN-01017,APT-003418,Client,Transport issue,2.3,True
+CAN-01018,APT-003427,Employee,Client declined,42.5,True
+CAN-01019,APT-003433,Client,Client declined,27.3,False
+CAN-01020,APT-003435,Organisation,Client declined,29.2,True
+CAN-01021,APT-003437,Organisation,Client unavailable,46.5,True
+CAN-01022,APT-003440,Employee,Client unwell,21.5,True
+CAN-01023,APT-003442,Client,Client unavailable,36.8,True
+CAN-01024,APT-003443,Employee,Weather,5.2,True
+CAN-01025,APT-003444,Client,Client unavailable,31.9,False
+CAN-01026,APT-003445,Employee,Client unavailable,6.6,True
+CAN-01027,APT-003446,Employee,Other,32.3,True
+CAN-01028,APT-003448,Client,Duplicate booking,27.0,False
+CAN-01029,APT-003453,Client,Transport issue,23.0,False
+CAN-01030,APT-003455,Organisation,Staff illness,23.2,False
+CAN-01031,APT-003460,Client,Transport issue,24.3,True
+CAN-01032,APT-003465,Employee,Client unwell,4.1,True
+CAN-01033,APT-003466,Client,Other,53.4,False
+CAN-01034,APT-003467,Employee,Transport issue,36.7,False
+CAN-01035,APT-003468,Client,Client unavailable,34.8,False
+CAN-01036,APT-003472,Client,Client unavailable,16.2,False
+CAN-01037,APT-003475,Client,Client declined,0.0,True
+CAN-01038,APT-003478,Organisation,Transport issue,9.3,False
+CAN-01039,APT-003487,Client,Staff illness,29.2,True
+CAN-01040,APT-003488,Client,Other,0.0,True
+CAN-01041,APT-003490,Employee,Client declined,10.7,False
+CAN-01042,APT-003492,Employee,Client unwell,0.0,True
+CAN-01043,APT-003493,Employee,Staff illness,9.4,True
+CAN-01044,APT-003495,Organisation,Staff illness,43.8,True
+CAN-01045,APT-003496,Client,Client declined,0.0,True
+CAN-01046,APT-003497,Employee,Other,5.9,True
+CAN-01047,APT-003499,Client,Client declined,21.2,True
+CAN-01048,APT-003501,Employee,Client unavailable,47.1,True
+CAN-01049,APT-003504,Employee,Client unavailable,35.6,True
+CAN-01050,APT-003507,Employee,Other,0.0,True
+CAN-01051,APT-003510,Client,Other,7.5,False
+CAN-01052,APT-003511,Organisation,Other,0.0,False
+CAN-01053,APT-003518,Organisation,Duplicate booking,0.0,True
+CAN-01054,APT-003519,Client,Weather,7.0,True
+CAN-01055,APT-003525,Client,Client declined,0.0,True
+CAN-01056,APT-003532,Client,Staff illness,11.4,False
+CAN-01057,APT-003537,Employee,Staff illness,0.0,True
+CAN-01058,APT-003543,Client,Client declined,16.9,False
+CAN-01059,APT-003544,Organisation,Client unavailable,24.6,False
+CAN-01060,APT-003546,Employee,Staff illness,0.0,True
+CAN-01061,APT-003547,Client,Client unwell,0.0,True
+CAN-01062,APT-003558,Client,Client declined,0.0,True
+CAN-01063,APT-003566,Organisation,Duplicate booking,51.7,True
+CAN-01064,APT-003568,Client,Duplicate booking,22.6,True
+CAN-01065,APT-003572,Organisation,Client unwell,14.6,True
+CAN-01066,APT-003575,Organisation,Client unavailable,32.1,True
+CAN-01067,APT-003579,Organisation,Client unwell,9.4,True
+CAN-01068,APT-003582,Client,Duplicate booking,11.3,True
+CAN-01069,APT-003586,Organisation,Transport issue,0.0,True
+CAN-01070,APT-003589,Client,Client declined,0.0,True
+CAN-01071,APT-003591,Client,Transport issue,54.7,True
+CAN-01072,APT-003594,Client,Other,54.4,False
+CAN-01073,APT-003601,Client,Staff illness,30.8,True
+CAN-01074,APT-003603,Employee,Weather,25.4,True
+CAN-01075,APT-003604,Client,Client unwell,84.0,False
+CAN-01076,APT-003605,Client,Transport issue,40.7,True
+CAN-01077,APT-003611,Client,Client unwell,38.7,True
+CAN-01078,APT-003613,Employee,Duplicate booking,19.5,True
+CAN-01079,APT-003621,Employee,Weather,18.0,True
+CAN-01080,APT-003622,Organisation,Weather,59.9,True
+CAN-01081,APT-003632,Client,Duplicate booking,13.8,True
+CAN-01082,APT-003633,Client,Staff illness,34.2,True
+CAN-01083,APT-003640,Client,Staff illness,19.8,True
+CAN-01084,APT-003644,Organisation,Transport issue,29.3,True
+CAN-01085,APT-003647,Employee,Client declined,20.4,True
+CAN-01086,APT-003650,Employee,Client unavailable,39.2,False
+CAN-01087,APT-003651,Employee,Client unwell,11.5,False
+CAN-01088,APT-003653,Client,Other,18.1,True
+CAN-01089,APT-003654,Organisation,Client unwell,27.4,True
+CAN-01090,APT-003655,Client,Duplicate booking,21.5,True
+CAN-01091,APT-003657,Client,Client unavailable,23.3,True
+CAN-01092,APT-003662,Employee,Transport issue,17.0,True
+CAN-01093,APT-003666,Employee,Staff illness,0.0,True
+CAN-01094,APT-003667,Organisation,Staff illness,0.0,False
+CAN-01095,APT-003668,Client,Duplicate booking,0.3,True
+CAN-01096,APT-003671,Employee,Client unwell,0.0,False
+CAN-01097,APT-003675,Employee,Other,51.7,True
+CAN-01098,APT-003679,Client,Staff illness,9.1,True
+CAN-01099,APT-003680,Client,Duplicate booking,20.0,True
+CAN-01100,APT-003681,Client,Client unavailable,17.2,True
+CAN-01101,APT-003689,Client,Other,37.5,True
+CAN-01102,APT-003690,Employee,Other,9.5,True
+CAN-01103,APT-003692,Organisation,Transport issue,14.8,True
+CAN-01104,APT-003693,Client,Weather,0.0,True
+CAN-01105,APT-003698,Client,Duplicate booking,8.6,False
+CAN-01106,APT-003699,Client,Client declined,0.0,True
+CAN-01107,APT-003701,Client,Client unavailable,25.9,True
+CAN-01108,APT-003703,Organisation,Client unavailable,21.8,False
+CAN-01109,APT-003708,Client,Duplicate booking,11.4,True
+CAN-01110,APT-003709,Organisation,Staff illness,32.9,True
+CAN-01111,APT-003713,Client,Client unwell,8.8,True
+CAN-01112,APT-003719,Employee,Other,23.4,True
+CAN-01113,APT-003722,Client,Client unavailable,27.4,True
+CAN-01114,APT-003724,Organisation,Client declined,57.1,True
+CAN-01115,APT-003726,Client,Client declined,14.2,True
+CAN-01116,APT-003727,Client,Transport issue,24.6,False
+CAN-01117,APT-003728,Employee,Other,12.9,False
+CAN-01118,APT-003736,Client,Weather,16.5,False
+CAN-01119,APT-003740,Employee,Transport issue,10.8,False
+CAN-01120,APT-003742,Client,Weather,14.5,False
+CAN-01121,APT-003744,Employee,Weather,41.1,False
+CAN-01122,APT-003749,Client,Client unavailable,22.4,False
+CAN-01123,APT-003752,Client,Duplicate booking,0.0,True
+CAN-01124,APT-003754,Client,Weather,27.7,False
+CAN-01125,APT-003758,Client,Other,4.1,False
+CAN-01126,APT-003763,Client,Other,32.8,True
+CAN-01127,APT-003767,Employee,Client unwell,23.3,True
+CAN-01128,APT-003777,Client,Duplicate booking,23.0,True
+CAN-01129,APT-003778,Client,Client unwell,34.4,False
+CAN-01130,APT-003779,Client,Client unwell,0.0,True
+CAN-01131,APT-003783,Client,Client unavailable,33.1,True
+CAN-01132,APT-003784,Client,Transport issue,8.4,True
+CAN-01133,APT-003785,Client,Client unavailable,34.9,False
+CAN-01134,APT-003790,Organisation,Client declined,24.2,True
+CAN-01135,APT-003791,Organisation,Staff illness,4.9,False
+CAN-01136,APT-003795,Client,Other,0.6,True
+CAN-01137,APT-003796,Client,Staff illness,5.1,True
+CAN-01138,APT-003798,Client,Weather,19.4,True
+CAN-01139,APT-003801,Client,Weather,21.5,True
+CAN-01140,APT-003803,Organisation,Transport issue,32.7,True
+CAN-01141,APT-003807,Client,Weather,15.9,False
+CAN-01142,APT-003813,Client,Client unwell,0.0,False
+CAN-01143,APT-003816,Client,Weather,17.9,True
+CAN-01144,APT-003825,Organisation,Other,11.2,True
+CAN-01145,APT-003827,Employee,Client unavailable,0.0,True
+CAN-01146,APT-003828,Client,Client unwell,0.0,False
+CAN-01147,APT-003829,Client,Client unavailable,31.0,True
+CAN-01148,APT-003831,Client,Client unwell,54.9,False
+CAN-01149,APT-003834,Employee,Transport issue,0.0,True
+CAN-01150,APT-003836,Client,Transport issue,4.3,True
+CAN-01151,APT-003840,Client,Client unavailable,6.6,False
+CAN-01152,APT-003841,Employee,Client declined,16.8,True
+CAN-01153,APT-003845,Employee,Client unwell,26.9,True
+CAN-01154,APT-003846,Organisation,Client declined,0.0,False
+CAN-01155,APT-003850,Organisation,Staff illness,31.1,True
+CAN-01156,APT-003853,Client,Transport issue,20.1,True
+CAN-01157,APT-003859,Client,Transport issue,6.1,True
+CAN-01158,APT-003864,Organisation,Weather,26.0,False
+CAN-01159,APT-003871,Employee,Transport issue,37.9,True
+CAN-01160,APT-003879,Client,Other,4.0,False
+CAN-01161,APT-003880,Employee,Other,22.1,False
+CAN-01162,APT-003889,Client,Transport issue,7.9,False
+CAN-01163,APT-003891,Organisation,Client declined,37.4,False
+CAN-01164,APT-003892,Employee,Weather,76.0,True
+CAN-01165,APT-003894,Client,Client unwell,16.0,True
+CAN-01166,APT-003896,Client,Staff illness,28.5,True
+CAN-01167,APT-003904,Client,Transport issue,4.2,True
+CAN-01168,APT-003906,Organisation,Transport issue,0.0,True
+CAN-01169,APT-003907,Client,Transport issue,0.0,False
+CAN-01170,APT-003913,Organisation,Client unwell,23.0,False
+CAN-01171,APT-003914,Organisation,Staff illness,9.1,True
+CAN-01172,APT-003915,Employee,Staff illness,34.6,True
+CAN-01173,APT-003919,Employee,Client unwell,10.5,True
+CAN-01174,APT-003925,Client,Duplicate booking,28.4,False
+CAN-01175,APT-003933,Employee,Client unwell,24.0,False
+CAN-01176,APT-003939,Client,Client declined,24.4,True
+CAN-01177,APT-003945,Client,Client declined,23.5,True
+CAN-01178,APT-003947,Client,Client declined,27.7,False
+CAN-01179,APT-003948,Organisation,Client unwell,36.5,True
+CAN-01180,APT-003954,Client,Client unavailable,46.0,True
+CAN-01181,APT-003968,Client,Client unavailable,30.5,True
+CAN-01182,APT-003972,Client,Client unavailable,0.0,True
+CAN-01183,APT-003977,Organisation,Duplicate booking,19.8,True
+CAN-01184,APT-003980,Employee,Transport issue,39.0,True
+CAN-01185,APT-003982,Employee,Client declined,0.0,True
+CAN-01186,APT-003987,Client,Weather,0.0,True
+CAN-01187,APT-003991,Organisation,Client unwell,34.5,False
+CAN-01188,APT-003992,Client,Client declined,27.1,True
+CAN-01189,APT-003994,Client,Client declined,0.0,True
+CAN-01190,APT-003995,Client,Client unavailable,0.0,True
+CAN-01191,APT-003997,Client,Duplicate booking,24.9,True
+CAN-01192,APT-004002,Client,Duplicate booking,12.4,True
+CAN-01193,APT-004003,Organisation,Client unwell,0.0,False
+CAN-01194,APT-004004,Client,Client declined,34.2,False
+CAN-01195,APT-004011,Client,Transport issue,36.3,False
+CAN-01196,APT-004012,Organisation,Client declined,36.8,True
+CAN-01197,APT-004013,Client,Duplicate booking,30.4,True
+CAN-01198,APT-004016,Client,Other,12.4,True
+CAN-01199,APT-004020,Client,Transport issue,33.5,True
+CAN-01200,APT-004021,Organisation,Duplicate booking,9.2,True
+CAN-01201,APT-004031,Client,Transport issue,21.9,False
+CAN-01202,APT-004045,Client,Client declined,16.5,True
+CAN-01203,APT-004049,Organisation,Client declined,28.8,False
+CAN-01204,APT-004056,Client,Duplicate booking,24.6,True
+CAN-01205,APT-004059,Client,Transport issue,0.0,True
+CAN-01206,APT-004063,Employee,Weather,1.0,False
+CAN-01207,APT-004064,Client,Client unwell,28.2,True
+CAN-01208,APT-004065,Client,Duplicate booking,0.0,True
+CAN-01209,APT-004066,Client,Other,0.0,True
+CAN-01210,APT-004079,Organisation,Client declined,49.5,True
+CAN-01211,APT-004080,Client,Client unavailable,0.0,True
+CAN-01212,APT-004081,Employee,Other,41.1,False
+CAN-01213,APT-004082,Client,Transport issue,34.3,False
+CAN-01214,APT-004087,Client,Staff illness,34.0,False
+CAN-01215,APT-004092,Client,Weather,9.4,True
+CAN-01216,APT-004093,Client,Client declined,0.0,True
+CAN-01217,APT-004094,Employee,Client unwell,23.0,True
+CAN-01218,APT-004096,Client,Weather,15.3,False
+CAN-01219,APT-004098,Client,Transport issue,0.0,False
+CAN-01220,APT-004099,Client,Staff illness,0.0,False
+CAN-01221,APT-004100,Client,Client unwell,35.7,True
+CAN-01222,APT-004108,Employee,Staff illness,39.4,True
+CAN-01223,APT-004113,Client,Other,19.8,True
+CAN-01224,APT-004114,Organisation,Transport issue,64.7,True
+CAN-01225,APT-004119,Client,Transport issue,0.0,True
+CAN-01226,APT-004120,Employee,Client declined,28.8,True
+CAN-01227,APT-004122,Employee,Weather,20.0,True
+CAN-01228,APT-004127,Employee,Staff illness,55.1,True
+CAN-01229,APT-004128,Client,Other,43.1,False
+CAN-01230,APT-004129,Employee,Transport issue,14.2,True
+CAN-01231,APT-004130,Client,Client unavailable,51.4,False
+CAN-01232,APT-004137,Organisation,Duplicate booking,0.0,True
+CAN-01233,APT-004140,Client,Client unwell,51.3,False
+CAN-01234,APT-004143,Client,Other,53.7,False
+CAN-01235,APT-004150,Client,Other,17.5,True
+CAN-01236,APT-004152,Client,Client declined,11.4,False
+CAN-01237,APT-004159,Client,Staff illness,0.0,False
+CAN-01238,APT-004160,Employee,Client unavailable,5.4,True
+CAN-01239,APT-004163,Client,Duplicate booking,2.0,True
+CAN-01240,APT-004165,Client,Staff illness,24.3,False
+CAN-01241,APT-004166,Client,Client unwell,46.8,True
+CAN-01242,APT-004171,Employee,Transport issue,0.0,True
+CAN-01243,APT-004173,Employee,Other,52.0,False
+CAN-01244,APT-004175,Client,Client declined,17.2,False
+CAN-01245,APT-004181,Client,Client unwell,21.6,False
+CAN-01246,APT-004188,Organisation,Client unavailable,28.0,False
+CAN-01247,APT-004197,Employee,Other,27.6,False
+CAN-01248,APT-004199,Employee,Duplicate booking,28.1,True
+CAN-01249,APT-004200,Client,Duplicate booking,0.0,False
+CAN-01250,APT-004201,Organisation,Client unavailable,0.0,True
+CAN-01251,APT-004206,Organisation,Staff illness,41.8,True
+CAN-01252,APT-004207,Client,Client unavailable,9.8,False
+CAN-01253,APT-004209,Organisation,Other,24.7,False
+CAN-01254,APT-004210,Employee,Other,10.3,False
+CAN-01255,APT-004212,Client,Other,2.4,True
+CAN-01256,APT-004219,Client,Client unavailable,35.2,False
+CAN-01257,APT-004220,Employee,Duplicate booking,0.0,True
+CAN-01258,APT-004222,Employee,Client declined,0.9,True
+CAN-01259,APT-004225,Client,Duplicate booking,0.0,True
+CAN-01260,APT-004230,Client,Client declined,19.1,True
+CAN-01261,APT-004231,Client,Staff illness,7.3,False
+CAN-01262,APT-004237,Client,Duplicate booking,25.6,True
+CAN-01263,APT-004239,Client,Weather,40.7,True
+CAN-01264,APT-004245,Client,Client unavailable,21.5,True
+CAN-01265,APT-004249,Client,Client unavailable,0.0,False
+CAN-01266,APT-004255,Employee,Client declined,11.9,True
+CAN-01267,APT-004261,Organisation,Other,9.2,True
+CAN-01268,APT-004262,Organisation,Client declined,10.0,False
+CAN-01269,APT-004263,Client,Client declined,31.2,True
+CAN-01270,APT-004268,Client,Other,46.2,True
+CAN-01271,APT-004269,Organisation,Other,16.9,False
+CAN-01272,APT-004276,Employee,Client unavailable,29.9,False
+CAN-01273,APT-004278,Employee,Other,50.5,True
+CAN-01274,APT-004279,Client,Client declined,48.1,True
+CAN-01275,APT-004283,Employee,Client declined,0.0,True
+CAN-01276,APT-004286,Client,Weather,22.5,False
+CAN-01277,APT-004291,Organisation,Weather,16.4,True
+CAN-01278,APT-004292,Client,Client declined,28.6,True
+CAN-01279,APT-004294,Employee,Staff illness,40.0,True
+CAN-01280,APT-004296,Organisation,Weather,36.0,True
+CAN-01281,APT-004297,Employee,Transport issue,23.8,True
+CAN-01282,APT-004298,Employee,Duplicate booking,0.0,True
+CAN-01283,APT-004300,Organisation,Staff illness,9.6,False
+CAN-01284,APT-004303,Client,Client unavailable,8.8,True
+CAN-01285,APT-004309,Employee,Duplicate booking,2.2,True
+CAN-01286,APT-004312,Employee,Other,16.2,False
+CAN-01287,APT-004320,Client,Client unwell,12.8,False
+CAN-01288,APT-004325,Client,Client unavailable,20.5,True
+CAN-01289,APT-004332,Client,Transport issue,18.8,True
+CAN-01290,APT-004344,Organisation,Client declined,0.0,True
+CAN-01291,APT-004347,Organisation,Duplicate booking,0.0,True
+CAN-01292,APT-004348,Employee,Other,2.4,True
+CAN-01293,APT-004350,Client,Transport issue,21.3,True
+CAN-01294,APT-004351,Client,Client unwell,28.3,True
+CAN-01295,APT-004359,Client,Client declined,0.0,False
+CAN-01296,APT-004365,Employee,Client unavailable,0.0,True
+CAN-01297,APT-004366,Client,Staff illness,29.6,False
+CAN-01298,APT-004367,Organisation,Weather,13.8,True
+CAN-01299,APT-004379,Client,Client unwell,0.0,True
+CAN-01300,APT-004381,Client,Duplicate booking,29.8,True
+CAN-01301,APT-004390,Client,Client declined,17.4,True
+CAN-01302,APT-004393,Employee,Staff illness,0.4,False
+CAN-01303,APT-004394,Organisation,Weather,0.0,True
+CAN-01304,APT-004395,Employee,Client declined,9.0,False
+CAN-01305,APT-004399,Client,Weather,7.3,False
+CAN-01306,APT-004402,Organisation,Weather,0.0,False
+CAN-01307,APT-004403,Client,Staff illness,52.3,True
+CAN-01308,APT-004405,Employee,Client unwell,40.0,False
+CAN-01309,APT-004408,Employee,Client unwell,0.0,True
+CAN-01310,APT-004411,Employee,Transport issue,19.6,True
+CAN-01311,APT-004413,Client,Duplicate booking,17.7,True
+CAN-01312,APT-004415,Employee,Client declined,48.1,False
+CAN-01313,APT-004417,Client,Duplicate booking,5.8,True
+CAN-01314,APT-004421,Employee,Weather,16.3,True
+CAN-01315,APT-004424,Client,Client unwell,56.4,True
+CAN-01316,APT-004426,Client,Duplicate booking,43.4,True
+CAN-01317,APT-004432,Employee,Duplicate booking,9.3,True
+CAN-01318,APT-004435,Employee,Duplicate booking,13.9,True
+CAN-01319,APT-004439,Organisation,Staff illness,3.4,True
+CAN-01320,APT-004442,Organisation,Staff illness,11.1,True
+CAN-01321,APT-004451,Employee,Weather,10.5,True
+CAN-01322,APT-004453,Employee,Duplicate booking,48.6,True
+CAN-01323,APT-004454,Client,Other,16.3,False
+CAN-01324,APT-004457,Employee,Weather,25.2,False
+CAN-01325,APT-004458,Client,Other,37.2,False
+CAN-01326,APT-004461,Client,Weather,0.0,True
+CAN-01327,APT-004464,Client,Duplicate booking,25.2,True
+CAN-01328,APT-004465,Employee,Client unwell,2.5,True
+CAN-01329,APT-004466,Organisation,Client unavailable,3.5,True
+CAN-01330,APT-004468,Organisation,Client unavailable,0.0,False
+CAN-01331,APT-004470,Organisation,Client unavailable,52.8,False
+CAN-01332,APT-004472,Employee,Client unwell,25.5,False
+CAN-01333,APT-004474,Client,Staff illness,0.5,True
+CAN-01334,APT-004475,Client,Client declined,20.3,True
+CAN-01335,APT-004480,Client,Other,35.4,True
+CAN-01336,APT-004481,Organisation,Duplicate booking,17.4,False
+CAN-01337,APT-004484,Organisation,Transport issue,24.4,False
+CAN-01338,APT-004488,Organisation,Client declined,13.1,True
+CAN-01339,APT-004489,Employee,Client declined,27.8,True
+CAN-01340,APT-004491,Client,Other,0.0,True
+CAN-01341,APT-004493,Employee,Staff illness,6.5,False
+CAN-01342,APT-004501,Employee,Weather,22.0,True
+CAN-01343,APT-004508,Client,Client unwell,7.4,False
+CAN-01344,APT-004511,Client,Other,0.0,True
+CAN-01345,APT-004512,Client,Client unavailable,50.4,True
+CAN-01346,APT-004515,Employee,Weather,43.5,False
+CAN-01347,APT-004516,Client,Client unwell,42.3,True
+CAN-01348,APT-004522,Client,Client declined,43.4,False
+CAN-01349,APT-004527,Employee,Weather,22.3,False
+CAN-01350,APT-004528,Employee,Duplicate booking,21.4,False
+CAN-01351,APT-004532,Employee,Duplicate booking,49.3,True
+CAN-01352,APT-004533,Employee,Client unwell,0.0,True
+CAN-01353,APT-004534,Client,Client declined,31.3,False
+CAN-01354,APT-004544,Employee,Staff illness,20.1,False
+CAN-01355,APT-004547,Employee,Duplicate booking,33.6,False
+CAN-01356,APT-004550,Employee,Other,2.7,False
+CAN-01357,APT-004551,Employee,Other,0.0,True
+CAN-01358,APT-004557,Client,Other,0.0,True
+CAN-01359,APT-004560,Organisation,Client unavailable,11.7,True
+CAN-01360,APT-004566,Client,Weather,41.9,False
+CAN-01361,APT-004576,Organisation,Client declined,45.4,False
+CAN-01362,APT-004583,Client,Other,23.5,False
+CAN-01363,APT-004585,Client,Duplicate booking,33.9,True
+CAN-01364,APT-004589,Client,Staff illness,0.0,True
+CAN-01365,APT-004590,Client,Staff illness,35.4,True
+CAN-01366,APT-004591,Client,Other,30.6,True
+CAN-01367,APT-004592,Organisation,Staff illness,15.5,True
+CAN-01368,APT-004593,Employee,Client declined,5.2,True
+CAN-01369,APT-004595,Employee,Client declined,24.0,True
+CAN-01370,APT-004601,Client,Client unavailable,16.0,False
+CAN-01371,APT-004605,Client,Client unavailable,28.2,True
+CAN-01372,APT-004606,Employee,Client declined,29.6,False
+CAN-01373,APT-004607,Client,Client unwell,54.1,True
+CAN-01374,APT-004610,Organisation,Client unavailable,0.0,False
+CAN-01375,APT-004615,Employee,Client unavailable,0.0,False
+CAN-01376,APT-004618,Employee,Client unavailable,0.0,True
+CAN-01377,APT-004621,Employee,Transport issue,0.2,True
+CAN-01378,APT-004625,Organisation,Weather,14.7,True
+CAN-01379,APT-004626,Organisation,Client unwell,0.0,False
+CAN-01380,APT-004629,Organisation,Duplicate booking,31.9,False
+CAN-01381,APT-004635,Client,Client declined,0.0,True
+CAN-01382,APT-004636,Employee,Staff illness,0.0,True
+CAN-01383,APT-004639,Client,Duplicate booking,45.2,False
+CAN-01384,APT-004640,Client,Client unwell,6.9,False
+CAN-01385,APT-004643,Employee,Staff illness,0.0,True
+CAN-01386,APT-004652,Organisation,Client unwell,21.9,False
+CAN-01387,APT-004653,Client,Weather,14.3,False
+CAN-01388,APT-004656,Client,Client declined,4.7,False
+CAN-01389,APT-004658,Client,Staff illness,19.6,True
+CAN-01390,APT-004661,Client,Transport issue,33.6,True
+CAN-01391,APT-004664,Employee,Weather,0.0,False
+CAN-01392,APT-004671,Employee,Weather,34.2,True
+CAN-01393,APT-004673,Client,Client declined,0.0,True
+CAN-01394,APT-004674,Client,Client declined,28.7,True
+CAN-01395,APT-004676,Client,Staff illness,0.0,True
+CAN-01396,APT-004683,Client,Client unwell,6.4,False
+CAN-01397,APT-004686,Employee,Client unavailable,16.2,True
+CAN-01398,APT-004687,Employee,Weather,0.0,False
+CAN-01399,APT-004690,Employee,Client declined,0.0,True
+CAN-01400,APT-004694,Client,Duplicate booking,16.0,False
+CAN-01401,APT-004698,Organisation,Client unavailable,0.0,True
+CAN-01402,APT-004699,Client,Transport issue,37.5,True
+CAN-01403,APT-004700,Organisation,Transport issue,12.7,False
+CAN-01404,APT-004701,Organisation,Transport issue,46.5,True
+CAN-01405,APT-004715,Client,Weather,0.0,False
+CAN-01406,APT-004722,Client,Other,26.6,False
+CAN-01407,APT-004723,Client,Transport issue,9.6,True
+CAN-01408,APT-004724,Client,Weather,24.1,True
+CAN-01409,APT-004727,Client,Client unavailable,20.7,True
+CAN-01410,APT-004730,Client,Transport issue,15.5,True
+CAN-01411,APT-004733,Client,Duplicate booking,35.8,True
+CAN-01412,APT-004734,Client,Client unwell,21.1,False
+CAN-01413,APT-004740,Client,Client declined,33.6,True
+CAN-01414,APT-004746,Client,Client unavailable,73.8,True
+CAN-01415,APT-004747,Employee,Client declined,38.5,False
+CAN-01416,APT-004748,Client,Client unavailable,0.0,True
+CAN-01417,APT-004749,Client,Client unavailable,27.7,False
+CAN-01418,APT-004750,Employee,Duplicate booking,29.2,True
+CAN-01419,APT-004753,Organisation,Other,34.7,True
+CAN-01420,APT-004757,Client,Client unwell,1.3,False
+CAN-01421,APT-004758,Client,Client unwell,9.7,False
+CAN-01422,APT-004760,Employee,Client unwell,8.3,False
+CAN-01423,APT-004762,Employee,Duplicate booking,36.8,False
+CAN-01424,APT-004763,Employee,Transport issue,0.0,True
+CAN-01425,APT-004765,Organisation,Duplicate booking,35.3,True
+CAN-01426,APT-004769,Client,Duplicate booking,35.6,False
+CAN-01427,APT-004777,Organisation,Weather,13.0,True
+CAN-01428,APT-004780,Client,Client unwell,15.5,False
+CAN-01429,APT-004781,Client,Client unavailable,25.1,False
+CAN-01430,APT-004788,Employee,Transport issue,7.1,True
+CAN-01431,APT-004793,Organisation,Client unwell,36.3,True
+CAN-01432,APT-004807,Client,Transport issue,18.9,True
+CAN-01433,APT-004808,Organisation,Weather,0.0,False
+CAN-01434,APT-004810,Employee,Transport issue,0.0,False
+CAN-01435,APT-004811,Client,Transport issue,30.1,True
+CAN-01436,APT-004814,Organisation,Duplicate booking,3.6,True
+CAN-01437,APT-004817,Organisation,Staff illness,8.9,False
+CAN-01438,APT-004818,Organisation,Client declined,0.0,True
+CAN-01439,APT-004819,Client,Client declined,29.2,True
+CAN-01440,APT-004822,Client,Duplicate booking,23.0,True
+CAN-01441,APT-004825,Client,Client declined,23.6,True
+CAN-01442,APT-004827,Client,Client declined,15.1,True
+CAN-01443,APT-004829,Client,Client declined,11.4,True
+CAN-01444,APT-004831,Client,Transport issue,27.6,True
+CAN-01445,APT-004833,Client,Client declined,25.1,False
+CAN-01446,APT-004834,Client,Duplicate booking,28.6,True
+CAN-01447,APT-004835,Client,Staff illness,21.2,False
+CAN-01448,APT-004845,Client,Client declined,32.3,True
+CAN-01449,APT-004849,Employee,Transport issue,12.6,True
+CAN-01450,APT-004855,Organisation,Other,14.0,True
+CAN-01451,APT-004856,Organisation,Transport issue,2.4,True
+CAN-01452,APT-004858,Client,Staff illness,40.3,True
+CAN-01453,APT-004860,Client,Client declined,26.0,True
+CAN-01454,APT-004864,Client,Other,36.7,False
+CAN-01455,APT-004865,Client,Client declined,0.0,True
+CAN-01456,APT-004867,Client,Duplicate booking,13.1,True
+CAN-01457,APT-004875,Organisation,Staff illness,8.1,False
+CAN-01458,APT-004879,Client,Other,15.2,True
+CAN-01459,APT-004880,Client,Client unwell,51.2,False
+CAN-01460,APT-004881,Organisation,Client unwell,10.6,True
+CAN-01461,APT-004882,Client,Client declined,28.0,True
+CAN-01462,APT-004884,Organisation,Client unwell,31.1,False
+CAN-01463,APT-004889,Employee,Client unavailable,0.0,True
+CAN-01464,APT-004892,Client,Duplicate booking,24.6,True
+CAN-01465,APT-004894,Employee,Client unwell,37.8,False
+CAN-01466,APT-004895,Client,Other,0.0,True
+CAN-01467,APT-004897,Employee,Other,2.3,True
+CAN-01468,APT-004898,Client,Client declined,62.9,True
+CAN-01469,APT-004900,Client,Transport issue,59.2,False
+CAN-01470,APT-004901,Organisation,Transport issue,31.0,True
+CAN-01471,APT-004902,Employee,Other,39.8,True
+CAN-01472,APT-004911,Employee,Transport issue,26.2,True
+CAN-01473,APT-004916,Employee,Duplicate booking,6.2,False
+CAN-01474,APT-004920,Organisation,Duplicate booking,14.1,True
+CAN-01475,APT-004922,Client,Weather,2.3,True
+CAN-01476,APT-004928,Client,Staff illness,15.1,True
+CAN-01477,APT-004932,Organisation,Client declined,0.0,True
+CAN-01478,APT-004945,Client,Other,35.4,True
+CAN-01479,APT-004946,Client,Client unwell,21.6,True
+CAN-01480,APT-004949,Client,Weather,0.0,True
+CAN-01481,APT-004950,Client,Weather,31.8,False
+CAN-01482,APT-004953,Client,Client declined,17.4,False
+CAN-01483,APT-004954,Client,Weather,2.8,True
+CAN-01484,APT-004955,Client,Other,23.4,True
+CAN-01485,APT-004960,Employee,Staff illness,71.4,True
+CAN-01486,APT-004964,Employee,Staff illness,3.2,False
+CAN-01487,APT-004965,Organisation,Staff illness,10.1,True
+CAN-01488,APT-004969,Client,Duplicate booking,19.0,True
+CAN-01489,APT-004972,Organisation,Duplicate booking,6.5,False
+CAN-01490,APT-004976,Employee,Client unavailable,0.0,True
+CAN-01491,APT-004981,Client,Client unwell,0.0,True
+CAN-01492,APT-004983,Client,Weather,14.7,True
+CAN-01493,APT-004984,Employee,Weather,45.7,True
+CAN-01494,APT-004987,Client,Other,0.0,False
+CAN-01495,APT-004989,Client,Client unavailable,19.8,False
+CAN-01496,APT-004992,Organisation,Weather,50.9,True
+CAN-01497,APT-004993,Employee,Client declined,18.3,False
+CAN-01498,APT-004994,Client,Client unwell,4.3,True
+CAN-01499,APT-004995,Employee,Transport issue,0.0,True
+CAN-01500,APT-004998,Client,Staff illness,2.0,True
+CAN-01501,APT-004999,Client,Duplicate booking,41.1,True
+CAN-01502,APT-005001,Employee,Client declined,0.0,True
+CAN-01503,APT-005009,Employee,Transport issue,40.8,True
+CAN-01504,APT-005010,Client,Other,3.6,True
+CAN-01505,APT-005011,Client,Other,17.7,True
+CAN-01506,APT-005013,Organisation,Other,26.4,True
+CAN-01507,APT-005014,Organisation,Client declined,9.6,True
+CAN-01508,APT-005015,Organisation,Transport issue,1.1,True
+CAN-01509,APT-005018,Client,Weather,36.7,False
+CAN-01510,APT-005019,Employee,Client declined,29.9,True
+CAN-01511,APT-005020,Employee,Staff illness,0.0,True
+CAN-01512,APT-005022,Client,Other,40.6,True
+CAN-01513,APT-005025,Client,Duplicate booking,9.2,True
+CAN-01514,APT-005026,Organisation,Weather,12.0,True
+CAN-01515,APT-005027,Client,Staff illness,0.0,True
+CAN-01516,APT-005033,Client,Staff illness,20.5,True
+CAN-01517,APT-005034,Client,Client unwell,0.0,True
+CAN-01518,APT-005037,Employee,Transport issue,3.9,True
+CAN-01519,APT-005039,Client,Client unwell,0.0,True
+CAN-01520,APT-005045,Organisation,Duplicate booking,64.2,True
+CAN-01521,APT-005046,Organisation,Other,22.9,False
+CAN-01522,APT-005047,Client,Client unwell,8.1,True
+CAN-01523,APT-005048,Client,Transport issue,24.7,True
+CAN-01524,APT-005052,Employee,Client unavailable,29.1,True
+CAN-01525,APT-005058,Client,Client unwell,19.1,False
+CAN-01526,APT-005062,Employee,Duplicate booking,22.5,True
+CAN-01527,APT-005066,Employee,Staff illness,2.9,False
+CAN-01528,APT-005067,Client,Duplicate booking,26.4,True
+CAN-01529,APT-005070,Employee,Client unwell,14.5,False
+CAN-01530,APT-005071,Client,Transport issue,0.0,True
+CAN-01531,APT-005073,Employee,Client unavailable,26.8,False
+CAN-01532,APT-005076,Organisation,Client declined,25.9,True
+CAN-01533,APT-005078,Client,Transport issue,0.0,True
+CAN-01534,APT-005084,Client,Transport issue,22.2,True
+CAN-01535,APT-005085,Client,Transport issue,0.0,True
+CAN-01536,APT-005087,Client,Weather,34.6,True
+CAN-01537,APT-005089,Client,Staff illness,43.0,False
+CAN-01538,APT-005091,Client,Client unavailable,50.9,True
+CAN-01539,APT-005096,Organisation,Client unwell,48.2,True
+CAN-01540,APT-005097,Client,Other,44.0,True
+CAN-01541,APT-005099,Client,Client unavailable,11.8,False
+CAN-01542,APT-005100,Employee,Client unavailable,33.1,True
+CAN-01543,APT-005115,Organisation,Other,18.2,True
+CAN-01544,APT-005117,Client,Transport issue,0.0,True
+CAN-01545,APT-005118,Client,Duplicate booking,1.7,False
+CAN-01546,APT-005122,Employee,Duplicate booking,44.8,True
+CAN-01547,APT-005125,Client,Client declined,0.0,True
+CAN-01548,APT-005132,Client,Other,20.2,False
+CAN-01549,APT-005133,Client,Client unavailable,0.0,True
+CAN-01550,APT-005138,Employee,Other,34.3,False
+CAN-01551,APT-005142,Organisation,Weather,0.0,False
+CAN-01552,APT-005145,Organisation,Weather,5.5,True
+CAN-01553,APT-005149,Organisation,Client unwell,5.6,False
+CAN-01554,APT-005153,Organisation,Staff illness,22.9,False
+CAN-01555,APT-005154,Client,Client unwell,0.0,True
+CAN-01556,APT-005156,Employee,Client unavailable,15.3,True
+CAN-01557,APT-005157,Employee,Staff illness,18.3,False
+CAN-01558,APT-005158,Client,Staff illness,7.1,True
+CAN-01559,APT-005159,Organisation,Weather,25.0,True
+CAN-01560,APT-005161,Client,Client unavailable,51.0,True
+CAN-01561,APT-005163,Client,Client declined,0.0,True
+CAN-01562,APT-005165,Client,Client unavailable,33.4,True
+CAN-01563,APT-005168,Employee,Client unavailable,38.0,False
+CAN-01564,APT-005174,Organisation,Other,10.4,True
+CAN-01565,APT-005177,Client,Transport issue,0.0,False
+CAN-01566,APT-005180,Organisation,Client declined,22.7,True
+CAN-01567,APT-005190,Organisation,Staff illness,38.6,True
+CAN-01568,APT-005194,Employee,Client unwell,0.0,True
+CAN-01569,APT-005195,Client,Duplicate booking,26.7,False
+CAN-01570,APT-005196,Organisation,Weather,0.0,True
+CAN-01571,APT-005202,Client,Client unavailable,45.8,True
+CAN-01572,APT-005203,Client,Transport issue,26.1,True
+CAN-01573,APT-005204,Client,Weather,28.5,True
+CAN-01574,APT-005208,Organisation,Client declined,0.0,False
+CAN-01575,APT-005209,Employee,Client unwell,13.3,False
+CAN-01576,APT-005213,Client,Staff illness,17.7,False
+CAN-01577,APT-005227,Organisation,Transport issue,26.6,False
+CAN-01578,APT-005229,Employee,Transport issue,1.7,False
+CAN-01579,APT-005234,Employee,Other,13.2,False
+CAN-01580,APT-005235,Client,Other,0.0,True
+CAN-01581,APT-005237,Organisation,Client unavailable,23.6,True
+CAN-01582,APT-005238,Client,Staff illness,25.2,True
+CAN-01583,APT-005242,Employee,Staff illness,6.3,False
+CAN-01584,APT-005243,Client,Client unwell,26.0,True
+CAN-01585,APT-005245,Client,Client unavailable,1.9,False
+CAN-01586,APT-005252,Employee,Transport issue,34.6,False
+CAN-01587,APT-005256,Employee,Staff illness,12.4,False
+CAN-01588,APT-005258,Client,Other,21.4,False
+CAN-01589,APT-005259,Client,Transport issue,6.7,True
+CAN-01590,APT-005261,Employee,Client unwell,1.6,False
+CAN-01591,APT-005263,Client,Client declined,42.5,True
+CAN-01592,APT-005264,Employee,Weather,6.1,True
+CAN-01593,APT-005267,Organisation,Client declined,35.6,True
+CAN-01594,APT-005269,Client,Transport issue,35.0,False
+CAN-01595,APT-005276,Employee,Other,25.3,False
+CAN-01596,APT-005279,Client,Transport issue,24.6,True
+CAN-01597,APT-005282,Client,Duplicate booking,11.1,True
+CAN-01598,APT-005285,Client,Staff illness,16.9,True
+CAN-01599,APT-005287,Organisation,Duplicate booking,24.8,False
+CAN-01600,APT-005288,Employee,Duplicate booking,17.7,True
+CAN-01601,APT-005294,Client,Client unwell,31.7,True
+CAN-01602,APT-005295,Client,Transport issue,16.9,True
+CAN-01603,APT-005298,Employee,Client unwell,0.0,False
+CAN-01604,APT-005305,Employee,Transport issue,17.8,True
+CAN-01605,APT-005307,Organisation,Transport issue,0.0,False
+CAN-01606,APT-005309,Employee,Staff illness,6.4,True
+CAN-01607,APT-005311,Employee,Client unwell,7.2,True
+CAN-01608,APT-005313,Employee,Duplicate booking,4.5,True
+CAN-01609,APT-005314,Client,Client declined,0.0,False
+CAN-01610,APT-005317,Client,Transport issue,0.0,True
+CAN-01611,APT-005321,Employee,Client unwell,0.0,True
+CAN-01612,APT-005322,Employee,Client declined,2.3,False
+CAN-01613,APT-005324,Employee,Client unavailable,40.5,False
+CAN-01614,APT-005329,Organisation,Duplicate booking,0.0,False
+CAN-01615,APT-005330,Client,Staff illness,29.5,False
+CAN-01616,APT-005337,Client,Weather,0.0,False
+CAN-01617,APT-005344,Employee,Client unavailable,0.0,False
+CAN-01618,APT-005345,Employee,Other,34.1,True
+CAN-01619,APT-005346,Client,Weather,46.3,True
+CAN-01620,APT-005347,Client,Client unwell,25.1,True
+CAN-01621,APT-005348,Client,Other,0.0,True
+CAN-01622,APT-005351,Client,Staff illness,2.4,True
+CAN-01623,APT-005353,Organisation,Client unwell,30.1,False
+CAN-01624,APT-005354,Client,Client unwell,26.0,True
+CAN-01625,APT-005357,Client,Client unwell,0.0,True
+CAN-01626,APT-005361,Client,Other,0.0,True
+CAN-01627,APT-005363,Client,Other,15.2,True
+CAN-01628,APT-005374,Employee,Duplicate booking,46.8,True
+CAN-01629,APT-005375,Employee,Client declined,9.8,True
+CAN-01630,APT-005378,Client,Weather,1.1,True
+CAN-01631,APT-005379,Client,Other,50.5,True
+CAN-01632,APT-005383,Client,Client declined,10.8,True
+CAN-01633,APT-005389,Employee,Client unavailable,33.4,True
+CAN-01634,APT-005405,Client,Client unavailable,40.2,False
+CAN-01635,APT-005412,Employee,Client unwell,0.0,True
+CAN-01636,APT-005414,Client,Client unavailable,0.0,False
+CAN-01637,APT-005420,Organisation,Staff illness,54.2,False
+CAN-01638,APT-005425,Client,Transport issue,35.5,True
+CAN-01639,APT-005427,Employee,Other,0.0,True
+CAN-01640,APT-005429,Employee,Other,11.3,True
+CAN-01641,APT-005432,Employee,Client unwell,0.0,False
+CAN-01642,APT-005434,Client,Client declined,40.0,True
+CAN-01643,APT-005437,Organisation,Transport issue,6.3,False
+CAN-01644,APT-005439,Employee,Weather,20.2,False
+CAN-01645,APT-005445,Client,Weather,10.3,True
+CAN-01646,APT-005447,Client,Client unavailable,0.0,False
+CAN-01647,APT-005454,Client,Client unavailable,0.0,False
+CAN-01648,APT-005456,Client,Client unavailable,22.4,True
+CAN-01649,APT-005462,Client,Duplicate booking,9.2,True
+CAN-01650,APT-005478,Organisation,Transport issue,21.6,True
+CAN-01651,APT-005479,Organisation,Client declined,20.3,False
+CAN-01652,APT-005481,Client,Client unavailable,40.9,True
+CAN-01653,APT-005485,Organisation,Other,59.7,True
+CAN-01654,APT-005490,Employee,Staff illness,37.3,True
+CAN-01655,APT-005497,Client,Client unavailable,0.0,False
+CAN-01656,APT-005498,Client,Other,30.5,True
+CAN-01657,APT-005501,Employee,Other,21.3,False
+CAN-01658,APT-005503,Organisation,Client unavailable,14.4,True
+CAN-01659,APT-005509,Client,Transport issue,39.5,False
+CAN-01660,APT-005511,Employee,Weather,48.7,True
+CAN-01661,APT-005516,Client,Staff illness,0.0,True
+CAN-01662,APT-005520,Client,Staff illness,21.7,True
+CAN-01663,APT-005522,Client,Client unavailable,30.1,True
+CAN-01664,APT-005523,Client,Duplicate booking,6.0,False
+CAN-01665,APT-005526,Organisation,Other,24.3,True
+CAN-01666,APT-005528,Employee,Duplicate booking,14.9,False
+CAN-01667,APT-005529,Client,Client declined,46.8,True
+CAN-01668,APT-005531,Employee,Staff illness,4.7,False
+CAN-01669,APT-005533,Client,Client unwell,43.6,True
+CAN-01670,APT-005536,Organisation,Duplicate booking,33.9,True
+CAN-01671,APT-005537,Client,Client unavailable,28.0,True
+CAN-01672,APT-005538,Client,Weather,0.0,True
+CAN-01673,APT-005542,Client,Duplicate booking,36.4,True
+CAN-01674,APT-005545,Organisation,Weather,13.0,True
+CAN-01675,APT-005547,Client,Transport issue,36.1,False
+CAN-01676,APT-005550,Client,Other,32.2,False
+CAN-01677,APT-005552,Client,Staff illness,17.1,True
+CAN-01678,APT-005558,Employee,Client declined,20.5,True
+CAN-01679,APT-005565,Organisation,Transport issue,11.8,False
+CAN-01680,APT-005566,Employee,Client unavailable,34.7,True
+CAN-01681,APT-005569,Client,Client unwell,0.0,True
+CAN-01682,APT-005570,Organisation,Weather,12.6,False
+CAN-01683,APT-005573,Client,Transport issue,20.8,True
+CAN-01684,APT-005576,Employee,Client unwell,59.5,False
+CAN-01685,APT-005580,Client,Client unwell,15.6,True
+CAN-01686,APT-005582,Client,Weather,32.3,True
+CAN-01687,APT-005584,Employee,Weather,30.3,True
+CAN-01688,APT-005586,Organisation,Client declined,22.7,True
+CAN-01689,APT-005588,Employee,Staff illness,40.5,False
+CAN-01690,APT-005590,Client,Duplicate booking,12.4,True
+CAN-01691,APT-005592,Employee,Duplicate booking,17.3,True
+CAN-01692,APT-005594,Employee,Client unavailable,7.0,True
+CAN-01693,APT-005598,Client,Transport issue,42.4,False
+CAN-01694,APT-005599,Organisation,Staff illness,7.1,True
+CAN-01695,APT-005601,Organisation,Weather,38.4,True
+CAN-01696,APT-005602,Organisation,Staff illness,0.0,True
+CAN-01697,APT-005606,Employee,Staff illness,0.0,True
+CAN-01698,APT-005608,Client,Duplicate booking,6.5,False
+CAN-01699,APT-005610,Client,Client declined,10.8,True
+CAN-01700,APT-005611,Client,Staff illness,13.9,True
+CAN-01701,APT-005614,Client,Weather,0.0,True
+CAN-01702,APT-005615,Client,Duplicate booking,8.8,False
+CAN-01703,APT-005616,Client,Client declined,45.7,True
+CAN-01704,APT-005617,Client,Staff illness,89.0,True
+CAN-01705,APT-005618,Organisation,Client unwell,0.0,True
+CAN-01706,APT-005622,Client,Weather,29.3,True
+CAN-01707,APT-005624,Organisation,Duplicate booking,42.4,True
+CAN-01708,APT-005630,Client,Other,0.0,True
+CAN-01709,APT-005636,Employee,Client unavailable,38.9,False
+CAN-01710,APT-005637,Client,Client unavailable,0.0,True
+CAN-01711,APT-005639,Organisation,Client unwell,2.8,False
+CAN-01712,APT-005645,Client,Client unwell,51.2,False
+CAN-01713,APT-005646,Client,Weather,31.1,True
+CAN-01714,APT-005649,Client,Other,7.3,True
+CAN-01715,APT-005650,Employee,Weather,33.3,False
+CAN-01716,APT-005651,Employee,Client unwell,17.0,False
+CAN-01717,APT-005655,Organisation,Transport issue,27.4,True
+CAN-01718,APT-005658,Client,Transport issue,21.7,True
+CAN-01719,APT-005660,Organisation,Client unavailable,0.0,True
+CAN-01720,APT-005662,Client,Client unavailable,0.0,True
+CAN-01721,APT-005665,Organisation,Client unavailable,14.7,False
+CAN-01722,APT-005672,Organisation,Duplicate booking,0.0,False
+CAN-01723,APT-005673,Organisation,Client unwell,16.3,True
+CAN-01724,APT-005677,Client,Client unavailable,13.2,True
+CAN-01725,APT-005686,Client,Transport issue,7.4,False
+CAN-01726,APT-005689,Client,Client declined,43.2,True
+CAN-01727,APT-005704,Organisation,Staff illness,4.8,False
+CAN-01728,APT-005707,Client,Duplicate booking,10.4,True
+CAN-01729,APT-005712,Client,Client unwell,25.1,True
+CAN-01730,APT-005721,Client,Duplicate booking,1.1,True
+CAN-01731,APT-005725,Organisation,Client declined,4.9,False
+CAN-01732,APT-005727,Organisation,Other,34.3,True
+CAN-01733,APT-005728,Client,Transport issue,25.5,False
+CAN-01734,APT-005730,Client,Weather,0.0,True
+CAN-01735,APT-005731,Organisation,Client unwell,0.0,True
+CAN-01736,APT-005734,Client,Transport issue,0.0,True
+CAN-01737,APT-005736,Organisation,Client declined,13.4,False
+CAN-01738,APT-005737,Client,Other,10.3,True
+CAN-01739,APT-005739,Client,Client declined,13.5,True
+CAN-01740,APT-005740,Employee,Client declined,11.2,True
+CAN-01741,APT-005744,Employee,Weather,28.5,True
+CAN-01742,APT-005745,Organisation,Weather,44.1,False
+CAN-01743,APT-005746,Employee,Client declined,0.0,True
+CAN-01744,APT-005747,Client,Duplicate booking,10.0,True
+CAN-01745,APT-005749,Client,Duplicate booking,12.8,True
+CAN-01746,APT-005750,Organisation,Client unwell,41.6,True
+CAN-01747,APT-005751,Client,Other,41.3,True
+CAN-01748,APT-005752,Client,Staff illness,6.1,True
+CAN-01749,APT-005753,Employee,Duplicate booking,0.0,False
+CAN-01750,APT-005754,Employee,Staff illness,42.4,True
+CAN-01751,APT-005755,Client,Client unwell,46.4,False
+CAN-01752,APT-005757,Client,Client unwell,25.8,False
+CAN-01753,APT-005758,Client,Other,26.0,True
+CAN-01754,APT-005760,Employee,Weather,49.9,False
+CAN-01755,APT-005762,Client,Staff illness,13.5,True
+CAN-01756,APT-005765,Client,Duplicate booking,47.0,False
+CAN-01757,APT-005766,Client,Staff illness,33.3,False
+CAN-01758,APT-005768,Organisation,Client unavailable,17.4,False
+CAN-01759,APT-005770,Client,Duplicate booking,37.6,True
+CAN-01760,APT-005772,Client,Duplicate booking,39.2,True
+CAN-01761,APT-005773,Employee,Weather,35.0,True
+CAN-01762,APT-005774,Employee,Client unwell,47.0,True
+CAN-01763,APT-005778,Employee,Duplicate booking,31.7,False
+CAN-01764,APT-005779,Organisation,Transport issue,56.5,False
+CAN-01765,APT-005784,Client,Client declined,4.9,True
+CAN-01766,APT-005790,Client,Other,12.6,True
+CAN-01767,APT-005793,Client,Client unavailable,24.7,True
+CAN-01768,APT-005797,Employee,Weather,11.4,True
+CAN-01769,APT-005799,Employee,Staff illness,0.0,True
+CAN-01770,APT-005800,Client,Weather,31.3,True
+CAN-01771,APT-005802,Client,Client declined,21.8,True
+CAN-01772,APT-005803,Employee,Transport issue,53.9,False
+CAN-01773,APT-005806,Client,Client unavailable,9.7,False
+CAN-01774,APT-005807,Client,Staff illness,20.4,True
+CAN-01775,APT-005818,Client,Other,0.0,True
+CAN-01776,APT-005823,Client,Duplicate booking,39.0,False
+CAN-01777,APT-005825,Client,Duplicate booking,7.4,False
+CAN-01778,APT-005832,Client,Transport issue,14.5,False
+CAN-01779,APT-005835,Organisation,Duplicate booking,11.9,True
+CAN-01780,APT-005839,Client,Staff illness,22.4,False
+CAN-01781,APT-005842,Client,Staff illness,16.5,False
+CAN-01782,APT-005855,Organisation,Transport issue,0.0,True
+CAN-01783,APT-005859,Client,Client unwell,14.1,False
+CAN-01784,APT-005863,Client,Client unavailable,11.3,True
+CAN-01785,APT-005871,Employee,Other,30.7,True
+CAN-01786,APT-005872,Client,Duplicate booking,33.8,True
+CAN-01787,APT-005873,Organisation,Client unwell,0.0,True
+CAN-01788,APT-005877,Client,Duplicate booking,38.9,False
+CAN-01789,APT-005880,Client,Weather,48.3,True
+CAN-01790,APT-005887,Organisation,Staff illness,0.0,True
+CAN-01791,APT-005888,Client,Duplicate booking,8.0,False
+CAN-01792,APT-005891,Employee,Transport issue,10.1,True
+CAN-01793,APT-005893,Organisation,Client unwell,11.0,True
+CAN-01794,APT-005901,Client,Other,0.0,True
+CAN-01795,APT-005903,Employee,Client unavailable,11.2,True
+CAN-01796,APT-005907,Employee,Client declined,4.3,True
+CAN-01797,APT-005908,Organisation,Client unavailable,3.7,True
+CAN-01798,APT-005916,Client,Other,0.0,True
+CAN-01799,APT-005918,Client,Client unwell,9.5,False
+CAN-01800,APT-005919,Client,Client unavailable,39.4,True
+CAN-01801,APT-005921,Client,Staff illness,47.1,True
+CAN-01802,APT-005923,Organisation,Weather,39.6,True
+CAN-01803,APT-005924,Organisation,Transport issue,0.0,True
+CAN-01804,APT-005931,Employee,Duplicate booking,37.7,True
+CAN-01805,APT-005938,Client,Other,33.8,True
+CAN-01806,APT-005942,Client,Duplicate booking,0.0,False
+CAN-01807,APT-005944,Employee,Duplicate booking,29.9,True
+CAN-01808,APT-005950,Client,Client unwell,5.4,False
+CAN-01809,APT-005951,Client,Client unavailable,0.0,True
+CAN-01810,APT-005952,Client,Weather,61.7,True
+CAN-01811,APT-005956,Organisation,Client unwell,28.4,True
+CAN-01812,APT-005958,Employee,Client declined,36.0,True
+CAN-01813,APT-005960,Client,Client unwell,44.5,True
+CAN-01814,APT-005961,Organisation,Weather,0.3,True
+CAN-01815,APT-005966,Organisation,Client unwell,31.0,True
+CAN-01816,APT-005967,Organisation,Staff illness,48.8,True
+CAN-01817,APT-005968,Client,Transport issue,31.9,True
+CAN-01818,APT-005969,Client,Weather,5.6,False
+CAN-01819,APT-005974,Client,Client unavailable,5.9,True
+CAN-01820,APT-005978,Client,Client declined,27.7,True
+CAN-01821,APT-005983,Client,Duplicate booking,16.0,True
+CAN-01822,APT-005984,Employee,Weather,2.1,False
+CAN-01823,APT-005987,Client,Client unwell,0.1,True
+CAN-01824,APT-005988,Client,Client declined,41.7,True
+CAN-01825,APT-005989,Client,Transport issue,0.4,False
+CAN-01826,APT-005991,Client,Client unwell,68.8,True
+CAN-01827,APT-005994,Organisation,Duplicate booking,0.0,True
+CAN-01828,APT-005995,Client,Client unwell,0.0,False
+CAN-01829,APT-006002,Client,Duplicate booking,11.7,False
+CAN-01830,APT-006004,Organisation,Weather,0.0,True
+CAN-01831,APT-006012,Organisation,Client unwell,71.6,False
+CAN-01832,APT-006018,Organisation,Duplicate booking,0.0,True
+CAN-01833,APT-006023,Employee,Client unwell,29.0,True
+CAN-01834,APT-006024,Organisation,Duplicate booking,9.1,True
+CAN-01835,APT-006026,Client,Weather,1.2,True
+CAN-01836,APT-006028,Client,Transport issue,41.7,True
+CAN-01837,APT-006033,Employee,Client unavailable,28.6,False
+CAN-01838,APT-006035,Organisation,Client unavailable,19.8,True
+CAN-01839,APT-006039,Employee,Client declined,69.2,True
+CAN-01840,APT-006041,Employee,Client unwell,27.5,True
+CAN-01841,APT-006046,Client,Transport issue,12.7,False
+CAN-01842,APT-006048,Employee,Client unwell,5.0,True
+CAN-01843,APT-006051,Organisation,Weather,27.6,True
+CAN-01844,APT-006052,Employee,Client unavailable,31.1,True
+CAN-01845,APT-006056,Client,Weather,19.6,False
+CAN-01846,APT-006061,Employee,Transport issue,22.2,True
+CAN-01847,APT-006064,Client,Client unavailable,20.1,True
+CAN-01848,APT-006067,Employee,Weather,33.5,True
+CAN-01849,APT-006071,Client,Client declined,30.7,True
+CAN-01850,APT-006072,Client,Weather,0.0,True
+CAN-01851,APT-006077,Client,Transport issue,13.0,True
+CAN-01852,APT-006091,Client,Client unwell,23.7,True
+CAN-01853,APT-006093,Employee,Client unwell,17.3,True
+CAN-01854,APT-006103,Client,Client declined,24.0,True
+CAN-01855,APT-006107,Client,Client unwell,11.6,True
+CAN-01856,APT-006108,Client,Client unwell,24.6,True
+CAN-01857,APT-006109,Client,Other,46.2,False
+CAN-01858,APT-006114,Employee,Weather,0.0,True
+CAN-01859,APT-006116,Client,Transport issue,32.3,True
+CAN-01860,APT-006119,Client,Weather,28.7,True
+CAN-01861,APT-006121,Client,Client unwell,28.7,True
+CAN-01862,APT-006122,Client,Client unwell,31.9,False
+CAN-01863,APT-006123,Client,Duplicate booking,30.6,False
+CAN-01864,APT-006125,Client,Transport issue,33.7,True
+CAN-01865,APT-006127,Employee,Client unavailable,20.6,True
+CAN-01866,APT-006128,Client,Weather,0.0,True
+CAN-01867,APT-006137,Organisation,Other,24.3,True
+CAN-01868,APT-006142,Employee,Client unwell,37.3,False
+CAN-01869,APT-006144,Client,Staff illness,29.8,False
+CAN-01870,APT-006153,Organisation,Transport issue,38.7,True
+CAN-01871,APT-006161,Client,Weather,3.9,True
+CAN-01872,APT-006162,Client,Staff illness,18.5,True
+CAN-01873,APT-006166,Organisation,Client unavailable,32.2,False
+CAN-01874,APT-006167,Organisation,Weather,40.5,True
+CAN-01875,APT-006168,Client,Duplicate booking,54.2,True
+CAN-01876,APT-006176,Employee,Transport issue,0.0,True
+CAN-01877,APT-006178,Employee,Client declined,0.0,True
+CAN-01878,APT-006179,Client,Staff illness,28.8,True
+CAN-01879,APT-006180,Client,Client declined,0.0,True
+CAN-01880,APT-006181,Client,Weather,0.0,True
+CAN-01881,APT-006182,Organisation,Duplicate booking,20.1,True
+CAN-01882,APT-006184,Organisation,Staff illness,41.1,True
+CAN-01883,APT-006186,Client,Client unwell,6.1,True
+CAN-01884,APT-006187,Client,Weather,0.0,True
+CAN-01885,APT-006192,Client,Other,21.0,False
+CAN-01886,APT-006193,Organisation,Transport issue,43.3,False
+CAN-01887,APT-006194,Employee,Client unavailable,42.2,True
+CAN-01888,APT-006196,Client,Duplicate booking,47.1,False
+CAN-01889,APT-006200,Employee,Client declined,4.1,True
+CAN-01890,APT-006201,Client,Weather,23.4,True
+CAN-01891,APT-006204,Employee,Staff illness,18.9,True
+CAN-01892,APT-006209,Organisation,Client declined,23.9,True
+CAN-01893,APT-006210,Client,Other,36.7,True
+CAN-01894,APT-006211,Organisation,Other,11.4,False
+CAN-01895,APT-006218,Client,Duplicate booking,64.1,True
+CAN-01896,APT-006219,Employee,Transport issue,8.8,True
+CAN-01897,APT-006220,Client,Client unavailable,0.0,True
+CAN-01898,APT-006224,Client,Duplicate booking,22.9,True
+CAN-01899,APT-006225,Client,Client unwell,15.6,True
+CAN-01900,APT-006233,Client,Weather,65.5,True
+CAN-01901,APT-006234,Client,Staff illness,38.6,False
+CAN-01902,APT-006235,Employee,Duplicate booking,53.8,False
+CAN-01903,APT-006248,Organisation,Client unavailable,0.0,True
+CAN-01904,APT-006249,Organisation,Client declined,38.3,False
+CAN-01905,APT-006250,Organisation,Transport issue,0.0,True
+CAN-01906,APT-006254,Client,Client declined,0.0,False
+CAN-01907,APT-006260,Employee,Client unwell,19.5,True
+CAN-01908,APT-006261,Client,Duplicate booking,4.9,False
+CAN-01909,APT-006268,Client,Other,19.4,True
+CAN-01910,APT-006269,Organisation,Staff illness,14.9,False
+CAN-01911,APT-006273,Client,Weather,9.2,True
+CAN-01912,APT-006278,Employee,Client declined,24.0,True
+CAN-01913,APT-006282,Employee,Staff illness,23.7,False
+CAN-01914,APT-006284,Client,Client declined,34.2,True
+CAN-01915,APT-006285,Organisation,Client unwell,7.3,False
+CAN-01916,APT-006287,Client,Client unavailable,56.7,True
+CAN-01917,APT-006288,Organisation,Weather,6.8,True
+CAN-01918,APT-006289,Client,Staff illness,33.7,True
+CAN-01919,APT-006290,Client,Transport issue,6.1,False
+CAN-01920,APT-006292,Client,Other,0.0,False
+CAN-01921,APT-006293,Organisation,Other,26.0,False
+CAN-01922,APT-006298,Employee,Transport issue,39.6,True
+CAN-01923,APT-006300,Employee,Weather,0.0,False
+CAN-01924,APT-006303,Client,Duplicate booking,0.0,True
+CAN-01925,APT-006304,Client,Staff illness,17.0,False
+CAN-01926,APT-006306,Client,Staff illness,10.5,True
+CAN-01927,APT-006308,Client,Transport issue,16.0,False
+CAN-01928,APT-006316,Client,Client declined,19.3,True
+CAN-01929,APT-006317,Employee,Transport issue,19.3,True
+CAN-01930,APT-006324,Organisation,Duplicate booking,23.6,False
+CAN-01931,APT-006337,Employee,Client declined,28.0,False
+CAN-01932,APT-006339,Employee,Transport issue,8.2,True
+CAN-01933,APT-006342,Client,Duplicate booking,0.0,True
+CAN-01934,APT-006349,Client,Client declined,0.0,True
+CAN-01935,APT-006352,Client,Other,0.0,True
+CAN-01936,APT-006357,Client,Client unavailable,41.4,True
+CAN-01937,APT-006358,Client,Client declined,33.8,True
+CAN-01938,APT-006362,Employee,Transport issue,20.2,True
+CAN-01939,APT-006363,Client,Other,48.9,True
+CAN-01940,APT-006369,Employee,Client unavailable,33.5,True
+CAN-01941,APT-006370,Employee,Weather,41.9,False
+CAN-01942,APT-006371,Client,Other,3.0,False
+CAN-01943,APT-006372,Client,Other,7.1,False
+CAN-01944,APT-006377,Employee,Client declined,0.2,False
+CAN-01945,APT-006378,Client,Staff illness,40.1,True
+CAN-01946,APT-006382,Client,Client unwell,23.5,True
+CAN-01947,APT-006384,Employee,Other,0.0,False
+CAN-01948,APT-006385,Employee,Weather,0.0,False
+CAN-01949,APT-006386,Client,Client unwell,0.0,True
+CAN-01950,APT-006388,Client,Client unavailable,22.2,False
+CAN-01951,APT-006392,Client,Staff illness,19.1,True
+CAN-01952,APT-006396,Client,Duplicate booking,20.5,False
+CAN-01953,APT-006400,Client,Client declined,18.1,True
+CAN-01954,APT-006404,Employee,Transport issue,32.3,True
+CAN-01955,APT-006407,Client,Transport issue,9.0,True
+CAN-01956,APT-006413,Client,Transport issue,0.0,True
+CAN-01957,APT-006415,Client,Client declined,0.0,True
+CAN-01958,APT-006417,Client,Client unwell,30.8,True
+CAN-01959,APT-006419,Client,Client declined,16.9,True
+CAN-01960,APT-006421,Organisation,Client unavailable,0.0,False
+CAN-01961,APT-006423,Client,Staff illness,25.1,True
+CAN-01962,APT-006424,Client,Client unavailable,26.4,True
+CAN-01963,APT-006433,Client,Weather,16.5,True
+CAN-01964,APT-006434,Client,Other,3.4,False
+CAN-01965,APT-006436,Client,Other,36.6,True
+CAN-01966,APT-006437,Client,Transport issue,58.7,True
+CAN-01967,APT-006438,Client,Transport issue,19.0,True
+CAN-01968,APT-006440,Client,Staff illness,33.3,True
+CAN-01969,APT-006444,Client,Transport issue,8.9,True
+CAN-01970,APT-006446,Client,Duplicate booking,11.5,True
+CAN-01971,APT-006449,Employee,Weather,44.2,True
+CAN-01972,APT-006451,Client,Client unavailable,34.2,False
+CAN-01973,APT-006458,Organisation,Other,0.2,True
+CAN-01974,APT-006460,Client,Weather,37.0,True
+CAN-01975,APT-006461,Client,Client unavailable,3.5,False
+CAN-01976,APT-006462,Employee,Client unavailable,0.0,True
+CAN-01977,APT-006464,Employee,Client unavailable,6.9,False
+CAN-01978,APT-006470,Client,Client unwell,30.9,False
+CAN-01979,APT-006475,Client,Client unwell,0.0,True
+CAN-01980,APT-006477,Client,Transport issue,10.0,False
+CAN-01981,APT-006482,Client,Client unwell,33.1,True
+CAN-01982,APT-006491,Employee,Client declined,3.1,True
+CAN-01983,APT-006493,Client,Other,6.6,False
+CAN-01984,APT-006498,Client,Client unavailable,23.0,True
+CAN-01985,APT-006501,Employee,Client declined,23.4,True
+CAN-01986,APT-006502,Client,Transport issue,0.0,True
+CAN-01987,APT-006506,Client,Duplicate booking,0.0,False
+CAN-01988,APT-006508,Organisation,Duplicate booking,0.0,True
+CAN-01989,APT-006511,Organisation,Duplicate booking,21.6,True
+CAN-01990,APT-006513,Client,Client declined,46.7,True
+CAN-01991,APT-006515,Client,Staff illness,0.0,True
+CAN-01992,APT-006516,Client,Duplicate booking,15.0,True
+CAN-01993,APT-006520,Client,Client declined,14.6,True
+CAN-01994,APT-006527,Client,Staff illness,13.2,True
+CAN-01995,APT-006537,Client,Client declined,0.0,True
+CAN-01996,APT-006540,Employee,Transport issue,24.7,True
+CAN-01997,APT-006543,Client,Client unwell,7.9,True
+CAN-01998,APT-006548,Organisation,Staff illness,35.2,False
+CAN-01999,APT-006549,Employee,Transport issue,16.0,False
+CAN-02000,APT-006557,Organisation,Staff illness,44.2,False
+CAN-02001,APT-006562,Employee,Duplicate booking,0.0,True
+CAN-02002,APT-006565,Employee,Client declined,27.5,True
+CAN-02003,APT-006567,Client,Other,7.3,False
+CAN-02004,APT-006571,Employee,Weather,0.0,False
+CAN-02005,APT-006579,Client,Client unwell,34.9,True
+CAN-02006,APT-006580,Organisation,Staff illness,3.9,True
+CAN-02007,APT-006581,Client,Other,12.5,True
+CAN-02008,APT-006582,Employee,Weather,12.9,True
+CAN-02009,APT-006583,Client,Client unavailable,0.0,True
+CAN-02010,APT-006586,Client,Client declined,0.0,False
+CAN-02011,APT-006592,Employee,Transport issue,11.3,True
+CAN-02012,APT-006593,Organisation,Client unavailable,58.7,False
+CAN-02013,APT-006594,Employee,Duplicate booking,58.3,False
+CAN-02014,APT-006597,Client,Weather,0.0,True
+CAN-02015,APT-006598,Client,Client declined,28.6,True
+CAN-02016,APT-006599,Client,Weather,27.8,True
+CAN-02017,APT-006601,Client,Transport issue,46.0,True
+CAN-02018,APT-006602,Client,Other,11.4,False
+CAN-02019,APT-006604,Organisation,Client unavailable,42.4,True
+CAN-02020,APT-006609,Employee,Weather,39.3,True
+CAN-02021,APT-006612,Employee,Other,13.7,False
+CAN-02022,APT-006613,Client,Other,0.0,False
+CAN-02023,APT-006633,Employee,Client unwell,39.1,True
+CAN-02024,APT-006637,Client,Client unavailable,18.7,True
+CAN-02025,APT-006643,Client,Other,19.4,False
+CAN-02026,APT-006646,Employee,Client declined,28.4,False
+CAN-02027,APT-006647,Client,Client unavailable,31.5,True
+CAN-02028,APT-006648,Organisation,Staff illness,23.4,True
+CAN-02029,APT-006649,Client,Transport issue,29.9,False
+CAN-02030,APT-006651,Client,Weather,24.3,False
+CAN-02031,APT-006655,Client,Other,28.1,True
+CAN-02032,APT-006659,Client,Weather,7.2,True
+CAN-02033,APT-006660,Client,Other,0.0,True
+CAN-02034,APT-006661,Client,Staff illness,0.0,True
+CAN-02035,APT-006665,Organisation,Client unavailable,12.9,False
+CAN-02036,APT-006672,Client,Staff illness,33.4,True
+CAN-02037,APT-006673,Organisation,Client declined,0.0,True
+CAN-02038,APT-006675,Client,Client declined,44.3,False
+CAN-02039,APT-006677,Client,Transport issue,15.2,False
+CAN-02040,APT-006678,Client,Client declined,6.8,True
+CAN-02041,APT-006682,Client,Other,59.5,True
+CAN-02042,APT-006684,Employee,Staff illness,0.0,True
+CAN-02043,APT-006692,Client,Duplicate booking,33.3,True
+CAN-02044,APT-006693,Client,Transport issue,38.7,True
+CAN-02045,APT-006694,Client,Client unavailable,60.5,True
+CAN-02046,APT-006696,Organisation,Transport issue,14.5,True
+CAN-02047,APT-006700,Client,Other,32.6,True
+CAN-02048,APT-006703,Organisation,Client unavailable,1.0,True
+CAN-02049,APT-006707,Client,Weather,36.5,False
+CAN-02050,APT-006710,Organisation,Other,3.7,False
+CAN-02051,APT-006714,Client,Staff illness,0.0,True
+CAN-02052,APT-006717,Client,Client unwell,28.9,False
+CAN-02053,APT-006718,Client,Client unavailable,11.6,False
+CAN-02054,APT-006723,Organisation,Weather,46.5,True
+CAN-02055,APT-006725,Client,Client unwell,3.1,True
+CAN-02056,APT-006727,Client,Staff illness,30.5,True
+CAN-02057,APT-006734,Organisation,Client unavailable,24.1,False
+CAN-02058,APT-006736,Client,Duplicate booking,60.4,True
+CAN-02059,APT-006738,Client,Other,0.0,False
+CAN-02060,APT-006743,Organisation,Duplicate booking,14.3,False
+CAN-02061,APT-006747,Employee,Other,0.0,False
+CAN-02062,APT-006749,Client,Client unavailable,1.4,False
+CAN-02063,APT-006752,Organisation,Client unwell,24.3,True
+CAN-02064,APT-006753,Client,Duplicate booking,11.3,True
+CAN-02065,APT-006754,Client,Other,0.0,False
+CAN-02066,APT-006757,Employee,Weather,41.8,False
+CAN-02067,APT-006758,Client,Client declined,14.6,True
+CAN-02068,APT-006760,Client,Client declined,0.0,True
+CAN-02069,APT-006762,Client,Other,0.0,True
+CAN-02070,APT-006763,Client,Staff illness,26.8,False
+CAN-02071,APT-006764,Organisation,Transport issue,1.1,True
+CAN-02072,APT-006765,Client,Client unavailable,48.8,False
+CAN-02073,APT-006768,Client,Client unavailable,0.0,True
+CAN-02074,APT-006771,Employee,Duplicate booking,13.4,True
+CAN-02075,APT-006774,Client,Other,0.0,True
+CAN-02076,APT-006785,Client,Duplicate booking,17.3,False
+CAN-02077,APT-006786,Employee,Weather,11.9,True
+CAN-02078,APT-006787,Organisation,Staff illness,22.1,False
+CAN-02079,APT-006795,Organisation,Weather,22.9,True
+CAN-02080,APT-006799,Client,Other,11.7,True
+CAN-02081,APT-006804,Organisation,Duplicate booking,0.0,False
+CAN-02082,APT-006806,Employee,Client unwell,10.8,True
+CAN-02083,APT-006815,Client,Weather,23.6,False
+CAN-02084,APT-006819,Client,Duplicate booking,0.0,False
+CAN-02085,APT-006822,Employee,Staff illness,0.0,False
+CAN-02086,APT-006825,Employee,Client declined,21.0,True
+CAN-02087,APT-006828,Client,Other,2.9,True
+CAN-02088,APT-006829,Client,Transport issue,23.3,True
+CAN-02089,APT-006831,Client,Client unwell,23.1,False
+CAN-02090,APT-006834,Organisation,Client unavailable,19.5,False
+CAN-02091,APT-006836,Organisation,Client unwell,14.5,False
+CAN-02092,APT-006840,Client,Other,0.0,True
+CAN-02093,APT-006844,Organisation,Weather,23.7,True
+CAN-02094,APT-006846,Client,Client unavailable,0.0,False
+CAN-02095,APT-006850,Organisation,Client unavailable,11.3,True
+CAN-02096,APT-006857,Employee,Duplicate booking,63.7,True
+CAN-02097,APT-006862,Client,Client unavailable,25.7,False
+CAN-02098,APT-006863,Organisation,Staff illness,24.7,False
+CAN-02099,APT-006865,Client,Other,33.4,False

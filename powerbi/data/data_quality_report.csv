@@ -1,0 +1,8 @@
+rule_id,dataset,description,severity,failing_rows,total_rows,pass_rate_pct,min_pass_rate_pct,status
+DQ-001,employees,Employee base_location_id must resolve to a known location,high,0,150,100.0,99.0,pass
+DQ-002,service_requests,Service request client_id must resolve to a known client,high,29,7353,99.61,99.5,pass
+DQ-003,service_requests,Complexity score should be captured at intake,medium,228,7353,96.9,95.0,pass
+DQ-004,shifts,Actual shift hours must fall within a plausible 0-16 hour range,high,0,17289,100.0,99.5,pass
+DQ-005,employee_skills,Mandatory safety certifications should not be expired,high,451,801,43.7,90.0,fail
+DQ-006,outcomes,Client satisfaction score should be captured for completed visits,low,367,4350,91.56,85.0,pass
+DQ-007,clients,Clients must have an explicit data-use consent flag recorded,high,0,520,100.0,95.0,pass

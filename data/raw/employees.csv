@@ -1,0 +1,152 @@
+employee_id,primary_role,employment_type,contracted_hours_per_week,fte,base_location_id,hire_date,employment_status,manager_id,gender,age_band,hourly_rate_band
+EMP-00001,Coordinator,Part-time,20.0,0.53,LOC-03,2024-11-24,On Leave,,Non-binary / Other,45-54,Band 3
+EMP-00002,Support Worker,Part-time,16.0,0.42,LOC-10,2022-11-23,Active,EMP-00072,Male,55-64,Band 2
+EMP-00003,Support Worker,Part-time,30.0,0.79,LOC-03,2019-06-19,On Leave,EMP-00074,Male,35-44,Band 4
+EMP-00004,Allied Health Clinician,Part-time,24.0,0.63,LOC-05,2024-02-18,Active,EMP-00029,Female,25-34,Band 2
+EMP-00005,Coordinator,Casual,8.0,0.21,LOC-01,2019-02-17,Active,,Female,25-34,Band 2
+EMP-00006,Support Worker,Part-time,20.0,0.53,LOC-09,2022-06-05,Active,EMP-00072,Male,25-34,Band 3
+EMP-00007,Coordinator,Full-time,38.0,1.0,LOC-07,2023-10-26,On Leave,,Female,18-24,Band 3
+EMP-00008,Team Leader,Part-time,16.0,0.42,LOC-05,2020-01-04,Active,,Female,25-34,Band 1
+EMP-00009,Team Leader,Part-time,30.0,0.79,LOC-06,2024-12-11,On Leave,,Female,35-44,Band 1
+EMP-00010,Support Worker,Part-time,24.0,0.63,LOC-05,2023-12-29,Active,EMP-00035,Male,25-34,Band 1
+EMP-00011,Support Worker,Full-time,38.0,1.0,LOC-06,2024-08-12,Active,EMP-00094,Male,35-44,Band 3
+EMP-00012,Support Worker,Full-time,38.0,1.0,LOC-08,2024-11-13,On Leave,EMP-00112,Female,25-34,Band 2
+EMP-00013,Support Worker,Part-time,20.0,0.53,LOC-03,2024-05-01,Active,EMP-00083,Male,35-44,Band 1
+EMP-00014,Support Worker,Casual,12.0,0.32,LOC-07,2019-02-09,Active,EMP-00001,Female,65+,Band 3
+EMP-00015,Team Leader,Part-time,24.0,0.63,LOC-05,2024-12-11,Active,,Female,25-34,Band 1
+EMP-00016,Support Worker,Full-time,38.0,1.0,LOC-08,2019-06-23,Active,EMP-00148,Male,35-44,Band 2
+EMP-00017,Support Worker,Part-time,24.0,0.63,LOC-08,2020-03-04,Active,EMP-00001,Female,35-44,Band 1
+EMP-00018,Support Worker,Part-time,16.0,0.42,LOC-10,2024-04-20,Active,EMP-00148,Female,35-44,Band 2
+EMP-00019,Support Worker,Casual,12.0,0.32,LOC-01,2022-03-20,On Leave,EMP-00005,Female,35-44,Band 4
+EMP-00020,Support Worker,Part-time,16.0,0.42,LOC-04,2023-08-16,Terminated,EMP-00072,Female,35-44,Band 1
+EMP-00021,Coordinator,Casual,8.0,0.21,LOC-04,2023-05-18,Active,,Male,25-34,Band 2
+EMP-00022,Team Leader,Part-time,16.0,0.42,LOC-10,2024-09-29,Active,,Female,18-24,Band 2
+EMP-00023,Support Worker,Casual,16.0,0.42,LOC-03,2018-09-22,Active,EMP-00009,Female,35-44,Band 1
+EMP-00024,Allied Health Clinician,Full-time,38.0,1.0,LOC-05,2025-03-09,Active,EMP-00008,Non-binary / Other,55-64,Band 3
+EMP-00025,Allied Health Clinician,Casual,12.0,0.32,LOC-01,2022-03-14,Active,EMP-00086,Male,35-44,Band 1
+EMP-00026,Coordinator,Full-time,38.0,1.0,LOC-03,2018-11-29,Terminated,,Female,55-64,Band 1
+EMP-00027,Support Worker,Part-time,24.0,0.63,LOC-03,2025-03-09,Active,EMP-00099,Male,65+,Band 2
+EMP-00028,Support Worker,Full-time,38.0,1.0,LOC-02,2023-11-20,Active,EMP-00009,Male,25-34,Band 2
+EMP-00029,Team Leader,Part-time,20.0,0.53,LOC-01,2019-06-03,On Leave,,Male,25-34,Band 1
+EMP-00030,Allied Health Clinician,Full-time,38.0,1.0,LOC-05,2023-05-21,Active,EMP-00148,Male,65+,Band 1
+EMP-00031,Allied Health Clinician,Full-time,38.0,1.0,LOC-09,2024-06-17,Active,EMP-00041,Female,35-44,Band 4
+EMP-00032,Support Worker,Casual,16.0,0.42,LOC-05,2019-11-04,Active,EMP-00041,Male,18-24,Band 1
+EMP-00033,Coordinator,Part-time,20.0,0.53,LOC-08,2023-02-24,Active,,Male,45-54,Band 2
+EMP-00034,Support Worker,Part-time,24.0,0.63,LOC-09,2020-11-30,Terminated,EMP-00035,Female,25-34,Band 1
+EMP-00035,Coordinator,Casual,8.0,0.21,LOC-05,2019-04-20,Active,,Female,55-64,Band 1
+EMP-00036,Support Worker,Casual,12.0,0.32,LOC-03,2024-05-03,Active,EMP-00062,Female,25-34,Band 1
+EMP-00037,Support Worker,Full-time,38.0,1.0,LOC-06,2022-06-25,Active,EMP-00021,Female,25-34,Band 2
+EMP-00038,Allied Health Clinician,Casual,12.0,0.32,LOC-02,2025-03-13,Active,EMP-00057,Female,25-34,Band 2
+EMP-00039,Support Worker,Full-time,38.0,1.0,LOC-09,2018-12-27,Active,EMP-00022,Male,18-24,Band 4
+EMP-00040,Support Worker,Casual,16.0,0.42,LOC-10,2019-02-25,Active,EMP-00005,Male,45-54,
+EMP-00041,Coordinator,Full-time,38.0,1.0,LOC-10,2023-03-25,Active,,Female,35-44,Band 2
+EMP-00042,Support Worker,Full-time,38.0,1.0,LOC-05,2022-02-20,Active,EMP-00047,Female,35-44,Band 2
+EMP-00043,Support Worker,Full-time,38.0,1.0,LOC-08,2023-11-05,Active,EMP-00086,Male,35-44,Band 1
+EMP-00044,Support Worker,Casual,12.0,0.32,LOC-09,2020-11-28,Active,EMP-00106,Female,45-54,Band 1
+EMP-00045,Team Leader,Full-time,38.0,1.0,LOC-10,2021-12-17,Terminated,,Female,18-24,Band 3
+EMP-00046,Support Worker,Casual,16.0,0.42,LOC-10,2024-07-14,Terminated,EMP-00045,Male,45-54,Band 3
+EMP-00047,Coordinator,Casual,8.0,0.21,LOC-01,2020-06-03,Active,,Female,25-34,Band 2
+EMP-00048,Support Worker,Part-time,16.0,0.42,LOC-08,2021-10-28,On Leave,EMP-00041,Male,35-44,Band 2
+EMP-00049,Allied Health Clinician,Full-time,38.0,1.0,LOC-05,2020-06-05,Active,EMP-00110,Female,45-54,Band 2
+EMP-00050,Support Worker,Casual,16.0,0.42,LOC-03,2020-02-20,Active,EMP-00086,Female,25-34,Band 1
+EMP-00051,Support Worker,Casual,12.0,0.32,LOC-02,2020-04-24,Active,EMP-00117,Female,65+,Band 3
+EMP-00052,Support Worker,Full-time,38.0,1.0,LOC-08,2018-07-24,Active,EMP-00139,Male,25-34,Band 3
+EMP-00053,Team Leader,Full-time,38.0,1.0,LOC-06,2025-04-10,On Leave,,Female,55-64,Band 1
+EMP-00054,Support Worker,Part-time,16.0,0.42,LOC-10,2023-05-19,Active,EMP-00117,Male,25-34,Band 4
+EMP-00055,Allied Health Clinician,Full-time,38.0,1.0,LOC-07,2025-03-13,Active,EMP-00140,Male,45-54,Band 1
+EMP-00056,Allied Health Clinician,Full-time,38.0,1.0,LOC-02,2023-10-23,Active,EMP-00053,Male,25-34,Band 4
+EMP-00057,Team Leader,Full-time,38.0,1.0,LOC-09,2024-05-27,Active,,Male,25-34,Band 3
+EMP-00058,Support Worker,Casual,16.0,0.42,LOC-08,2018-12-22,Active,EMP-00047,Male,55-64,Band 1
+EMP-00059,Support Worker,Full-time,38.0,1.0,LOC-06,2021-09-14,On Leave,EMP-00041,Male,25-34,Band 3
+EMP-00060,Support Worker,Full-time,38.0,1.0,LOC-10,2020-07-04,Active,EMP-00026,Female,18-24,Band 2
+EMP-00061,Support Worker,Casual,16.0,0.42,LOC-04,2022-08-10,Active,EMP-00106,Female,65+,Band 2
+EMP-00062,Coordinator,Part-time,16.0,0.42,LOC-02,2021-06-22,Active,,Male,25-34,Band 2
+EMP-00063,Team Leader,Part-time,20.0,0.53,LOC-05,2024-05-23,Active,,Female,35-44,Band 1
+EMP-00064,Support Worker,Full-time,38.0,1.0,LOC-05,2023-05-11,Active,EMP-00099,Female,45-54,Band 2
+EMP-00065,Support Worker,Full-time,38.0,1.0,LOC-10,2021-04-08,Active,EMP-00112,Female,35-44,Band 1
+EMP-00066,Support Worker,Part-time,16.0,0.42,LOC-07,2020-07-24,Active,EMP-00021,Male,25-34,Band 3
+EMP-00067,Support Worker,Part-time,24.0,0.63,LOC-10,2021-10-19,Active,EMP-00063,Male,55-64,Band 4
+EMP-00068,Support Worker,Part-time,24.0,0.63,LOC-04,2019-11-16,Active,EMP-00026,Male,35-44,Band 1
+EMP-00069,Support Worker,Casual,8.0,0.21,LOC-06,2024-12-15,Active,EMP-00138,Female,25-34,Band 3
+EMP-00070,Support Worker,Casual,16.0,0.42,LOC-04,2019-06-23,Active,EMP-00033,Female,45-54,Band 1
+EMP-00071,Support Worker,Casual,16.0,0.42,LOC-05,2022-05-04,On Leave,EMP-00015,Male,45-54,Band 2
+EMP-00072,Team Leader,Full-time,38.0,1.0,LOC-06,2024-01-12,On Leave,,Female,25-34,Band 3
+EMP-00073,Registered Nurse,Part-time,16.0,0.42,LOC-07,2019-11-11,Terminated,EMP-00076,Female,35-44,Band 1
+EMP-00074,Coordinator,Part-time,16.0,0.42,LOC-02,2022-03-14,Terminated,,Female,55-64,Band 1
+EMP-00075,Support Worker,Full-time,38.0,1.0,LOC-08,2018-07-01,Active,EMP-00138,Female,25-34,Band 3
+EMP-00076,Team Leader,Part-time,20.0,0.53,LOC-08,2020-10-14,On Leave,,Female,35-44,Band 2
+EMP-00077,Support Worker,Casual,12.0,0.32,LOC-07,2021-10-06,On Leave,EMP-00139,Female,55-64,Band 2
+EMP-00078,Allied Health Clinician,Full-time,38.0,1.0,LOC-06,2021-12-29,Terminated,EMP-00008,Female,35-44,Band 4
+EMP-00079,Team Leader,Full-time,38.0,1.0,LOC-03,2023-04-11,Active,,Male,35-44,Band 1
+EMP-00080,Support Worker,Full-time,38.0,1.0,LOC-08,2023-07-19,Active,EMP-00041,Male,65+,Band 2
+EMP-00081,Support Worker,Part-time,24.0,0.63,LOC-03,2021-11-17,On Leave,EMP-00015,Male,55-64,Band 1
+EMP-00082,Team Leader,Part-time,30.0,0.79,LOC-07,2021-08-11,Terminated,,Male,65+,Band 1
+EMP-00083,Team Leader,Part-time,24.0,0.63,LOC-03,2025-06-20,Active,,Male,35-44,Band 4
+EMP-00084,Support Worker,Casual,8.0,0.21,LOC-08,2022-08-10,Active,EMP-00035,Female,35-44,Band 3
+EMP-00085,Allied Health Clinician,Casual,8.0,0.21,LOC-10,2025-02-11,Active,EMP-00074,Female,45-54,Band 3
+EMP-00086,Coordinator,Casual,16.0,0.42,LOC-09,2020-04-19,Active,,Female,25-34,Band 2
+EMP-00087,Allied Health Clinician,Full-time,38.0,1.0,LOC-06,2023-08-27,On Leave,EMP-00033,Female,55-64,Band 2
+EMP-00088,Support Worker,Casual,12.0,0.32,LOC-09,2023-01-20,On Leave,EMP-00007,Female,45-54,Band 2
+EMP-00089,Support Worker,Casual,8.0,0.21,LOC-07,2020-09-21,Active,EMP-00072,Male,55-64,Band 4
+EMP-00090,Support Worker,Full-time,38.0,1.0,LOC-06,2024-07-16,Active,EMP-00007,Non-binary / Other,45-54,Band 2
+EMP-00091,Support Worker,Casual,12.0,0.32,LOC-02,2023-01-30,Active,EMP-00026,Female,25-34,Band 1
+EMP-00092,Support Worker,Part-time,20.0,0.53,LOC-05,2023-02-01,Active,EMP-00001,Male,45-54,Band 2
+EMP-00093,Support Worker,Casual,8.0,0.21,LOC-09,2021-07-23,Active,EMP-00008,Female,45-54,Band 2
+EMP-00094,Team Leader,Full-time,38.0,1.0,LOC-04,2023-10-21,Active,,Female,55-64,Band 1
+EMP-00095,Support Worker,Part-time,24.0,0.63,LOC-09,2021-01-13,Active,EMP-00057,Non-binary / Other,45-54,Band 3
+EMP-00096,Allied Health Clinician,Part-time,20.0,0.53,LOC-06,2024-03-14,Active,EMP-00133,Female,45-54,Band 4
+EMP-00097,Support Worker,Part-time,16.0,0.42,LOC-08,2018-11-26,Terminated,EMP-00110,Female,25-34,Band 1
+EMP-00098,Support Worker,Part-time,16.0,0.42,LOC-01,2023-04-21,Active,EMP-00008,Female,35-44,Band 1
+EMP-00099,Team Leader,Full-time,38.0,1.0,LOC-03,2022-01-19,Active,,Female,25-34,Band 3
+EMP-00100,Support Worker,Part-time,20.0,0.53,LOC-04,2022-01-21,Active,EMP-00005,Female,55-64,Band 3
+EMP-00101,Support Worker,Full-time,38.0,1.0,LOC-09,2019-01-26,Active,EMP-00041,Female,35-44,Band 4
+EMP-00102,Support Worker,Part-time,24.0,0.63,LOC-02,2020-06-30,Active,EMP-00083,Female,25-34,Band 4
+EMP-00103,Support Worker,Full-time,38.0,1.0,LOC-08,2024-06-03,Active,EMP-00106,Female,45-54,Band 2
+EMP-00104,Allied Health Clinician,Full-time,38.0,1.0,LOC-07,2019-07-01,Active,EMP-00117,Female,45-54,Band 3
+EMP-00105,Support Worker,Casual,12.0,0.32,LOC-10,2018-09-09,Active,EMP-00045,Female,55-64,Band 1
+EMP-00106,Coordinator,Part-time,30.0,0.79,LOC-05,2023-12-24,Active,,Female,18-24,Band 1
+EMP-00107,Support Worker,Full-time,38.0,1.0,LOC-09,2020-11-11,On Leave,EMP-00021,Male,25-34,Band 3
+EMP-00108,Support Worker,Full-time,38.0,1.0,LOC-07,2024-06-28,On Leave,EMP-00005,Female,35-44,Band 4
+EMP-00109,Support Worker,Full-time,38.0,1.0,LOC-04,2021-06-09,Active,EMP-00015,Male,55-64,Band 2
+EMP-00110,Team Leader,Full-time,38.0,1.0,LOC-06,2025-02-23,Active,,Female,45-54,Band 3
+EMP-00111,Support Worker,Part-time,16.0,0.42,LOC-09,2019-07-17,Terminated,EMP-00007,Female,35-44,Band 2
+EMP-00112,Team Leader,Part-time,20.0,0.53,LOC-08,2021-07-06,Active,,Non-binary / Other,35-44,Band 2
+EMP-00113,Support Worker,Part-time,20.0,0.53,LOC-10,2022-06-29,Active,EMP-00133,Male,35-44,Band 2
+EMP-00114,Support Worker,Casual,8.0,0.21,LOC-02,2024-03-31,On Leave,EMP-00033,Male,55-64,Band 1
+EMP-00115,Support Worker,Part-time,24.0,0.63,LOC-05,2020-12-16,Active,EMP-00117,Male,45-54,Band 3
+EMP-00116,Support Worker,Full-time,38.0,1.0,LOC-09,2019-02-21,On Leave,EMP-00076,Male,18-24,Band 1
+EMP-00117,Coordinator,Full-time,38.0,1.0,LOC-09,2018-07-20,Active,,Male,35-44,Band 1
+EMP-00118,Support Worker,Part-time,24.0,0.63,LOC-07,2022-08-16,Active,EMP-00074,Male,35-44,Band 1
+EMP-00119,Support Worker,Full-time,38.0,1.0,LOC-04,2023-03-02,Active,EMP-00062,Female,65+,Band 1
+EMP-00120,Support Worker,Part-time,24.0,0.63,LOC-03,2019-04-21,Active,EMP-00117,Female,25-34,Band 2
+EMP-00121,Support Worker,Full-time,38.0,1.0,LOC-01,2025-06-10,Active,EMP-00005,Male,35-44,Band 1
+EMP-00122,Support Worker,Full-time,38.0,1.0,LOC-09,2020-02-14,Active,EMP-00008,Male,65+,Band 4
+EMP-00123,Registered Nurse,Full-time,38.0,1.0,LOC-03,2018-11-17,Active,EMP-00057,Female,55-64,Band 2
+EMP-00124,Support Worker,Full-time,38.0,1.0,LOC-02,2023-09-21,Active,EMP-00047,Male,45-54,Band 3
+EMP-00125,Support Worker,Full-time,38.0,1.0,LOC-01,2024-09-20,On Leave,EMP-00074,Female,65+,Band 1
+EMP-00126,Allied Health Clinician,Full-time,38.0,1.0,LOC-09,2023-08-23,Active,EMP-00106,Female,35-44,Band 2
+EMP-00127,Support Worker,Part-time,16.0,0.42,LOC-08,2021-06-18,Terminated,EMP-00079,Female,25-34,Band 1
+EMP-00128,Support Worker,Casual,8.0,0.21,LOC-08,2019-04-03,Active,EMP-00029,Female,35-44,Band 2
+EMP-00129,Support Worker,Part-time,20.0,0.53,LOC-02,2022-12-21,Active,EMP-00041,Female,65+,Band 1
+EMP-00130,Support Worker,Full-time,38.0,1.0,LOC-01,2023-09-21,Terminated,EMP-00106,Female,55-64,Band 1
+EMP-00131,Support Worker,Part-time,30.0,0.79,LOC-07,2021-10-13,Active,EMP-00022,Non-binary / Other,55-64,Band 3
+EMP-00132,Support Worker,Full-time,38.0,1.0,LOC-04,2019-01-09,On Leave,EMP-00072,Female,35-44,Band 3
+EMP-00133,Team Leader,Part-time,24.0,0.63,LOC-03,2019-09-06,Active,,Female,45-54,
+EMP-00134,Registered Nurse,Full-time,38.0,1.0,LOC-05,2025-01-24,Active,EMP-00074,Female,25-34,Band 2
+EMP-00135,Support Worker,Casual,8.0,0.21,LOC-08,2022-08-04,On Leave,EMP-00106,Male,45-54,Band 2
+EMP-00136,Registered Nurse,Full-time,38.0,1.0,LOC-07,2024-04-03,Active,EMP-00099,Male,18-24,Band 2
+EMP-00137,Allied Health Clinician,Part-time,20.0,0.53,LOC-08,2022-04-26,Active,EMP-00062,Female,65+,Band 2
+EMP-00138,Team Leader,Full-time,38.0,1.0,LOC-08,2021-07-20,Active,,Female,55-64,Band 2
+EMP-00139,Team Leader,Full-time,38.0,1.0,LOC-03,2022-03-27,Active,,Female,45-54,Band 2
+EMP-00140,Team Leader,Full-time,38.0,1.0,LOC-02,2023-03-16,On Leave,,Male,55-64,Band 1
+EMP-00141,Team Leader,Full-time,38.0,1.0,LOC-03,2020-02-11,Active,,Male,55-64,Band 1
+EMP-00142,Support Worker,Part-time,20.0,0.53,LOC-07,2018-10-18,Active,EMP-00035,Female,45-54,
+EMP-00143,Registered Nurse,Full-time,38.0,1.0,LOC-06,2021-09-02,Active,EMP-00045,Male,45-54,Band 2
+EMP-00144,Allied Health Clinician,Casual,8.0,0.21,LOC-06,2023-03-27,Terminated,EMP-00053,Female,45-54,Band 1
+EMP-00145,Support Worker,Casual,16.0,0.42,LOC-10,2023-04-12,Terminated,EMP-00026,Male,45-54,Band 3
+EMP-00146,Support Worker,Part-time,30.0,0.79,LOC-07,2023-10-24,Active,EMP-00082,Female,25-34,Band 2
+EMP-00147,Support Worker,Full-time,38.0,1.0,LOC-06,2023-06-16,Terminated,EMP-00022,Female,35-44,Band 3
+EMP-00148,Coordinator,Full-time,38.0,1.0,LOC-02,2020-01-20,Active,,Female,65+,Band 1
+EMP-00149,Support Worker,Part-time,20.0,0.53,LOC-03,2019-04-30,Terminated,EMP-00083,Female,25-34,Band 3
+EMP-00150,Support Worker,Casual,8.0,0.21,LOC-02,2020-10-31,Active,EMP-00106,Male,25-34,Band 2
+EMP-00146,Support Worker,Part-time,30.0,0.79,LOC-07,2023-10-24,Active,EMP-00082,Female,25-34,Band 2

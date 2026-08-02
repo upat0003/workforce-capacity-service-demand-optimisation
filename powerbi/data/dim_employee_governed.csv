@@ -1,0 +1,151 @@
+employee_id,gender,age_band,primary_role,employment_type,base_location_id
+EMP-00001,Non-binary / Other,45-54,Coordinator,Part-time,LOC-03
+EMP-00002,Male,55-64,Support Worker,Part-time,LOC-10
+EMP-00003,Male,35-44,Support Worker,Part-time,LOC-03
+EMP-00004,Female,25-34,Allied Health Clinician,Part-time,LOC-05
+EMP-00005,Female,25-34,Coordinator,Casual,LOC-01
+EMP-00006,Male,25-34,Support Worker,Part-time,LOC-09
+EMP-00007,Female,18-24,Coordinator,Full-time,LOC-07
+EMP-00008,Female,25-34,Team Leader,Part-time,LOC-05
+EMP-00009,Female,35-44,Team Leader,Part-time,LOC-06
+EMP-00010,Male,25-34,Support Worker,Part-time,LOC-05
+EMP-00011,Male,35-44,Support Worker,Full-time,LOC-06
+EMP-00012,Female,25-34,Support Worker,Full-time,LOC-08
+EMP-00013,Male,35-44,Support Worker,Part-time,LOC-03
+EMP-00014,Female,65+,Support Worker,Casual,LOC-07
+EMP-00015,Female,25-34,Team Leader,Part-time,LOC-05
+EMP-00016,Male,35-44,Support Worker,Full-time,LOC-08
+EMP-00017,Female,35-44,Support Worker,Part-time,LOC-08
+EMP-00018,Female,35-44,Support Worker,Part-time,LOC-10
+EMP-00019,Female,35-44,Support Worker,Casual,LOC-01
+EMP-00020,Female,35-44,Support Worker,Part-time,LOC-04
+EMP-00021,Male,25-34,Coordinator,Casual,LOC-04
+EMP-00022,Female,18-24,Team Leader,Part-time,LOC-10
+EMP-00023,Female,35-44,Support Worker,Casual,LOC-03
+EMP-00024,Non-binary / Other,55-64,Allied Health Clinician,Full-time,LOC-05
+EMP-00025,Male,35-44,Allied Health Clinician,Casual,LOC-01
+EMP-00026,Female,55-64,Coordinator,Full-time,LOC-03
+EMP-00027,Male,65+,Support Worker,Part-time,LOC-03
+EMP-00028,Male,25-34,Support Worker,Full-time,LOC-02
+EMP-00029,Male,25-34,Team Leader,Part-time,LOC-01
+EMP-00030,Male,65+,Allied Health Clinician,Full-time,LOC-05
+EMP-00031,Female,35-44,Allied Health Clinician,Full-time,LOC-09
+EMP-00032,Male,18-24,Support Worker,Casual,LOC-05
+EMP-00033,Male,45-54,Coordinator,Part-time,LOC-08
+EMP-00034,Female,25-34,Support Worker,Part-time,LOC-09
+EMP-00035,Female,55-64,Coordinator,Casual,LOC-05
+EMP-00036,Female,25-34,Support Worker,Casual,LOC-03
+EMP-00037,Female,25-34,Support Worker,Full-time,LOC-06
+EMP-00038,Female,25-34,Allied Health Clinician,Casual,LOC-02
+EMP-00039,Male,18-24,Support Worker,Full-time,LOC-09
+EMP-00040,Male,45-54,Support Worker,Casual,LOC-10
+EMP-00041,Female,35-44,Coordinator,Full-time,LOC-10
+EMP-00042,Female,35-44,Support Worker,Full-time,LOC-05
+EMP-00043,Male,35-44,Support Worker,Full-time,LOC-08
+EMP-00044,Female,45-54,Support Worker,Casual,LOC-09
+EMP-00045,Female,18-24,Team Leader,Full-time,LOC-10
+EMP-00046,Male,45-54,Support Worker,Casual,LOC-10
+EMP-00047,Female,25-34,Coordinator,Casual,LOC-01
+EMP-00048,Male,35-44,Support Worker,Part-time,LOC-08
+EMP-00049,Female,45-54,Allied Health Clinician,Full-time,LOC-05
+EMP-00050,Female,25-34,Support Worker,Casual,LOC-03
+EMP-00051,Female,65+,Support Worker,Casual,LOC-02
+EMP-00052,Male,25-34,Support Worker,Full-time,LOC-08
+EMP-00053,Female,55-64,Team Leader,Full-time,LOC-06
+EMP-00054,Male,25-34,Support Worker,Part-time,LOC-10
+EMP-00055,Male,45-54,Allied Health Clinician,Full-time,LOC-07
+EMP-00056,Male,25-34,Allied Health Clinician,Full-time,LOC-02
+EMP-00057,Male,25-34,Team Leader,Full-time,LOC-09
+EMP-00058,Male,55-64,Support Worker,Casual,LOC-08
+EMP-00059,Male,25-34,Support Worker,Full-time,LOC-06
+EMP-00060,Female,18-24,Support Worker,Full-time,LOC-10
+EMP-00061,Female,65+,Support Worker,Casual,LOC-04
+EMP-00062,Male,25-34,Coordinator,Part-time,LOC-02
+EMP-00063,Female,35-44,Team Leader,Part-time,LOC-05
+EMP-00064,Female,45-54,Support Worker,Full-time,LOC-05
+EMP-00065,Female,35-44,Support Worker,Full-time,LOC-10
+EMP-00066,Male,25-34,Support Worker,Part-time,LOC-07
+EMP-00067,Male,55-64,Support Worker,Part-time,LOC-10
+EMP-00068,Male,35-44,Support Worker,Part-time,LOC-04
+EMP-00069,Female,25-34,Support Worker,Casual,LOC-06
+EMP-00070,Female,45-54,Support Worker,Casual,LOC-04
+EMP-00071,Male,45-54,Support Worker,Casual,LOC-05
+EMP-00072,Female,25-34,Team Leader,Full-time,LOC-06
+EMP-00073,Female,35-44,Registered Nurse,Part-time,LOC-07
+EMP-00074,Female,55-64,Coordinator,Part-time,LOC-02
+EMP-00075,Female,25-34,Support Worker,Full-time,LOC-08
+EMP-00076,Female,35-44,Team Leader,Part-time,LOC-08
+EMP-00077,Female,55-64,Support Worker,Casual,LOC-07
+EMP-00078,Female,35-44,Allied Health Clinician,Full-time,LOC-06
+EMP-00079,Male,35-44,Team Leader,Full-time,LOC-03
+EMP-00080,Male,65+,Support Worker,Full-time,LOC-08
+EMP-00081,Male,55-64,Support Worker,Part-time,LOC-03
+EMP-00082,Male,65+,Team Leader,Part-time,LOC-07
+EMP-00083,Male,35-44,Team Leader,Part-time,LOC-03
+EMP-00084,Female,35-44,Support Worker,Casual,LOC-08
+EMP-00085,Female,45-54,Allied Health Clinician,Casual,LOC-10
+EMP-00086,Female,25-34,Coordinator,Casual,LOC-09
+EMP-00087,Female,55-64,Allied Health Clinician,Full-time,LOC-06
+EMP-00088,Female,45-54,Support Worker,Casual,LOC-09
+EMP-00089,Male,55-64,Support Worker,Casual,LOC-07
+EMP-00090,Non-binary / Other,45-54,Support Worker,Full-time,LOC-06
+EMP-00091,Female,25-34,Support Worker,Casual,LOC-02
+EMP-00092,Male,45-54,Support Worker,Part-time,LOC-05
+EMP-00093,Female,45-54,Support Worker,Casual,LOC-09
+EMP-00094,Female,55-64,Team Leader,Full-time,LOC-04
+EMP-00095,Non-binary / Other,45-54,Support Worker,Part-time,LOC-09
+EMP-00096,Female,45-54,Allied Health Clinician,Part-time,LOC-06
+EMP-00097,Female,25-34,Support Worker,Part-time,LOC-08
+EMP-00098,Female,35-44,Support Worker,Part-time,LOC-01
+EMP-00099,Female,25-34,Team Leader,Full-time,LOC-03
+EMP-00100,Female,55-64,Support Worker,Part-time,LOC-04
+EMP-00101,Female,35-44,Support Worker,Full-time,LOC-09
+EMP-00102,Female,25-34,Support Worker,Part-time,LOC-02
+EMP-00103,Female,45-54,Support Worker,Full-time,LOC-08
+EMP-00104,Female,45-54,Allied Health Clinician,Full-time,LOC-07
+EMP-00105,Female,55-64,Support Worker,Casual,LOC-10
+EMP-00106,Female,18-24,Coordinator,Part-time,LOC-05
+EMP-00107,Male,25-34,Support Worker,Full-time,LOC-09
+EMP-00108,Female,35-44,Support Worker,Full-time,LOC-07
+EMP-00109,Male,55-64,Support Worker,Full-time,LOC-04
+EMP-00110,Female,45-54,Team Leader,Full-time,LOC-06
+EMP-00111,Female,35-44,Support Worker,Part-time,LOC-09
+EMP-00112,Non-binary / Other,35-44,Team Leader,Part-time,LOC-08
+EMP-00113,Male,35-44,Support Worker,Part-time,LOC-10
+EMP-00114,Male,55-64,Support Worker,Casual,LOC-02
+EMP-00115,Male,45-54,Support Worker,Part-time,LOC-05
+EMP-00116,Male,18-24,Support Worker,Full-time,LOC-09
+EMP-00117,Male,35-44,Coordinator,Full-time,LOC-09
+EMP-00118,Male,35-44,Support Worker,Part-time,LOC-07
+EMP-00119,Female,65+,Support Worker,Full-time,LOC-04
+EMP-00120,Female,25-34,Support Worker,Part-time,LOC-03
+EMP-00121,Male,35-44,Support Worker,Full-time,LOC-01
+EMP-00122,Male,65+,Support Worker,Full-time,LOC-09
+EMP-00123,Female,55-64,Registered Nurse,Full-time,LOC-03
+EMP-00124,Male,45-54,Support Worker,Full-time,LOC-02
+EMP-00125,Female,65+,Support Worker,Full-time,LOC-01
+EMP-00126,Female,35-44,Allied Health Clinician,Full-time,LOC-09
+EMP-00127,Female,25-34,Support Worker,Part-time,LOC-08
+EMP-00128,Female,35-44,Support Worker,Casual,LOC-08
+EMP-00129,Female,65+,Support Worker,Part-time,LOC-02
+EMP-00130,Female,55-64,Support Worker,Full-time,LOC-01
+EMP-00131,Non-binary / Other,55-64,Support Worker,Part-time,LOC-07
+EMP-00132,Female,35-44,Support Worker,Full-time,LOC-04
+EMP-00133,Female,45-54,Team Leader,Part-time,LOC-03
+EMP-00134,Female,25-34,Registered Nurse,Full-time,LOC-05
+EMP-00135,Male,45-54,Support Worker,Casual,LOC-08
+EMP-00136,Male,18-24,Registered Nurse,Full-time,LOC-07
+EMP-00137,Female,65+,Allied Health Clinician,Part-time,LOC-08
+EMP-00138,Female,55-64,Team Leader,Full-time,LOC-08
+EMP-00139,Female,45-54,Team Leader,Full-time,LOC-03
+EMP-00140,Male,55-64,Team Leader,Full-time,LOC-02
+EMP-00141,Male,55-64,Team Leader,Full-time,LOC-03
+EMP-00142,Female,45-54,Support Worker,Part-time,LOC-07
+EMP-00143,Male,45-54,Registered Nurse,Full-time,LOC-06
+EMP-00144,Female,45-54,Allied Health Clinician,Casual,LOC-06
+EMP-00145,Male,45-54,Support Worker,Casual,LOC-10
+EMP-00146,Female,25-34,Support Worker,Part-time,LOC-07
+EMP-00147,Female,35-44,Support Worker,Full-time,LOC-06
+EMP-00148,Female,65+,Coordinator,Full-time,LOC-02
+EMP-00149,Female,25-34,Support Worker,Part-time,LOC-03
+EMP-00150,Male,25-34,Support Worker,Casual,LOC-02

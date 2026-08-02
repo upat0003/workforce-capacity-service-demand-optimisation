@@ -1,0 +1,61 @@
+# Data-quality control rules executed by python/monitoring/data_quality_monitoring.py
+# against the silver layer. Each check_sql must return two columns: (failing_rows, total_rows).
+# Severity drives escalation in governance/risk_register.md and the Data Quality and
+# Governance dashboard page; min_pass_rate_pct is the control threshold for a "pass".
+
+rules:
+  - rule_id: DQ-001
+    dataset: employees
+    description: "Employee base_location_id must resolve to a known location"
+    severity: high
+    min_pass_rate_pct: 99
+    check_sql: >
+      SELECT count(*) FILTER (WHERE location_fk_invalid), count(*) FROM silver.dim_employee
+
+  - rule_id: DQ-002
+    dataset: service_requests
+    description: "Service request client_id must resolve to a known client"
+    severity: high
+    min_pass_rate_pct: 99.5
+    check_sql: >
+      SELECT count(*) FILTER (WHERE client_fk_invalid), count(*) FROM silver.fact_service_requests
+
+  - rule_id: DQ-003
+    dataset: service_requests
+    description: "Complexity score should be captured at intake"
+    severity: medium
+    min_pass_rate_pct: 95
+    check_sql: >
+      SELECT count(*) FILTER (WHERE complexity_score_missing), count(*) FROM silver.fact_service_requests
+
+  - rule_id: DQ-004
+    dataset: shifts
+    description: "Actual shift hours must fall within a plausible 0-16 hour range"
+    severity: high
+    min_pass_rate_pct: 99.5
+    check_sql: >
+      SELECT count(*) FILTER (WHERE hours_outlier_flag), count(*) FROM silver.fact_shifts
+
+  - rule_id: DQ-005
+    dataset: employee_skills
+    description: "Mandatory safety certifications should not be expired"
+    severity: high
+    min_pass_rate_pct: 90
+    check_sql: >
+      SELECT count(*) FILTER (WHERE expired_flag), count(*) FROM silver.employee_skills
+
+  - rule_id: DQ-006
+    dataset: outcomes
+    description: "Client satisfaction score should be captured for completed visits"
+    severity: low
+    min_pass_rate_pct: 85
+    check_sql: >
+      SELECT count(*) FILTER (WHERE client_satisfaction_score IS NULL), count(*) FROM silver.fact_outcomes
+
+  - rule_id: DQ-007
+    dataset: clients
+    description: "Clients must have an explicit data-use consent flag recorded"
+    severity: high
+    min_pass_rate_pct: 95
+    check_sql: >
+      SELECT count(*) FILTER (WHERE consent_data_use_flag IS NULL), count(*) FROM silver.dim_client

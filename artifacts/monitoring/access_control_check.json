@@ -1,0 +1,76 @@
+{
+  "requests_evaluated": 9,
+  "allowed": 6,
+  "denied": 3,
+  "results": [
+    {
+      "role": "workforce_analyst",
+      "dataset": "gold",
+      "wants_pii": false,
+      "decision": "allowed",
+      "row_level_filter": null,
+      "region_scope": null
+    },
+    {
+      "role": "workforce_analyst",
+      "dataset": "bronze.employees",
+      "wants_pii": true,
+      "decision": "denied",
+      "reason": "role 'workforce_analyst' has no grant for dataset 'bronze.employees'"
+    },
+    {
+      "role": "regional_coordinator",
+      "dataset": "silver",
+      "wants_pii": true,
+      "decision": "allowed",
+      "row_level_filter": "region_id = :assigned_region",
+      "region_scope": "LOC-02"
+    },
+    {
+      "role": "executive",
+      "dataset": "gold.executive_marts",
+      "wants_pii": false,
+      "decision": "allowed",
+      "row_level_filter": null,
+      "region_scope": null
+    },
+    {
+      "role": "executive",
+      "dataset": "silver",
+      "wants_pii": true,
+      "decision": "denied",
+      "reason": "role 'executive' has no grant for dataset 'silver'"
+    },
+    {
+      "role": "people_and_culture",
+      "dataset": "bronze.employees",
+      "wants_pii": true,
+      "decision": "allowed",
+      "row_level_filter": null,
+      "region_scope": null
+    },
+    {
+      "role": "data_platform_engineer",
+      "dataset": "artifacts",
+      "wants_pii": false,
+      "decision": "allowed",
+      "row_level_filter": null,
+      "region_scope": null
+    },
+    {
+      "role": "model_risk_reviewer",
+      "dataset": "governance",
+      "wants_pii": false,
+      "decision": "allowed",
+      "row_level_filter": null,
+      "region_scope": null
+    },
+    {
+      "role": "model_risk_reviewer",
+      "dataset": "bronze.employees",
+      "wants_pii": true,
+      "decision": "denied",
+      "reason": "role 'model_risk_reviewer' has no grant for dataset 'bronze.employees'"
+    }
+  ]
+}

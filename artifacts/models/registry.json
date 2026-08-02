@@ -1,0 +1,135 @@
+[
+  {
+    "name": "demand_forecasting",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:40.654530+00:00",
+    "metrics": {
+      "baseline_seasonal_naive_mae": 4.81,
+      "baseline_seasonal_naive_mape": 0.2341,
+      "challenger_gbrt_mae": 3.765,
+      "challenger_gbrt_mape": 0.1919,
+      "challenger_gbrt_rmse": 4.742,
+      "improvement_vs_baseline_pct": 18.04,
+      "test_days": 42,
+      "n_train_rows": 295,
+      "n_test_rows": 42
+    },
+    "threshold_status": "warning",
+    "artifact_path": "artifacts/monitoring/demand_forecast_30d.csv",
+    "notes": "HistGradientBoostingRegressor challenger vs. seasonal-naive baseline; recursive 30-day forward forecast per region."
+  },
+  {
+    "name": "complexity_prediction",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:43.352910+00:00",
+    "metrics": {
+      "baseline_majority_class_accuracy": 0.3658,
+      "baseline_majority_class_macro_f1": 0.1339,
+      "challenger_accuracy": 0.4437,
+      "challenger_macro_f1": 0.398,
+      "labels": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "confusion_matrix": [
+        [
+          47,
+          50,
+          13,
+          45
+        ],
+        [
+          40,
+          73,
+          67,
+          147
+        ],
+        [
+          11,
+          36,
+          363,
+          190
+        ],
+        [
+          20,
+          102,
+          228,
+          274
+        ]
+      ],
+      "n_train": 5116,
+      "n_test": 1706
+    },
+    "threshold_status": "healthy",
+    "artifact_path": "in-memory (retrained on each pipeline run)",
+    "notes": "Top drivers (permutation-free HGB importance): None"
+  },
+  {
+    "name": "cancellation_prediction",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:43.970699+00:00",
+    "metrics": {
+      "baseline_logreg_roc_auc": 0.547,
+      "baseline_logreg_pr_auc": 0.3519,
+      "challenger_hgb_roc_auc": 0.662,
+      "challenger_hgb_pr_auc": 0.439,
+      "positive_rate": 0.3064,
+      "n_train": 4929,
+      "n_test": 1644
+    },
+    "threshold_status": "warning",
+    "artifact_path": "in-memory (retrained on each pipeline run)",
+    "notes": "HistGradientBoostingClassifier challenger vs. class-weighted logistic-regression baseline."
+  },
+  {
+    "name": "service_level_breach_prediction",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:44.476880+00:00",
+    "metrics": {
+      "baseline_urgency_only_roc_auc": 0.5223,
+      "challenger_hgb_roc_auc": 0.9358,
+      "operating_threshold": 0.35,
+      "precision_at_threshold": 0.4387,
+      "recall_at_threshold": 0.8395,
+      "breach_rate": 0.0986,
+      "n_train": 4929,
+      "n_test": 1644
+    },
+    "threshold_status": "healthy",
+    "artifact_path": "in-memory (retrained on each pipeline run)",
+    "notes": "Flags requests likely to breach SLA at intake so coordinators can prioritise scheduling."
+  },
+  {
+    "name": "workload_estimation",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:44.635493+00:00",
+    "metrics": {
+      "baseline_linear_mae_hours": 26.67,
+      "baseline_linear_mape": 0.119,
+      "challenger_hgb_mae_hours": 18.42,
+      "challenger_hgb_mape": 0.0769,
+      "n_train": 397,
+      "n_test": 133
+    },
+    "threshold_status": "healthy",
+    "artifact_path": "in-memory (retrained on each pipeline run)",
+    "notes": "Predicts region-week rostered hours required from forecast demand and case-mix complexity."
+  },
+  {
+    "name": "capacity_gap_prediction",
+    "version": "1.0.0",
+    "trained_at": "2026-08-02T06:10:44.788413+00:00",
+    "metrics": {
+      "baseline_mean_mae_fte": 2.127,
+      "challenger_hgb_mae_fte": 0.073,
+      "mean_gap_fte": -6.607,
+      "n_train": 397,
+      "n_test": 133
+    },
+    "threshold_status": "healthy",
+    "artifact_path": "in-memory (retrained on each pipeline run)",
+    "notes": "Trailing 4-week average FTE gap by region: {'LOC-01': -1.57, 'LOC-04': -4.55, 'LOC-06': -4.82, 'LOC-07': -5.75, 'LOC-10': -5.81, 'LOC-02': -6.1, 'LOC-09': -8.5, 'LOC-03': -8.54, 'LOC-08': -9.15, 'LOC-05': -10.62}"
+  }
+]

@@ -1,0 +1,21 @@
+employee_id,primary_role,employment_type,contracted_hours_per_week,fte,base_location_id,hire_date,employment_status,manager_id,gender,age_band,hourly_rate_band
+EMP-00001,Coordinator,Part-time,20.0,0.53,LOC-03,2024-11-24,On Leave,,Non-binary / Other,45-54,Band 3
+EMP-00002,Support Worker,Part-time,16.0,0.42,LOC-10,2022-11-23,Active,EMP-00072,Male,55-64,Band 2
+EMP-00003,Support Worker,Part-time,30.0,0.79,LOC-03,2019-06-19,On Leave,EMP-00074,Male,35-44,Band 4
+EMP-00004,Allied Health Clinician,Part-time,24.0,0.63,LOC-05,2024-02-18,Active,EMP-00029,Female,25-34,Band 2
+EMP-00005,Coordinator,Casual,8.0,0.21,LOC-01,2019-02-17,Active,,Female,25-34,Band 2
+EMP-00006,Support Worker,Part-time,20.0,0.53,LOC-09,2022-06-05,Active,EMP-00072,Male,25-34,Band 3
+EMP-00007,Coordinator,Full-time,38.0,1.0,LOC-07,2023-10-26,On Leave,,Female,18-24,Band 3
+EMP-00008,Team Leader,Part-time,16.0,0.42,LOC-05,2020-01-04,Active,,Female,25-34,Band 1
+EMP-00009,Team Leader,Part-time,30.0,0.79,LOC-06,2024-12-11,On Leave,,Female,35-44,Band 1
+EMP-00010,Support Worker,Part-time,24.0,0.63,LOC-05,2023-12-29,Active,EMP-00035,Male,25-34,Band 1
+EMP-00011,Support Worker,Full-time,38.0,1.0,LOC-06,2024-08-12,Active,EMP-00094,Male,35-44,Band 3
+EMP-00012,Support Worker,Full-time,38.0,1.0,LOC-08,2024-11-13,On Leave,EMP-00112,Female,25-34,Band 2
+EMP-00013,Support Worker,Part-time,20.0,0.53,LOC-03,2024-05-01,Active,EMP-00083,Male,35-44,Band 1
+EMP-00014,Support Worker,Casual,12.0,0.32,LOC-07,2019-02-09,Active,EMP-00001,Female,65+,Band 3
+EMP-00015,Team Leader,Part-time,24.0,0.63,LOC-05,2024-12-11,Active,,Female,25-34,Band 1
+EMP-00016,Support Worker,Full-time,38.0,1.0,LOC-08,2019-06-23,Active,EMP-00148,Male,35-44,Band 2
+EMP-00017,Support Worker,Part-time,24.0,0.63,LOC-08,2020-03-04,Active,EMP-00001,Female,35-44,Band 1
+EMP-00018,Support Worker,Part-time,16.0,0.42,LOC-10,2024-04-20,Active,EMP-00148,Female,35-44,Band 2
+EMP-00019,Support Worker,Casual,12.0,0.32,LOC-01,2022-03-20,On Leave,EMP-00005,Female,35-44,Band 4
+EMP-00020,Support Worker,Part-time,16.0,0.42,LOC-04,2023-08-16,Terminated,EMP-00072,Female,35-44,Band 1

@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: stg_employees
+    description: "One row per active employee, deduplicated on employee_id."
+    columns:
+      - name: employee_id
+        tests: [unique, not_null]
+      - name: employment_status
+        tests:
+          - accepted_values:
+              values: ['Active', 'On Leave', 'Terminated']
+  - name: stg_service_requests
+    description: "One row per service demand request raised by or for a client."
+    columns:
+      - name: request_id
+        tests: [unique, not_null]
+      - name: urgency
+        tests:
+          - accepted_values:
+              values: ['Routine', 'Priority', 'Urgent', 'Emergency']
+  - name: stg_shifts
+    description: "One row per rostered employee shift."
+    columns:
+      - name: shift_id
+        tests: [unique, not_null]
+      - name: employee_id
+        tests: [not_null]

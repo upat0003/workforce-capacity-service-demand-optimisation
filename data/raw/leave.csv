@@ -1,0 +1,641 @@
+leave_id,employee_id,leave_type,start_date,end_date,status,approved_by,requested_date
+LV-00001,EMP-00117,Annual,2025-12-28,2026-01-03,Cancelled,,2025-12-26
+LV-00002,EMP-00052,Annual,2026-06-19,2026-07-02,Approved,system-approval-workflow,2026-06-04
+LV-00003,EMP-00114,Annual,2026-04-06,2026-04-11,Approved,system-approval-workflow,2026-03-31
+LV-00004,EMP-00096,Annual,2025-08-07,2025-08-11,Approved,system-approval-workflow,2025-07-22
+LV-00005,EMP-00055,Annual,2025-11-13,2025-11-17,Approved,system-approval-workflow,2025-11-02
+LV-00006,EMP-00067,Personal / Carer's,2025-12-22,2026-01-04,Cancelled,,2025-12-20
+LV-00007,EMP-00139,Personal / Carer's,2025-10-11,2025-10-12,Approved,system-approval-workflow,2025-10-07
+LV-00008,EMP-00073,Unpaid,2025-10-17,2025-10-25,Approved,system-approval-workflow,2025-10-09
+LV-00009,EMP-00095,Annual,2026-07-27,2026-08-09,Cancelled,,2026-07-21
+LV-00010,EMP-00076,Personal / Carer's,2026-01-23,2026-02-05,Rejected,,2026-01-13
+LV-00011,EMP-00025,Annual,2026-01-07,2026-01-15,Pending,,2026-01-06
+LV-00012,EMP-00086,Annual,2026-02-16,2026-02-26,Approved,system-approval-workflow,2026-02-03
+LV-00013,EMP-00039,Annual,2025-12-23,2025-12-24,Approved,system-approval-workflow,2025-12-04
+LV-00014,EMP-00001,Annual,2026-01-25,2026-02-01,Approved,system-approval-workflow,2026-01-24
+LV-00015,EMP-00114,Personal / Carer's,2025-11-09,2025-11-17,Approved,system-approval-workflow,2025-10-27
+LV-00016,EMP-00150,Unpaid,2025-10-19,2025-10-28,Approved,system-approval-workflow,2025-09-29
+LV-00017,EMP-00143,Annual,2026-06-12,2026-06-22,Rejected,,2026-06-05
+LV-00018,EMP-00021,Sick,2026-01-13,2026-01-14,Rejected,,2026-01-13
+LV-00019,EMP-00114,Parental,2025-11-08,2025-11-16,Approved,system-approval-workflow,2025-11-04
+LV-00020,EMP-00028,ANNUAL,2026-01-10,2026-01-17,Rejected,,2025-12-24
+LV-00021,EMP-00084,Annual,2026-05-03,2026-05-06,Approved,system-approval-workflow,2026-04-24
+LV-00022,EMP-00007,Personal / Carer's,2026-01-20,2026-02-01,Cancelled,,2026-01-05
+LV-00023,EMP-00012,Personal / Carer's,2025-12-27,2026-01-03,Approved,system-approval-workflow,2025-12-19
+LV-00024,EMP-00087,Personal / Carer's,2025-10-14,2025-10-24,Cancelled,,2025-10-04
+LV-00025,EMP-00059,Annual,2026-07-09,2026-07-10,Approved,system-approval-workflow,2026-07-05
+LV-00026,EMP-00036,Personal / Carer's,2026-07-30,2026-08-07,Cancelled,,2026-07-19
+LV-00027,EMP-00054,Annual,2026-04-18,2026-04-25,Pending,,2026-04-11
+LV-00028,EMP-00106,Annual,2025-11-16,2025-11-22,Cancelled,,2025-11-13
+LV-00029,EMP-00147,Sick,2025-12-29,2025-12-31,Cancelled,,2025-12-26
+LV-00030,EMP-00090,Annual,2025-08-15,2025-08-25,Pending,,2025-07-31
+LV-00031,EMP-00027,Sick,2025-11-29,2025-12-01,Approved,system-approval-workflow,2025-11-21
+LV-00032,EMP-00002,Annual,2026-05-27,2026-05-30,Approved,system-approval-workflow,2026-05-09
+LV-00033,EMP-00066,Annual,2026-01-02,2026-01-12,Approved,system-approval-workflow,2025-12-28
+LV-00034,EMP-00060,Annual,2026-03-04,2026-03-06,Approved,system-approval-workflow,2026-02-19
+LV-00035,EMP-00065,Sick,2025-09-19,2025-09-20,Approved,system-approval-workflow,2025-09-12
+LV-00036,EMP-00110,Sick,2025-11-25,2025-11-26,Cancelled,,2025-11-24
+LV-00037,EMP-00020,Personal / Carer's,2026-07-12,2026-07-22,Pending,,2026-06-30
+LV-00038,EMP-00004,Annual,2026-05-21,2026-05-29,Approved,system-approval-workflow,2026-05-03
+LV-00039,EMP-00043,Sick,2025-11-07,2025-11-09,Pending,,2025-10-19
+LV-00040,EMP-00018,ANNUAL,2025-12-24,2025-12-28,Approved,system-approval-workflow,2025-12-15
+LV-00041,EMP-00138,Annual,2026-03-20,2026-03-28,Approved,system-approval-workflow,2026-03-10
+LV-00042,EMP-00105,Personal / Carer's,2026-04-15,2026-04-23,Approved,system-approval-workflow,2026-04-04
+LV-00043,EMP-00119,Sick,2025-10-20,2025-10-21,Approved,system-approval-workflow,2025-10-02
+LV-00044,EMP-00055,ANNUAL,2026-07-04,2026-07-13,Rejected,,2026-06-22
+LV-00045,EMP-00054,Sick,2025-12-02,2025-12-03,Cancelled,,2025-11-15
+LV-00046,EMP-00017,Sick,2026-06-03,2026-06-04,Pending,,2026-05-14
+LV-00047,EMP-00049,Annual,2025-10-21,2025-10-28,Approved,system-approval-workflow,2025-10-11
+LV-00048,EMP-00041,Sick,2025-10-13,2025-10-14,Approved,system-approval-workflow,2025-10-09
+LV-00049,EMP-00149,Unpaid,2026-02-01,2026-02-11,Rejected,,2026-01-18
+LV-00050,EMP-00075,Annual,2026-06-21,2026-06-24,Cancelled,,2026-06-03
+LV-00051,EMP-00022,Personal / Carer's,2026-04-16,2026-04-21,Cancelled,,2026-04-06
+LV-00052,EMP-00019,Sick,2026-01-13,2026-01-14,Rejected,,2026-01-11
+LV-00053,EMP-00033,Annual,2026-01-17,2026-01-30,Cancelled,,2025-12-30
+LV-00054,EMP-00049,Sick,2025-12-14,2025-12-16,Approved,system-approval-workflow,2025-11-30
+LV-00055,EMP-00088,Annual,2026-07-02,2026-07-16,Approved,system-approval-workflow,2026-06-19
+LV-00056,EMP-00025,Annual,2026-02-25,2026-03-10,Pending,,2026-02-16
+LV-00057,EMP-00029,Annual,2025-12-03,2025-12-13,Approved,system-approval-workflow,2025-11-27
+LV-00058,EMP-00108,Annual,2026-02-09,2026-02-20,Cancelled,,2026-01-27
+LV-00059,EMP-00100,Annual,2026-05-14,2026-05-21,Pending,,2026-05-01
+LV-00060,EMP-00024,Annual,2026-06-16,2026-06-27,Cancelled,,2026-06-03
+LV-00061,EMP-00080,Sick,2025-10-08,2025-10-09,Approved,system-approval-workflow,2025-10-03
+LV-00062,EMP-00090,PARENTAL,2026-07-06,2026-07-14,Pending,,2026-06-20
+LV-00063,EMP-00008,Sick,2026-03-05,2026-03-07,Pending,,2026-02-20
+LV-00064,EMP-00104,Annual,2025-11-12,2025-11-23,Pending,,2025-11-08
+LV-00065,EMP-00132,Annual,2026-07-23,2026-08-06,Approved,system-approval-workflow,2026-07-14
+LV-00066,EMP-00129,Annual,2025-08-30,2025-09-05,Rejected,,2025-08-15
+LV-00067,EMP-00034,Annual,2025-09-27,2025-09-28,Approved,system-approval-workflow,2025-09-16
+LV-00068,EMP-00037,Annual,2025-12-03,2025-12-04,Approved,system-approval-workflow,2025-11-26
+LV-00069,EMP-00003,Annual,2025-11-24,2025-12-03,Pending,,2025-11-12
+LV-00070,EMP-00094,Annual,2025-10-01,2025-10-06,Rejected,,2025-09-13
+LV-00071,EMP-00138,Annual,2026-02-28,2026-03-01,Approved,system-approval-workflow,2026-02-18
+LV-00072,EMP-00032,Sick,2025-11-18,2025-11-20,Approved,system-approval-workflow,2025-10-30
+LV-00073,EMP-00116,Annual,2025-10-21,2025-11-02,Approved,system-approval-workflow,2025-10-16
+LV-00074,EMP-00047,Annual,2026-03-08,2026-03-17,Pending,,2026-03-05
+LV-00075,EMP-00031,Annual,2026-07-01,2026-07-08,Approved,system-approval-workflow,2026-06-24
+LV-00076,EMP-00129,Sick,2026-01-26,2026-01-27,Pending,,2026-01-14
+LV-00077,EMP-00048,Annual,2025-10-21,2025-11-04,Approved,system-approval-workflow,2025-10-01
+LV-00078,EMP-00053,Personal / Carer's,2025-12-02,2025-12-06,Pending,,2025-11-19
+LV-00079,EMP-00040,Annual,2026-05-07,2026-05-21,Approved,system-approval-workflow,2026-04-24
+LV-00080,EMP-00066,Sick,2026-04-08,2026-04-10,Cancelled,,2026-03-25
+LV-00081,EMP-00123,Annual,2025-12-25,2026-01-03,Pending,,2025-12-24
+LV-00082,EMP-00031,Sick,2026-05-02,2026-05-03,Approved,system-approval-workflow,2026-04-26
+LV-00083,EMP-00129,Personal / Carer's,2026-02-01,2026-02-08,Pending,,2026-01-12
+LV-00084,EMP-00066,Unpaid,2025-12-14,2025-12-26,Pending,,2025-11-26
+LV-00085,EMP-00071,Personal / Carer's,2026-03-18,2026-03-23,Pending,,2026-03-02
+LV-00086,EMP-00066,Annual,2026-04-23,2026-05-02,Pending,,2026-04-23
+LV-00087,EMP-00017,Sick,2025-08-03,2025-08-04,Approved,system-approval-workflow,2025-07-18
+LV-00088,EMP-00079,Personal / Carer's,2025-10-26,2025-10-29,Approved,system-approval-workflow,2025-10-08
+LV-00089,EMP-00116,Unpaid,2025-10-09,2025-10-23,Rejected,,2025-10-07
+LV-00090,EMP-00037,Annual,2025-10-03,2025-10-08,Pending,,2025-09-25
+LV-00091,EMP-00064,Parental,2025-10-29,2025-11-07,Approved,system-approval-workflow,2025-10-12
+LV-00092,EMP-00125,Annual,2026-03-21,2026-04-04,Rejected,,2026-03-17
+LV-00093,EMP-00134,PERSONAL / CARER'S,2026-01-01,2026-01-12,Approved,system-approval-workflow,2025-12-21
+LV-00094,EMP-00123,Annual,2025-08-21,2025-08-29,Rejected,,2025-08-10
+LV-00095,EMP-00147,Annual,2026-03-08,2026-03-16,Approved,system-approval-workflow,2026-02-21
+LV-00096,EMP-00025,Annual,2026-01-05,2026-01-08,Approved,system-approval-workflow,2025-12-17
+LV-00097,EMP-00043,Personal / Carer's,2026-02-03,2026-02-04,Approved,system-approval-workflow,2026-01-26
+LV-00098,EMP-00042,Personal / Carer's,2025-12-16,2025-12-21,Approved,system-approval-workflow,2025-12-09
+LV-00099,EMP-00035,Personal / Carer's,2026-01-12,2026-01-21,Cancelled,,2025-12-31
+LV-00100,EMP-00034,Personal / Carer's,2026-01-20,2026-01-23,Approved,system-approval-workflow,2026-01-13
+LV-00101,EMP-00138,Annual,2026-04-19,2026-04-25,Pending,,2026-04-10
+LV-00102,EMP-00063,Annual,2026-06-09,2026-06-23,Approved,system-approval-workflow,2026-06-01
+LV-00103,EMP-00078,Annual,2026-05-13,2026-05-24,Cancelled,,2026-04-26
+LV-00104,EMP-00044,Annual,2025-08-07,2025-08-18,Cancelled,,2025-07-31
+LV-00105,EMP-00068,Parental,2025-12-11,2025-12-12,Pending,,2025-12-11
+LV-00106,EMP-00104,Personal / Carer's,2026-03-09,2026-03-21,Cancelled,,2026-02-19
+LV-00107,EMP-00035,Annual,2026-02-22,2026-03-04,Approved,system-approval-workflow,2026-02-04
+LV-00108,EMP-00093,Sick,2025-10-19,2025-10-20,Cancelled,,2025-10-16
+LV-00109,EMP-00124,Personal / Carer's,2025-11-13,2025-11-23,Cancelled,,2025-11-06
+LV-00110,EMP-00026,Personal / Carer's,2026-05-01,2026-05-12,Approved,system-approval-workflow,2026-04-12
+LV-00111,EMP-00013,Unpaid,2025-09-12,2025-09-15,Pending,,2025-08-26
+LV-00112,EMP-00116,Annual,2025-12-27,2026-01-04,Rejected,,2025-12-14
+LV-00113,EMP-00084,Annual,2025-11-20,2025-11-24,Pending,,2025-11-04
+LV-00114,EMP-00083,Annual,2026-03-23,2026-03-30,Approved,system-approval-workflow,2026-03-19
+LV-00115,EMP-00118,Parental,2026-06-30,2026-07-03,Approved,system-approval-workflow,2026-06-11
+LV-00116,EMP-00027,Annual,2025-11-29,2025-12-06,Approved,system-approval-workflow,2025-11-11
+LV-00117,EMP-00146,Annual,2026-01-30,2026-02-03,Approved,system-approval-workflow,2026-01-13
+LV-00118,EMP-00035,Sick,2026-04-17,2026-04-19,Approved,system-approval-workflow,2026-04-06
+LV-00119,EMP-00085,Unpaid,2025-11-25,2025-11-29,Approved,system-approval-workflow,2025-11-19
+LV-00120,EMP-00126,Unpaid,2026-05-10,2026-05-17,Pending,,2026-04-22
+LV-00121,EMP-00116,Personal / Carer's,2025-11-09,2025-11-12,Approved,system-approval-workflow,2025-10-20
+LV-00122,EMP-00072,Annual,2025-09-07,2025-09-08,Approved,system-approval-workflow,2025-09-07
+LV-00123,EMP-00064,Personal / Carer's,2025-11-27,2025-12-02,Approved,system-approval-workflow,2025-11-26
+LV-00124,EMP-00046,Parental,2026-01-24,2026-02-07,Pending,,2026-01-22
+LV-00125,EMP-00131,Personal / Carer's,2025-12-30,2026-01-04,Rejected,,2025-12-20
+LV-00126,EMP-00055,Sick,2025-10-30,2025-10-31,Cancelled,,2025-10-24
+LV-00127,EMP-00097,Personal / Carer's,2026-04-18,2026-04-28,Cancelled,,2026-03-30
+LV-00128,EMP-00008,Annual,2026-06-21,2026-06-22,Approved,system-approval-workflow,2026-06-17
+LV-00129,EMP-00091,Personal / Carer's,2025-08-02,2025-08-16,Pending,,2025-07-24
+LV-00130,EMP-00099,Annual,2026-03-03,2026-03-04,Approved,system-approval-workflow,2026-02-17
+LV-00131,EMP-00052,SICK,2025-08-20,2025-08-21,Approved,system-approval-workflow,2025-08-05
+LV-00132,EMP-00080,Unpaid,2025-11-23,2025-12-02,Rejected,,2025-11-11
+LV-00133,EMP-00032,Annual,2026-04-06,2026-04-09,Rejected,,2026-04-04
+LV-00134,EMP-00133,Parental,2026-04-02,2026-04-09,Approved,system-approval-workflow,2026-03-26
+LV-00135,EMP-00113,Personal / Carer's,2026-05-02,2026-05-16,Approved,system-approval-workflow,2026-04-18
+LV-00136,EMP-00026,Annual,2025-11-17,2025-11-24,Approved,system-approval-workflow,2025-11-14
+LV-00137,EMP-00097,Annual,2025-08-08,2025-08-13,Cancelled,,2025-08-05
+LV-00138,EMP-00011,Annual,2026-06-24,2026-07-01,Cancelled,,2026-06-19
+LV-00139,EMP-00022,Unpaid,2026-07-17,2026-07-22,Approved,system-approval-workflow,2026-07-05
+LV-00140,EMP-00068,Annual,2026-03-10,2026-03-11,Approved,system-approval-workflow,2026-03-04
+LV-00141,EMP-00011,Annual,2025-09-14,2025-09-19,Pending,,2025-08-27
+LV-00142,EMP-00015,Annual,2026-01-04,2026-01-11,Rejected,,2025-12-26
+LV-00143,EMP-00141,Annual,2025-09-20,2025-09-25,Approved,system-approval-workflow,2025-09-19
+LV-00144,EMP-00036,Sick,2025-08-07,2025-08-09,Approved,system-approval-workflow,2025-07-30
+LV-00145,EMP-00050,Sick,2025-12-26,2025-12-28,Pending,,2025-12-11
+LV-00146,EMP-00028,Annual,2026-04-14,2026-04-21,Pending,,2026-04-03
+LV-00147,EMP-00042,Annual,2025-09-20,2025-09-22,Approved,system-approval-workflow,2025-09-02
+LV-00148,EMP-00040,Personal / Carer's,2026-06-10,2026-06-20,Approved,system-approval-workflow,2026-05-31
+LV-00149,EMP-00063,Annual,2025-10-13,2025-10-23,Rejected,,2025-10-12
+LV-00150,EMP-00072,Annual,2025-12-20,2025-12-24,Approved,system-approval-workflow,2025-12-04
+LV-00151,EMP-00067,Unpaid,2026-05-01,2026-05-15,Pending,,2026-04-24
+LV-00152,EMP-00064,Annual,2026-02-06,2026-02-09,Cancelled,,2026-01-24
+LV-00153,EMP-00050,ANNUAL,2026-03-01,2026-03-14,Cancelled,,2026-02-12
+LV-00154,EMP-00056,Annual,2026-04-24,2026-04-29,Cancelled,,2026-04-06
+LV-00155,EMP-00020,Personal / Carer's,2026-06-30,2026-07-07,Cancelled,,2026-06-17
+LV-00156,EMP-00132,Sick,2026-06-07,2026-06-09,Approved,system-approval-workflow,2026-05-30
+LV-00157,EMP-00148,Personal / Carer's,2026-05-03,2026-05-17,Rejected,,2026-04-18
+LV-00158,EMP-00027,Sick,2026-05-05,2026-05-07,Approved,system-approval-workflow,2026-04-29
+LV-00159,EMP-00146,Annual,2026-07-25,2026-08-08,Approved,system-approval-workflow,2026-07-09
+LV-00160,EMP-00017,Sick,2026-03-10,2026-03-12,Cancelled,,2026-03-04
+LV-00161,EMP-00076,Annual,2026-03-10,2026-03-19,Approved,system-approval-workflow,2026-02-27
+LV-00162,EMP-00130,Personal / Carer's,2026-07-09,2026-07-20,Cancelled,,2026-06-27
+LV-00163,EMP-00043,Annual,2026-07-27,2026-08-01,Approved,system-approval-workflow,2026-07-10
+LV-00164,EMP-00014,Personal / Carer's,2025-08-27,2025-09-05,Rejected,,2025-08-12
+LV-00165,EMP-00080,Annual,2025-12-01,2025-12-07,Pending,,2025-12-01
+LV-00166,EMP-00150,Annual,2026-07-17,2026-07-20,Cancelled,,2026-07-12
+LV-00167,EMP-00057,Annual,2026-01-02,2026-01-16,Approved,system-approval-workflow,2025-12-28
+LV-00168,EMP-00096,Annual,2025-09-18,2025-09-24,Pending,,2025-09-18
+LV-00169,EMP-00012,Annual,2026-07-01,2026-07-12,Approved,system-approval-workflow,2026-06-21
+LV-00170,EMP-00013,Personal / Carer's,2026-06-07,2026-06-20,Approved,system-approval-workflow,2026-06-07
+LV-00171,EMP-00052,Annual,2025-09-22,2025-10-05,Pending,,2025-09-17
+LV-00172,EMP-00139,Annual,2025-09-23,2025-09-28,Pending,,2025-09-07
+LV-00173,EMP-00040,Annual,2026-04-28,2026-05-05,Approved,system-approval-workflow,2026-04-20
+LV-00174,EMP-00054,Sick,2025-11-29,2025-12-01,Rejected,,2025-11-16
+LV-00175,EMP-00041,Annual,2026-05-29,2026-06-11,Approved,system-approval-workflow,2026-05-15
+LV-00176,EMP-00007,Sick,2026-04-15,2026-04-17,Cancelled,,2026-04-09
+LV-00177,EMP-00057,Sick,2025-08-26,2025-08-28,Rejected,,2025-08-24
+LV-00178,EMP-00100,Annual,2026-01-21,2026-02-03,Approved,system-approval-workflow,2026-01-06
+LV-00179,EMP-00080,Personal / Carer's,2026-03-28,2026-04-08,Cancelled,,2026-03-22
+LV-00180,EMP-00140,Personal / Carer's,2025-11-28,2025-12-04,Pending,,2025-11-21
+LV-00181,EMP-00044,Personal / Carer's,2026-05-26,2026-05-27,Approved,system-approval-workflow,2026-05-09
+LV-00182,EMP-00022,Unpaid,2026-01-23,2026-02-05,Approved,system-approval-workflow,2026-01-04
+LV-00183,EMP-00036,Sick,2026-01-03,2026-01-04,Rejected,,2026-01-03
+LV-00184,EMP-00048,Annual,2026-01-26,2026-02-09,Rejected,,2026-01-26
+LV-00185,EMP-00089,Personal / Carer's,2026-03-06,2026-03-14,Rejected,,2026-02-28
+LV-00186,EMP-00039,Sick,2025-09-28,2025-09-29,Pending,,2025-09-11
+LV-00187,EMP-00031,Sick,2025-10-19,2025-10-21,Rejected,,2025-09-29
+LV-00188,EMP-00029,Annual,2025-08-21,2025-09-01,Pending,,2025-08-20
+LV-00189,EMP-00030,Personal / Carer's,2025-10-09,2025-10-14,Cancelled,,2025-10-05
+LV-00190,EMP-00085,Annual,2026-05-28,2026-06-11,Approved,system-approval-workflow,2026-05-19
+LV-00191,EMP-00018,Annual,2026-01-05,2026-01-10,Approved,system-approval-workflow,2025-12-30
+LV-00192,EMP-00049,Sick,2025-09-04,2025-09-05,Pending,,2025-08-21
+LV-00193,EMP-00039,Annual,2025-10-13,2025-10-24,Approved,system-approval-workflow,2025-10-11
+LV-00194,EMP-00083,Sick,2026-02-01,2026-02-02,Approved,system-approval-workflow,2026-01-29
+LV-00195,EMP-00114,Sick,2025-10-22,2025-10-24,Approved,system-approval-workflow,2025-10-20
+LV-00196,EMP-00117,Annual,2026-03-05,2026-03-08,Rejected,,2026-02-18
+LV-00197,EMP-00045,Annual,2026-01-18,2026-01-20,Cancelled,,2026-01-09
+LV-00198,EMP-00023,Annual,2026-07-24,2026-07-30,Cancelled,,2026-07-14
+LV-00199,EMP-00115,Annual,2026-05-13,2026-05-26,Cancelled,,2026-05-11
+LV-00200,EMP-00097,Parental,2025-11-16,2025-11-28,Pending,,2025-10-28
+LV-00201,EMP-00023,Annual,2026-03-07,2026-03-08,Approved,system-approval-workflow,2026-02-18
+LV-00202,EMP-00099,Annual,2025-12-12,2025-12-23,Approved,system-approval-workflow,2025-12-11
+LV-00203,EMP-00077,Annual,2026-05-30,2026-05-31,Cancelled,,2026-05-15
+LV-00204,EMP-00024,Annual,2025-12-16,2025-12-28,Approved,system-approval-workflow,2025-11-29
+LV-00205,EMP-00001,Parental,2026-04-26,2026-05-03,Approved,system-approval-workflow,2026-04-21
+LV-00206,EMP-00124,Annual,2026-04-25,2026-05-03,Pending,,2026-04-16
+LV-00207,EMP-00010,PERSONAL / CARER'S,2025-08-03,2025-08-11,Rejected,,2025-07-16
+LV-00208,EMP-00027,Unpaid,2026-03-13,2026-03-21,Approved,system-approval-workflow,2026-03-10
+LV-00209,EMP-00003,Annual,2026-03-24,2026-03-26,Approved,system-approval-workflow,2026-03-11
+LV-00210,EMP-00103,Annual,2025-08-16,2025-08-18,Rejected,,2025-08-01
+LV-00211,EMP-00045,Sick,2025-08-21,2025-08-22,Rejected,,2025-08-12
+LV-00212,EMP-00022,Personal / Carer's,2026-04-02,2026-04-04,Approved,system-approval-workflow,2026-03-20
+LV-00213,EMP-00097,Unpaid,2025-08-23,2025-09-04,Approved,system-approval-workflow,2025-08-04
+LV-00214,EMP-00103,Annual,2026-07-02,2026-07-05,Approved,system-approval-workflow,2026-06-23
+LV-00215,EMP-00079,Parental,2026-02-25,2026-03-08,Approved,system-approval-workflow,2026-02-24
+LV-00216,EMP-00001,Annual,2026-07-06,2026-07-12,Approved,system-approval-workflow,2026-06-18
+LV-00217,EMP-00040,Unpaid,2026-06-29,2026-07-11,Approved,system-approval-workflow,2026-06-16
+LV-00218,EMP-00062,Sick,2026-01-30,2026-01-31,Cancelled,,2026-01-17
+LV-00219,EMP-00133,Annual,2025-10-26,2025-11-02,Cancelled,,2025-10-19
+LV-00220,EMP-00038,Parental,2025-11-22,2025-11-27,Approved,system-approval-workflow,2025-11-22
+LV-00221,EMP-00083,Annual,2025-11-01,2025-11-10,Pending,,2025-10-20
+LV-00222,EMP-00017,Personal / Carer's,2025-12-03,2025-12-16,Pending,,2025-11-26
+LV-00223,EMP-00005,Annual,2025-10-01,2025-10-14,Rejected,,2025-09-28
+LV-00224,EMP-00089,Annual,2026-03-31,2026-04-08,Approved,system-approval-workflow,2026-03-22
+LV-00225,EMP-00110,Annual,2025-11-28,2025-12-01,Cancelled,,2025-11-15
+LV-00226,EMP-00027,Annual,2026-01-09,2026-01-12,Pending,,2025-12-29
+LV-00227,EMP-00096,Annual,2026-01-09,2026-01-13,Approved,system-approval-workflow,2025-12-31
+LV-00228,EMP-00102,Annual,2026-06-07,2026-06-20,Cancelled,,2026-06-01
+LV-00229,EMP-00021,Parental,2025-10-12,2025-10-25,Rejected,,2025-09-27
+LV-00230,EMP-00052,Sick,2026-05-24,2026-05-26,Cancelled,,2026-05-17
+LV-00231,EMP-00063,Sick,2026-06-02,2026-06-03,Approved,system-approval-workflow,2026-05-29
+LV-00232,EMP-00092,Annual,2026-04-28,2026-04-29,Approved,system-approval-workflow,2026-04-08
+LV-00233,EMP-00100,Personal / Carer's,2026-02-17,2026-02-24,Pending,,2026-02-17
+LV-00234,EMP-00083,ANNUAL,2025-08-20,2025-09-03,Rejected,,2025-08-07
+LV-00235,EMP-00116,Personal / Carer's,2026-04-02,2026-04-15,Approved,system-approval-workflow,2026-03-13
+LV-00236,EMP-00010,Annual,2026-03-13,2026-03-16,Approved,system-approval-workflow,2026-02-28
+LV-00237,EMP-00043,Annual,2026-06-16,2026-06-24,Approved,system-approval-workflow,2026-06-09
+LV-00238,EMP-00101,Annual,2025-11-03,2025-11-17,Approved,system-approval-workflow,2025-10-27
+LV-00239,EMP-00095,Annual,2025-09-06,2025-09-19,Cancelled,,2025-08-22
+LV-00240,EMP-00038,Personal / Carer's,2026-06-13,2026-06-16,Rejected,,2026-06-09
+LV-00241,EMP-00086,Annual,2026-06-17,2026-06-29,Approved,system-approval-workflow,2026-06-03
+LV-00242,EMP-00076,Sick,2026-06-06,2026-06-07,Approved,system-approval-workflow,2026-06-04
+LV-00243,EMP-00017,Sick,2026-07-24,2026-07-25,Cancelled,,2026-07-09
+LV-00244,EMP-00113,Sick,2026-02-15,2026-02-16,Pending,,2026-02-09
+LV-00245,EMP-00143,Sick,2026-04-18,2026-04-19,Cancelled,,2026-04-14
+LV-00246,EMP-00086,Annual,2026-02-26,2026-03-05,Cancelled,,2026-02-14
+LV-00247,EMP-00062,Sick,2026-01-03,2026-01-04,Pending,,2025-12-22
+LV-00248,EMP-00002,Personal / Carer's,2025-10-28,2025-11-06,Rejected,,2025-10-09
+LV-00249,EMP-00006,Personal / Carer's,2025-12-29,2026-01-06,Approved,system-approval-workflow,2025-12-09
+LV-00250,EMP-00080,Annual,2025-11-14,2025-11-27,Approved,system-approval-workflow,2025-10-26
+LV-00251,EMP-00080,Personal / Carer's,2026-02-16,2026-02-17,Approved,system-approval-workflow,2026-02-07
+LV-00252,EMP-00090,Annual,2025-11-16,2025-11-26,Pending,,2025-11-16
+LV-00253,EMP-00068,Annual,2026-04-16,2026-04-29,Pending,,2026-04-07
+LV-00254,EMP-00095,Annual,2025-09-24,2025-10-01,Approved,system-approval-workflow,2025-09-07
+LV-00255,EMP-00146,Annual,2026-03-09,2026-03-18,Approved,system-approval-workflow,2026-03-04
+LV-00256,EMP-00047,Personal / Carer's,2025-09-29,2025-10-08,Cancelled,,2025-09-29
+LV-00257,EMP-00132,Sick,2026-03-10,2026-03-12,Rejected,,2026-03-09
+LV-00258,EMP-00009,Annual,2025-10-26,2025-11-01,Rejected,,2025-10-23
+LV-00259,EMP-00146,Annual,2026-01-01,2026-01-14,Approved,system-approval-workflow,2025-12-24
+LV-00260,EMP-00101,Annual,2025-09-09,2025-09-19,Approved,system-approval-workflow,2025-09-08
+LV-00261,EMP-00028,Annual,2026-02-21,2026-02-23,Rejected,,2026-02-08
+LV-00262,EMP-00118,Annual,2025-11-06,2025-11-15,Rejected,,2025-11-02
+LV-00263,EMP-00116,Annual,2026-02-28,2026-03-14,Approved,system-approval-workflow,2026-02-23
+LV-00264,EMP-00028,Unpaid,2025-09-17,2025-09-24,Rejected,,2025-09-05
+LV-00265,EMP-00029,Annual,2025-12-10,2025-12-24,Approved,system-approval-workflow,2025-11-26
+LV-00266,EMP-00137,Sick,2025-09-27,2025-09-28,Rejected,,2025-09-12
+LV-00267,EMP-00112,Annual,2025-12-31,2026-01-05,Pending,,2025-12-29
+LV-00268,EMP-00020,Annual,2026-07-28,2026-08-07,Cancelled,,2026-07-23
+LV-00269,EMP-00090,Personal / Carer's,2026-06-21,2026-07-01,Rejected,,2026-06-01
+LV-00270,EMP-00093,Sick,2026-04-07,2026-04-08,Pending,,2026-03-27
+LV-00271,EMP-00035,Unpaid,2026-02-04,2026-02-13,Approved,system-approval-workflow,2026-01-15
+LV-00272,EMP-00087,Sick,2025-12-19,2025-12-20,Cancelled,,2025-12-01
+LV-00273,EMP-00079,Annual,2025-12-14,2025-12-25,Pending,,2025-11-27
+LV-00274,EMP-00064,Annual,2026-05-04,2026-05-05,Pending,,2026-04-30
+LV-00275,EMP-00145,Unpaid,2026-05-08,2026-05-12,Pending,,2026-05-07
+LV-00276,EMP-00016,Personal / Carer's,2026-02-14,2026-02-26,Approved,system-approval-workflow,2026-01-30
+LV-00277,EMP-00001,Annual,2025-11-14,2025-11-23,Cancelled,,2025-10-31
+LV-00278,EMP-00129,Annual,2025-12-04,2025-12-16,Approved,system-approval-workflow,2025-12-02
+LV-00279,EMP-00126,Sick,2025-08-24,2025-08-26,Pending,,2025-08-23
+LV-00280,EMP-00063,Unpaid,2026-01-10,2026-01-22,Rejected,,2026-01-09
+LV-00281,EMP-00094,Sick,2026-03-13,2026-03-15,Pending,,2026-03-07
+LV-00282,EMP-00148,Sick,2026-03-22,2026-03-23,Approved,system-approval-workflow,2026-03-18
+LV-00283,EMP-00078,Parental,2026-05-28,2026-05-30,Approved,system-approval-workflow,2026-05-08
+LV-00284,EMP-00016,Sick,2025-11-29,2025-11-30,Approved,system-approval-workflow,2025-11-28
+LV-00285,EMP-00101,Sick,2026-06-20,2026-06-22,Cancelled,,2026-06-04
+LV-00286,EMP-00098,Annual,2025-12-29,2026-01-11,Approved,system-approval-workflow,2025-12-23
+LV-00287,EMP-00023,Unpaid,2025-11-09,2025-11-11,Rejected,,2025-10-24
+LV-00288,EMP-00135,Annual,2026-01-25,2026-02-08,Cancelled,,2026-01-13
+LV-00289,EMP-00145,Unpaid,2026-04-01,2026-04-04,Approved,system-approval-workflow,2026-03-27
+LV-00290,EMP-00108,Personal / Carer's,2026-06-11,2026-06-23,Approved,system-approval-workflow,2026-05-24
+LV-00291,EMP-00055,Annual,2026-04-05,2026-04-06,Approved,system-approval-workflow,2026-03-17
+LV-00292,EMP-00144,Parental,2025-08-19,2025-09-02,Approved,system-approval-workflow,2025-08-19
+LV-00293,EMP-00114,Sick,2025-12-18,2025-12-19,Rejected,,2025-12-14
+LV-00294,EMP-00013,Personal / Carer's,2025-10-21,2025-10-24,Rejected,,2025-10-11
+LV-00295,EMP-00065,Annual,2025-10-27,2025-11-06,Approved,system-approval-workflow,2025-10-22
+LV-00296,EMP-00137,Sick,2025-12-03,2025-12-05,Rejected,,2025-11-24
+LV-00297,EMP-00103,Annual,2025-12-29,2026-01-10,Pending,,2025-12-16
+LV-00298,EMP-00053,Sick,2026-05-24,2026-05-26,Approved,system-approval-workflow,2026-05-06
+LV-00299,EMP-00127,Personal / Carer's,2025-10-28,2025-11-02,Approved,system-approval-workflow,2025-10-21
+LV-00300,EMP-00006,Sick,2026-04-01,2026-04-03,Approved,system-approval-workflow,2026-03-17
+LV-00301,EMP-00131,Parental,2025-09-01,2025-09-14,Cancelled,,2025-08-29
+LV-00302,EMP-00070,Sick,2026-02-05,2026-02-06,Approved,system-approval-workflow,2026-01-21
+LV-00303,EMP-00122,Sick,2026-06-17,2026-06-19,Rejected,,2026-05-28
+LV-00304,EMP-00070,Sick,2025-09-12,2025-09-14,Approved,system-approval-workflow,2025-09-10
+LV-00305,EMP-00026,Sick,2025-09-11,2025-09-12,Pending,,2025-08-29
+LV-00306,EMP-00078,Unpaid,2026-02-05,2026-02-15,Pending,,2026-01-28
+LV-00307,EMP-00134,Personal / Carer's,2025-12-29,2026-01-08,Rejected,,2025-12-14
+LV-00308,EMP-00085,Personal / Carer's,2025-12-02,2025-12-13,Cancelled,,2025-11-18
+LV-00309,EMP-00116,Annual,2026-05-30,2026-06-04,Rejected,,2026-05-13
+LV-00310,EMP-00078,Annual,2026-03-23,2026-04-02,Pending,,2026-03-08
+LV-00311,EMP-00074,Sick,2026-02-07,2026-02-08,Approved,system-approval-workflow,2026-01-30
+LV-00312,EMP-00031,Annual,2025-11-23,2025-11-29,Pending,,2025-11-09
+LV-00313,EMP-00046,Sick,2026-06-04,2026-06-05,Approved,system-approval-workflow,2026-05-26
+LV-00314,EMP-00055,Annual,2026-01-20,2026-01-30,Rejected,,2026-01-15
+LV-00315,EMP-00052,Sick,2026-02-08,2026-02-09,Rejected,,2026-01-21
+LV-00316,EMP-00045,Annual,2025-11-30,2025-12-10,Pending,,2025-11-19
+LV-00317,EMP-00035,Unpaid,2025-09-05,2025-09-18,Pending,,2025-08-18
+LV-00318,EMP-00072,Annual,2025-11-08,2025-11-14,Cancelled,,2025-11-02
+LV-00319,EMP-00092,Personal / Carer's,2025-11-07,2025-11-10,Approved,system-approval-workflow,2025-11-05
+LV-00320,EMP-00134,Unpaid,2026-06-15,2026-06-19,Rejected,,2026-06-13
+LV-00321,EMP-00145,Parental,2026-05-13,2026-05-25,Cancelled,,2026-05-11
+LV-00322,EMP-00004,Annual,2026-01-03,2026-01-04,Pending,,2025-12-17
+LV-00323,EMP-00127,Personal / Carer's,2026-02-28,2026-03-07,Pending,,2026-02-09
+LV-00324,EMP-00038,Personal / Carer's,2026-02-24,2026-02-25,Approved,system-approval-workflow,2026-02-11
+LV-00325,EMP-00105,Sick,2026-04-25,2026-04-27,Approved,system-approval-workflow,2026-04-18
+LV-00326,EMP-00124,Sick,2025-09-15,2025-09-16,Approved,system-approval-workflow,2025-09-11
+LV-00327,EMP-00092,Annual,2026-03-20,2026-03-29,Approved,system-approval-workflow,2026-03-11
+LV-00328,EMP-00024,Annual,2025-09-10,2025-09-17,Pending,,2025-08-29
+LV-00329,EMP-00066,Sick,2025-10-04,2025-10-06,Approved,system-approval-workflow,2025-09-30
+LV-00330,EMP-00047,Annual,2026-01-28,2026-02-08,Rejected,,2026-01-08
+LV-00331,EMP-00054,Annual,2026-01-27,2026-02-02,Approved,system-approval-workflow,2026-01-17
+LV-00332,EMP-00024,Sick,2026-07-16,2026-07-17,Approved,system-approval-workflow,2026-06-26
+LV-00333,EMP-00128,Personal / Carer's,2026-03-03,2026-03-11,Cancelled,,2026-02-20
+LV-00334,EMP-00005,Sick,2025-11-17,2025-11-18,Approved,system-approval-workflow,2025-10-31
+LV-00335,EMP-00068,Annual,2026-02-09,2026-02-12,Rejected,,2026-01-29
+LV-00336,EMP-00005,Annual,2026-05-12,2026-05-24,Rejected,,2026-05-03
+LV-00337,EMP-00041,Personal / Carer's,2026-06-17,2026-06-19,Pending,,2026-06-05
+LV-00338,EMP-00044,Annual,2026-04-19,2026-05-03,Pending,,2026-04-17
+LV-00339,EMP-00083,Annual,2026-02-09,2026-02-18,Approved,system-approval-workflow,2026-01-29
+LV-00340,EMP-00090,Sick,2026-06-18,2026-06-20,Rejected,,2026-05-31
+LV-00341,EMP-00037,Personal / Carer's,2025-11-15,2025-11-25,Approved,system-approval-workflow,2025-11-13
+LV-00342,EMP-00113,Annual,2025-11-22,2025-11-30,Approved,system-approval-workflow,2025-11-19
+LV-00343,EMP-00076,Sick,2026-05-26,2026-05-28,Cancelled,,2026-05-21
+LV-00344,EMP-00007,Parental,2026-03-22,2026-03-26,Cancelled,,2026-03-16
+LV-00345,EMP-00090,Annual,2025-10-30,2025-11-03,Pending,,2025-10-30
+LV-00346,EMP-00036,Annual,2026-03-20,2026-03-30,Cancelled,,2026-03-03
+LV-00347,EMP-00035,Personal / Carer's,2026-04-10,2026-04-22,Approved,system-approval-workflow,2026-04-03
+LV-00348,EMP-00123,Annual,2026-01-19,2026-01-23,Approved,system-approval-workflow,2026-01-18
+LV-00349,EMP-00081,Annual,2026-03-31,2026-04-11,Pending,,2026-03-12
+LV-00350,EMP-00053,Personal / Carer's,2026-02-01,2026-02-08,Rejected,,2026-02-01
+LV-00351,EMP-00080,Personal / Carer's,2026-01-04,2026-01-16,Pending,,2026-01-03
+LV-00352,EMP-00012,Personal / Carer's,2025-11-23,2025-11-28,Cancelled,,2025-11-23
+LV-00353,EMP-00012,Personal / Carer's,2025-09-26,2025-09-29,Approved,system-approval-workflow,2025-09-06
+LV-00354,EMP-00105,Annual,2025-08-28,2025-09-08,Approved,system-approval-workflow,2025-08-22
+LV-00355,EMP-00053,Sick,2026-03-14,2026-03-15,Approved,system-approval-workflow,2026-03-06
+LV-00356,EMP-00008,Personal / Carer's,2026-01-21,2026-02-04,Approved,system-approval-workflow,2026-01-01
+LV-00357,EMP-00103,Sick,2025-10-20,2025-10-21,Approved,system-approval-workflow,2025-10-03
+LV-00358,EMP-00025,Personal / Carer's,2026-06-26,2026-07-04,Approved,system-approval-workflow,2026-06-15
+LV-00359,EMP-00038,Annual,2026-05-29,2026-06-07,Rejected,,2026-05-15
+LV-00360,EMP-00055,Annual,2025-12-25,2025-12-31,Pending,,2025-12-06
+LV-00361,EMP-00144,Annual,2026-01-23,2026-01-30,Rejected,,2026-01-09
+LV-00362,EMP-00145,Unpaid,2026-07-23,2026-08-01,Approved,system-approval-workflow,2026-07-16
+LV-00363,EMP-00115,Sick,2026-02-28,2026-03-01,Cancelled,,2026-02-21
+LV-00364,EMP-00123,Personal / Carer's,2025-08-27,2025-08-29,Pending,,2025-08-16
+LV-00365,EMP-00084,Annual,2025-09-26,2025-09-29,Approved,system-approval-workflow,2025-09-14
+LV-00366,EMP-00099,Sick,2025-12-17,2025-12-19,Approved,system-approval-workflow,2025-11-29
+LV-00367,EMP-00058,Sick,2026-05-04,2026-05-06,Approved,system-approval-workflow,2026-05-01
+LV-00368,EMP-00094,Annual,2026-04-19,2026-04-20,Cancelled,,2026-04-16
+LV-00369,EMP-00067,Sick,2026-05-27,2026-05-29,Cancelled,,2026-05-18
+LV-00370,EMP-00147,Unpaid,2026-04-24,2026-04-26,Pending,,2026-04-06
+LV-00371,EMP-00020,Unpaid,2026-06-02,2026-06-14,Approved,system-approval-workflow,2026-05-18
+LV-00372,EMP-00018,Unpaid,2025-10-14,2025-10-17,Approved,system-approval-workflow,2025-10-07
+LV-00373,EMP-00008,Annual,2026-01-13,2026-01-17,Approved,system-approval-workflow,2025-12-25
+LV-00374,EMP-00150,Unpaid,2026-01-15,2026-01-28,Approved,system-approval-workflow,2026-01-10
+LV-00375,EMP-00111,Annual,2025-10-20,2025-10-26,Approved,system-approval-workflow,2025-10-04
+LV-00376,EMP-00001,Sick,2026-05-26,2026-05-28,Rejected,,2026-05-15
+LV-00377,EMP-00070,Annual,2025-12-20,2025-12-29,Approved,system-approval-workflow,2025-12-14
+LV-00378,EMP-00040,Personal / Carer's,2026-04-18,2026-04-25,Approved,system-approval-workflow,2026-04-07
+LV-00379,EMP-00009,Annual,2026-06-06,2026-06-10,Approved,system-approval-workflow,2026-05-30
+LV-00380,EMP-00006,Annual,2026-03-29,2026-04-06,Approved,system-approval-workflow,2026-03-13
+LV-00381,EMP-00017,Personal / Carer's,2026-06-19,2026-07-02,Approved,system-approval-workflow,2026-06-14
+LV-00382,EMP-00024,Annual,2026-05-29,2026-06-03,Cancelled,,2026-05-11
+LV-00383,EMP-00047,Annual,2026-01-25,2026-01-26,Approved,system-approval-workflow,2026-01-13
+LV-00384,EMP-00021,Unpaid,2025-08-28,2025-08-29,Approved,system-approval-workflow,2025-08-28
+LV-00385,EMP-00005,Sick,2025-10-06,2025-10-07,Pending,,2025-09-22
+LV-00386,EMP-00094,Annual,2026-06-20,2026-06-21,Approved,system-approval-workflow,2026-06-03
+LV-00387,EMP-00011,Annual,2025-10-09,2025-10-11,Pending,,2025-09-26
+LV-00388,EMP-00013,Annual,2026-04-08,2026-04-20,Pending,,2026-03-29
+LV-00389,EMP-00017,Annual,2025-10-27,2025-10-28,Rejected,,2025-10-13
+LV-00390,EMP-00010,Annual,2025-08-19,2025-08-28,Approved,system-approval-workflow,2025-08-07
+LV-00391,EMP-00027,Annual,2026-07-20,2026-07-27,Approved,system-approval-workflow,2026-07-19
+LV-00392,EMP-00081,Personal / Carer's,2025-12-18,2025-12-20,Pending,,2025-12-07
+LV-00393,EMP-00112,Sick,2025-10-11,2025-10-12,Cancelled,,2025-09-26
+LV-00394,EMP-00065,Parental,2025-10-26,2025-11-09,Approved,system-approval-workflow,2025-10-24
+LV-00395,EMP-00007,Personal / Carer's,2025-12-12,2025-12-21,Approved,system-approval-workflow,2025-12-02
+LV-00396,EMP-00058,Annual,2025-10-13,2025-10-27,Pending,,2025-10-05
+LV-00397,EMP-00012,Annual,2026-05-05,2026-05-15,Approved,system-approval-workflow,2026-04-24
+LV-00398,EMP-00130,Annual,2025-10-23,2025-10-24,Pending,,2025-10-16
+LV-00399,EMP-00020,Annual,2026-04-08,2026-04-22,Approved,system-approval-workflow,2026-04-03
+LV-00400,EMP-00048,Annual,2026-07-20,2026-07-21,Cancelled,,2026-07-09
+LV-00401,EMP-00006,Annual,2025-09-12,2025-09-17,Pending,,2025-09-06
+LV-00402,EMP-00109,Annual,2025-11-09,2025-11-14,Cancelled,,2025-11-04
+LV-00403,EMP-00041,Annual,2026-07-15,2026-07-28,Approved,system-approval-workflow,2026-07-12
+LV-00404,EMP-00067,Annual,2026-05-02,2026-05-05,Rejected,,2026-04-30
+LV-00405,EMP-00070,Personal / Carer's,2026-03-22,2026-04-01,Pending,,2026-03-14
+LV-00406,EMP-00116,Annual,2026-04-24,2026-05-07,Rejected,,2026-04-09
+LV-00407,EMP-00115,Sick,2026-05-20,2026-05-21,Approved,system-approval-workflow,2026-05-01
+LV-00408,EMP-00043,Annual,2025-10-16,2025-10-18,Pending,,2025-10-07
+LV-00409,EMP-00077,Annual,2025-08-16,2025-08-21,Cancelled,,2025-08-13
+LV-00410,EMP-00104,Personal / Carer's,2026-07-02,2026-07-07,Approved,system-approval-workflow,2026-06-21
+LV-00411,EMP-00042,Personal / Carer's,2026-06-21,2026-06-30,Pending,,2026-06-06
+LV-00412,EMP-00070,Annual,2025-08-04,2025-08-14,Pending,,2025-07-15
+LV-00413,EMP-00060,Annual,2026-01-02,2026-01-13,Approved,system-approval-workflow,2025-12-17
+LV-00414,EMP-00064,Parental,2026-02-08,2026-02-18,Pending,,2026-02-01
+LV-00415,EMP-00146,Annual,2025-12-14,2025-12-15,Approved,system-approval-workflow,2025-11-24
+LV-00416,EMP-00080,Sick,2026-03-13,2026-03-15,Rejected,,2026-03-09
+LV-00417,EMP-00014,Sick,2026-04-23,2026-04-24,Approved,system-approval-workflow,2026-04-09
+LV-00418,EMP-00094,Personal / Carer's,2025-08-18,2025-08-30,Approved,system-approval-workflow,2025-08-16
+LV-00419,EMP-00132,Personal / Carer's,2025-10-10,2025-10-21,Approved,system-approval-workflow,2025-10-08
+LV-00420,EMP-00063,Sick,2026-03-09,2026-03-10,Cancelled,,2026-02-28
+LV-00421,EMP-00145,Personal / Carer's,2026-07-27,2026-08-02,Approved,system-approval-workflow,2026-07-21
+LV-00422,EMP-00084,Annual,2025-11-14,2025-11-17,Cancelled,,2025-10-31
+LV-00423,EMP-00059,ANNUAL,2025-12-23,2026-01-05,Approved,system-approval-workflow,2025-12-20
+LV-00424,EMP-00127,Annual,2026-01-26,2026-02-06,Approved,system-approval-workflow,2026-01-18
+LV-00425,EMP-00095,Annual,2026-03-06,2026-03-10,Approved,system-approval-workflow,2026-02-21
+LV-00426,EMP-00081,Sick,2025-12-16,2025-12-17,Pending,,2025-12-07
+LV-00427,EMP-00061,Annual,2026-01-09,2026-01-13,Pending,,2026-01-09
+LV-00428,EMP-00022,Personal / Carer's,2026-03-26,2026-03-28,Cancelled,,2026-03-16
+LV-00429,EMP-00024,Personal / Carer's,2025-11-22,2025-11-29,Approved,system-approval-workflow,2025-11-13
+LV-00430,EMP-00137,Personal / Carer's,2026-07-17,2026-07-29,Rejected,,2026-07-13
+LV-00431,EMP-00066,Annual,2025-12-07,2025-12-16,Approved,system-approval-workflow,2025-11-20
+LV-00432,EMP-00101,Sick,2026-01-28,2026-01-30,Cancelled,,2026-01-15
+LV-00433,EMP-00004,Annual,2025-10-04,2025-10-07,Rejected,,2025-10-02
+LV-00434,EMP-00026,Annual,2025-11-02,2025-11-16,Pending,,2025-10-13
+LV-00435,EMP-00054,Annual,2026-03-13,2026-03-16,Rejected,,2026-03-10
+LV-00436,EMP-00031,Annual,2025-11-23,2025-11-28,Approved,system-approval-workflow,2025-11-04
+LV-00437,EMP-00088,PERSONAL / CARER'S,2026-07-01,2026-07-13,Approved,system-approval-workflow,2026-06-12
+LV-00438,EMP-00073,Annual,2025-09-04,2025-09-17,Approved,system-approval-workflow,2025-09-02
+LV-00439,EMP-00099,Sick,2025-08-20,2025-08-22,Approved,system-approval-workflow,2025-08-13
+LV-00440,EMP-00126,Annual,2025-09-27,2025-10-09,Approved,system-approval-workflow,2025-09-27
+LV-00441,EMP-00026,Personal / Carer's,2025-08-11,2025-08-12,Approved,system-approval-workflow,2025-07-30
+LV-00442,EMP-00090,Annual,2025-08-26,2025-08-27,Approved,system-approval-workflow,2025-08-11
+LV-00443,EMP-00100,Personal / Carer's,2025-10-16,2025-10-19,Rejected,,2025-10-08
+LV-00444,EMP-00009,Sick,2026-04-11,2026-04-12,Rejected,,2026-04-03
+LV-00445,EMP-00070,Sick,2025-09-01,2025-09-02,Pending,,2025-08-16
+LV-00446,EMP-00076,Parental,2025-11-06,2025-11-11,Approved,system-approval-workflow,2025-10-19
+LV-00447,EMP-00076,Unpaid,2026-04-19,2026-05-01,Cancelled,,2026-03-31
+LV-00448,EMP-00149,Annual,2025-09-11,2025-09-23,Approved,system-approval-workflow,2025-08-26
+LV-00449,EMP-00141,Annual,2026-03-23,2026-03-30,Cancelled,,2026-03-06
+LV-00450,EMP-00031,Personal / Carer's,2026-06-04,2026-06-12,Pending,,2026-06-01
+LV-00451,EMP-00051,Annual,2026-04-21,2026-04-23,Rejected,,2026-04-12
+LV-00452,EMP-00128,Annual,2025-08-13,2025-08-23,Cancelled,,2025-08-10
+LV-00453,EMP-00049,Parental,2026-06-04,2026-06-17,Approved,system-approval-workflow,2026-06-02
+LV-00454,EMP-00104,Personal / Carer's,2025-08-24,2025-09-01,Approved,system-approval-workflow,2025-08-10
+LV-00455,EMP-00133,Personal / Carer's,2026-01-25,2026-02-08,Approved,system-approval-workflow,2026-01-20
+LV-00456,EMP-00057,Sick,2025-11-10,2025-11-11,Pending,,2025-10-29
+LV-00457,EMP-00057,Sick,2025-10-07,2025-10-09,Pending,,2025-10-02
+LV-00458,EMP-00061,Annual,2026-01-11,2026-01-18,Approved,system-approval-workflow,2025-12-22
+LV-00459,EMP-00041,Personal / Carer's,2026-02-02,2026-02-14,Rejected,,2026-01-15
+LV-00460,EMP-00057,Annual,2026-02-21,2026-02-26,Approved,system-approval-workflow,2026-02-18
+LV-00461,EMP-00088,Unpaid,2026-04-17,2026-05-01,Cancelled,,2026-04-16
+LV-00462,EMP-00133,Personal / Carer's,2025-12-28,2026-01-01,Cancelled,,2025-12-15
+LV-00463,EMP-00146,Sick,2026-07-14,2026-07-16,Approved,system-approval-workflow,2026-06-29
+LV-00464,EMP-00104,Sick,2026-03-15,2026-03-17,Approved,system-approval-workflow,2026-02-27
+LV-00465,EMP-00059,Annual,2026-01-05,2026-01-18,Approved,system-approval-workflow,2025-12-29
+LV-00466,EMP-00050,UNPAID,2025-09-07,2025-09-15,Cancelled,,2025-08-29
+LV-00467,EMP-00085,Personal / Carer's,2025-12-05,2025-12-18,Pending,,2025-11-26
+LV-00468,EMP-00020,Sick,2026-06-25,2026-06-26,Pending,,2026-06-16
+LV-00469,EMP-00036,Personal / Carer's,2025-10-14,2025-10-16,Rejected,,2025-10-05
+LV-00470,EMP-00133,Annual,2025-11-22,2025-12-06,Approved,system-approval-workflow,2025-11-08
+LV-00471,EMP-00127,Annual,2025-11-12,2025-11-18,Approved,system-approval-workflow,2025-10-29
+LV-00472,EMP-00132,Annual,2026-05-26,2026-06-02,Pending,,2026-05-12
+LV-00473,EMP-00021,Personal / Carer's,2026-06-14,2026-06-21,Rejected,,2026-06-02
+LV-00474,EMP-00026,Unpaid,2026-02-06,2026-02-10,Approved,system-approval-workflow,2026-02-04
+LV-00475,EMP-00138,Annual,2026-07-22,2026-07-28,Approved,system-approval-workflow,2026-07-11
+LV-00476,EMP-00094,Annual,2025-10-12,2025-10-14,Approved,system-approval-workflow,2025-09-30
+LV-00477,EMP-00010,Sick,2026-05-04,2026-05-05,Approved,system-approval-workflow,2026-05-04
+LV-00478,EMP-00084,Sick,2026-06-16,2026-06-17,Approved,system-approval-workflow,2026-06-12
+LV-00479,EMP-00017,Personal / Carer's,2025-08-01,2025-08-04,Approved,system-approval-workflow,2025-07-30
+LV-00480,EMP-00109,Parental,2025-09-10,2025-09-13,Approved,system-approval-workflow,2025-08-28
+LV-00481,EMP-00020,Annual,2025-10-17,2025-10-23,Rejected,,2025-10-06
+LV-00482,EMP-00066,Unpaid,2026-02-06,2026-02-14,Cancelled,,2026-02-03
+LV-00483,EMP-00015,Annual,2026-01-11,2026-01-13,Cancelled,,2025-12-30
+LV-00484,EMP-00104,Annual,2026-03-14,2026-03-22,Rejected,,2026-02-28
+LV-00485,EMP-00063,Annual,2026-05-12,2026-05-25,Approved,system-approval-workflow,2026-05-07
+LV-00486,EMP-00018,Annual,2025-09-17,2025-09-24,Cancelled,,2025-09-15
+LV-00487,EMP-00139,Annual,2025-12-28,2026-01-02,Approved,system-approval-workflow,2025-12-16
+LV-00488,EMP-00138,Personal / Carer's,2026-03-23,2026-03-29,Approved,system-approval-workflow,2026-03-13
+LV-00489,EMP-00131,Sick,2025-11-23,2025-11-24,Pending,,2025-11-08
+LV-00490,EMP-00075,Unpaid,2026-03-17,2026-03-29,Rejected,,2026-02-28
+LV-00491,EMP-00128,Annual,2025-10-22,2025-10-26,Rejected,,2025-10-12
+LV-00492,EMP-00071,Sick,2025-12-11,2025-12-13,Approved,system-approval-workflow,2025-12-05
+LV-00493,EMP-00009,Personal / Carer's,2025-11-12,2025-11-19,Approved,system-approval-workflow,2025-11-07
+LV-00494,EMP-00101,Sick,2026-04-26,2026-04-27,Approved,system-approval-workflow,2026-04-11
+LV-00495,EMP-00122,Sick,2026-02-02,2026-02-04,Approved,system-approval-workflow,2026-01-30
+LV-00496,EMP-00111,Sick,2026-04-13,2026-04-14,Approved,system-approval-workflow,2026-04-02
+LV-00497,EMP-00062,ANNUAL,2026-06-08,2026-06-21,Rejected,,2026-05-27
+LV-00498,EMP-00144,Sick,2026-05-18,2026-05-19,Approved,system-approval-workflow,2026-05-06
+LV-00499,EMP-00115,Personal / Carer's,2026-07-28,2026-08-06,Approved,system-approval-workflow,2026-07-28
+LV-00500,EMP-00007,Sick,2025-11-03,2025-11-04,Approved,system-approval-workflow,2025-10-29
+LV-00501,EMP-00064,Sick,2025-12-05,2025-12-06,Approved,system-approval-workflow,2025-11-15
+LV-00502,EMP-00131,Sick,2025-08-02,2025-08-04,Rejected,,2025-07-15
+LV-00503,EMP-00137,Personal / Carer's,2025-11-01,2025-11-08,Approved,system-approval-workflow,2025-10-27
+LV-00504,EMP-00149,Annual,2026-03-27,2026-04-06,Approved,system-approval-workflow,2026-03-10
+LV-00505,EMP-00088,Sick,2025-09-28,2025-09-29,Approved,system-approval-workflow,2025-09-15
+LV-00506,EMP-00067,Personal / Carer's,2025-10-06,2025-10-12,Approved,system-approval-workflow,2025-09-24
+LV-00507,EMP-00102,Annual,2026-06-30,2026-07-04,Pending,,2026-06-19
+LV-00508,EMP-00132,Sick,2025-10-12,2025-10-13,Cancelled,,2025-09-23
+LV-00509,EMP-00038,Personal / Carer's,2025-08-17,2025-08-30,Pending,,2025-08-02
+LV-00510,EMP-00118,Annual,2026-05-11,2026-05-14,Approved,system-approval-workflow,2026-04-26
+LV-00511,EMP-00031,Personal / Carer's,2025-09-24,2025-10-03,Rejected,,2025-09-05
+LV-00512,EMP-00098,Annual,2025-12-02,2025-12-07,Approved,system-approval-workflow,2025-11-12
+LV-00513,EMP-00037,Annual,2026-01-11,2026-01-24,Approved,system-approval-workflow,2026-01-09
+LV-00514,EMP-00052,Parental,2025-10-08,2025-10-13,Approved,system-approval-workflow,2025-10-08
+LV-00515,EMP-00002,Annual,2026-02-03,2026-02-08,Approved,system-approval-workflow,2026-01-26
+LV-00516,EMP-00149,Sick,2026-05-07,2026-05-08,Pending,,2026-04-28
+LV-00517,EMP-00077,Annual,2025-10-02,2025-10-16,Pending,,2025-10-02
+LV-00518,EMP-00076,Sick,2025-11-08,2025-11-10,Approved,system-approval-workflow,2025-11-03
+LV-00519,EMP-00024,PERSONAL / CARER'S,2026-07-02,2026-07-12,Approved,system-approval-workflow,2026-07-01
+LV-00520,EMP-00127,Annual,2025-08-19,2025-08-27,Approved,system-approval-workflow,2025-08-04
+LV-00521,EMP-00142,Sick,2025-11-10,2025-11-11,Approved,system-approval-workflow,2025-11-09
+LV-00522,EMP-00126,Annual,2026-05-20,2026-05-23,Approved,system-approval-workflow,2026-05-12
+LV-00523,EMP-00066,Annual,2026-06-07,2026-06-16,Cancelled,,2026-05-25
+LV-00524,EMP-00035,Personal / Carer's,2026-01-19,2026-01-24,Approved,system-approval-workflow,2026-01-17
+LV-00525,EMP-00080,Annual,2026-07-10,2026-07-24,Rejected,,2026-06-25
+LV-00526,EMP-00087,Personal / Carer's,2026-03-15,2026-03-24,Rejected,,2026-02-25
+LV-00527,EMP-00045,Personal / Carer's,2026-04-12,2026-04-25,Pending,,2026-04-07
+LV-00528,EMP-00091,Annual,2025-10-23,2025-11-01,Approved,system-approval-workflow,2025-10-14
+LV-00529,EMP-00141,Parental,2026-05-03,2026-05-04,Cancelled,,2026-04-26
+LV-00530,EMP-00124,Personal / Carer's,2026-03-11,2026-03-22,Approved,system-approval-workflow,2026-03-08
+LV-00531,EMP-00052,Annual,2026-01-22,2026-01-30,Approved,system-approval-workflow,2026-01-22
+LV-00532,EMP-00146,Sick,2025-11-28,2025-11-30,Rejected,,2025-11-23
+LV-00533,EMP-00112,Annual,2026-04-10,2026-04-15,Rejected,,2026-03-21
+LV-00534,EMP-00150,Annual,2026-05-12,2026-05-16,Cancelled,,2026-05-07
+LV-00535,EMP-00061,Annual,2025-09-03,2025-09-11,Approved,system-approval-workflow,2025-08-17
+LV-00536,EMP-00018,Annual,2025-12-16,2025-12-19,Rejected,,2025-12-01
+LV-00537,EMP-00012,Sick,2025-09-08,2025-09-09,Approved,system-approval-workflow,2025-08-28
+LV-00538,EMP-00017,Annual,2026-01-29,2026-02-09,Approved,system-approval-workflow,2026-01-24
+LV-00539,EMP-00064,Annual,2026-02-02,2026-02-05,Cancelled,,2026-01-18
+LV-00540,EMP-00019,Annual,2025-10-05,2025-10-17,Cancelled,,2025-09-30
+LV-00541,EMP-00003,Sick,2025-11-06,2025-11-07,Approved,system-approval-workflow,2025-11-01
+LV-00542,EMP-00001,Annual,2026-03-13,2026-03-14,Approved,system-approval-workflow,2026-02-22
+LV-00543,EMP-00149,Personal / Carer's,2026-03-22,2026-03-28,Approved,system-approval-workflow,2026-03-15
+LV-00544,EMP-00105,Sick,2026-03-10,2026-03-11,Pending,,2026-02-20
+LV-00545,EMP-00098,Sick,2026-02-27,2026-02-28,Approved,system-approval-workflow,2026-02-17
+LV-00546,EMP-00019,Sick,2025-11-27,2025-11-29,Approved,system-approval-workflow,2025-11-19
+LV-00547,EMP-00098,Sick,2025-08-09,2025-08-11,Approved,system-approval-workflow,2025-07-25
+LV-00548,EMP-00051,Personal / Carer's,2025-09-04,2025-09-06,Approved,system-approval-workflow,2025-09-03
+LV-00549,EMP-00045,Unpaid,2025-08-10,2025-08-13,Approved,system-approval-workflow,2025-07-26
+LV-00550,EMP-00100,Parental,2026-03-18,2026-03-28,Pending,,2026-03-07
+LV-00551,EMP-00044,ANNUAL,2026-02-06,2026-02-08,Pending,,2026-01-21
+LV-00552,EMP-00144,Sick,2025-10-31,2025-11-01,Approved,system-approval-workflow,2025-10-25
+LV-00553,EMP-00108,Annual,2026-06-18,2026-06-30,Cancelled,,2026-05-30
+LV-00554,EMP-00039,Sick,2026-05-15,2026-05-17,Cancelled,,2026-05-05
+LV-00555,EMP-00012,Sick,2025-10-09,2025-10-10,Approved,system-approval-workflow,2025-10-04
+LV-00556,EMP-00049,Personal / Carer's,2026-01-23,2026-01-30,Pending,,2026-01-09
+LV-00557,EMP-00007,Annual,2025-09-19,2025-10-03,Cancelled,,2025-09-06
+LV-00558,EMP-00006,Personal / Carer's,2026-03-02,2026-03-12,Approved,system-approval-workflow,2026-02-12
+LV-00559,EMP-00074,Sick,2026-03-05,2026-03-07,Approved,system-approval-workflow,2026-02-27
+LV-00560,EMP-00053,Unpaid,2026-05-20,2026-06-02,Approved,system-approval-workflow,2026-05-09
+LV-00561,EMP-00069,Personal / Carer's,2026-01-21,2026-02-01,Approved,system-approval-workflow,2026-01-17
+LV-00562,EMP-00134,Sick,2025-12-13,2025-12-14,Approved,system-approval-workflow,2025-12-08
+LV-00563,EMP-00109,Annual,2025-12-03,2025-12-10,Rejected,,2025-11-21
+LV-00564,EMP-00084,Annual,2025-11-17,2025-11-26,Approved,system-approval-workflow,2025-10-28
+LV-00565,EMP-00009,Personal / Carer's,2025-09-14,2025-09-27,Approved,system-approval-workflow,2025-09-05
+LV-00566,EMP-00026,Personal / Carer's,2026-03-01,2026-03-10,Approved,system-approval-workflow,2026-02-26
+LV-00567,EMP-00023,Sick,2025-09-26,2025-09-28,Approved,system-approval-workflow,2025-09-25
+LV-00568,EMP-00095,Personal / Carer's,2025-12-18,2025-12-30,Pending,,2025-12-03
+LV-00569,EMP-00061,Personal / Carer's,2026-06-02,2026-06-08,Approved,system-approval-workflow,2026-05-16
+LV-00570,EMP-00060,Annual,2025-12-21,2025-12-27,Approved,system-approval-workflow,2025-12-19
+LV-00571,EMP-00049,Annual,2026-01-02,2026-01-07,Approved,system-approval-workflow,2025-12-28
+LV-00572,EMP-00042,Sick,2025-08-27,2025-08-29,Pending,,2025-08-11
+LV-00573,EMP-00082,Sick,2026-02-14,2026-02-15,Rejected,,2026-02-05
+LV-00574,EMP-00015,Parental,2025-09-21,2025-09-22,Cancelled,,2025-09-09
+LV-00575,EMP-00033,Annual,2026-05-16,2026-05-21,Pending,,2026-05-14
+LV-00576,EMP-00055,Annual,2026-05-05,2026-05-06,Cancelled,,2026-05-04
+LV-00577,EMP-00054,Personal / Carer's,2025-09-05,2025-09-07,Pending,,2025-08-20
+LV-00578,EMP-00069,Sick,2025-10-07,2025-10-08,Approved,system-approval-workflow,2025-10-02
+LV-00579,EMP-00005,Unpaid,2026-05-10,2026-05-17,Approved,system-approval-workflow,2026-04-23
+LV-00580,EMP-00013,Sick,2025-11-15,2025-11-17,Approved,system-approval-workflow,2025-11-07
+LV-00581,EMP-00135,ANNUAL,2025-10-28,2025-11-01,Pending,,2025-10-16
+LV-00582,EMP-00137,Sick,2026-03-29,2026-03-30,Rejected,,2026-03-16
+LV-00583,EMP-00004,Personal / Carer's,2026-05-30,2026-06-06,Rejected,,2026-05-25
+LV-00584,EMP-00059,Annual,2025-09-02,2025-09-11,Cancelled,,2025-08-24
+LV-00585,EMP-00137,Personal / Carer's,2026-07-22,2026-07-30,Approved,system-approval-workflow,2026-07-05
+LV-00586,EMP-00060,Personal / Carer's,2025-10-13,2025-10-18,Pending,,2025-09-28
+LV-00587,EMP-00042,Annual,2025-12-17,2025-12-26,Pending,,2025-12-11
+LV-00588,EMP-00010,Personal / Carer's,2025-09-01,2025-09-09,Approved,system-approval-workflow,2025-08-23
+LV-00589,EMP-00097,Sick,2026-04-19,2026-04-20,Cancelled,,2026-04-12
+LV-00590,EMP-00057,Annual,2025-08-28,2025-09-08,Pending,,2025-08-16
+LV-00591,EMP-00022,Personal / Carer's,2026-03-18,2026-03-26,Rejected,,2026-02-26
+LV-00592,EMP-00029,Personal / Carer's,2026-07-13,2026-07-16,Approved,system-approval-workflow,2026-07-05
+LV-00593,EMP-00048,Personal / Carer's,2026-03-30,2026-04-11,Approved,system-approval-workflow,2026-03-30
+LV-00594,EMP-00133,Sick,2026-05-05,2026-05-07,Approved,system-approval-workflow,2026-04-16
+LV-00595,EMP-00103,Sick,2026-01-02,2026-01-04,Approved,system-approval-workflow,2025-12-20
+LV-00596,EMP-00043,Annual,2025-09-07,2025-09-09,Rejected,,2025-08-28
+LV-00597,EMP-00060,Personal / Carer's,2025-10-09,2025-10-18,Approved,system-approval-workflow,2025-10-07
+LV-00598,EMP-00019,Parental,2025-12-12,2025-12-22,Cancelled,,2025-11-23
+LV-00599,EMP-00049,Annual,2026-01-26,2026-02-06,Pending,,2026-01-19
+LV-00600,EMP-00084,Annual,2026-03-24,2026-04-06,Rejected,,2026-03-11
+LV-00601,EMP-00014,Personal / Carer's,2026-04-29,2026-05-08,Pending,,2026-04-27
+LV-00602,EMP-00039,Parental,2025-11-07,2025-11-13,Cancelled,,2025-11-04
+LV-00603,EMP-00040,Personal / Carer's,2025-08-21,2025-08-26,Cancelled,,2025-08-03
+LV-00604,EMP-00135,Sick,2026-02-02,2026-02-04,Approved,system-approval-workflow,2026-01-18
+LV-00605,EMP-00022,Personal / Carer's,2025-12-02,2025-12-14,Approved,system-approval-workflow,2025-11-20
+LV-00606,EMP-00034,ANNUAL,2026-02-28,2026-03-03,Approved,system-approval-workflow,2026-02-08
+LV-00607,EMP-00053,Annual,2026-07-29,2026-08-07,Rejected,,2026-07-20
+LV-00608,EMP-00062,Annual,2025-08-10,2025-08-15,Rejected,,2025-08-06
+LV-00609,EMP-00027,Annual,2025-11-28,2025-12-02,Approved,system-approval-workflow,2025-11-22
+LV-00610,EMP-00033,UNPAID,2025-12-13,2025-12-15,Approved,system-approval-workflow,2025-12-07
+LV-00611,EMP-00070,Annual,2026-02-09,2026-02-13,Pending,,2026-01-26
+LV-00612,EMP-00007,Personal / Carer's,2026-04-02,2026-04-10,Pending,,2026-03-19
+LV-00613,EMP-00057,Annual,2026-02-23,2026-02-25,Approved,system-approval-workflow,2026-02-21
+LV-00614,EMP-00034,Personal / Carer's,2026-07-09,2026-07-10,Cancelled,,2026-07-03
+LV-00615,EMP-00109,Annual,2026-04-04,2026-04-18,Approved,system-approval-workflow,2026-03-17
+LV-00616,EMP-00098,Annual,2025-09-04,2025-09-16,Rejected,,2025-08-16
+LV-00617,EMP-00110,Annual,2026-07-15,2026-07-25,Approved,system-approval-workflow,2026-06-29
+LV-00618,EMP-00092,Personal / Carer's,2025-11-09,2025-11-18,Approved,system-approval-workflow,2025-11-03
+LV-00619,EMP-00147,Annual,2025-08-24,2025-08-28,Approved,system-approval-workflow,2025-08-22
+LV-00620,EMP-00019,Unpaid,2026-03-01,2026-03-02,Cancelled,,2026-02-17
+LV-00621,EMP-00079,Annual,2026-07-11,2026-07-22,Pending,,2026-06-26
+LV-00622,EMP-00105,Annual,2025-08-27,2025-09-03,Pending,,2025-08-10
+LV-00623,EMP-00041,Sick,2026-04-29,2026-05-01,Cancelled,,2026-04-16
+LV-00624,EMP-00056,Sick,2025-10-26,2025-10-28,Pending,,2025-10-13
+LV-00625,EMP-00064,Sick,2026-04-27,2026-04-29,Cancelled,,2026-04-08
+LV-00626,EMP-00053,Personal / Carer's,2025-09-02,2025-09-06,Rejected,,2025-08-21
+LV-00627,EMP-00091,Sick,2026-05-01,2026-05-03,Approved,system-approval-workflow,2026-04-22
+LV-00628,EMP-00077,Annual,2025-10-21,2025-10-24,Approved,system-approval-workflow,2025-10-16
+LV-00629,EMP-00078,Annual,2026-06-29,2026-06-30,Cancelled,,2026-06-15
+LV-00630,EMP-00037,Sick,2026-07-15,2026-07-17,Approved,system-approval-workflow,2026-07-01
+LV-00631,EMP-00103,Sick,2026-03-23,2026-03-24,Cancelled,,2026-03-05
+LV-00632,EMP-00085,Annual,2026-06-15,2026-06-19,Approved,system-approval-workflow,2026-06-01
+LV-00633,EMP-00141,Personal / Carer's,2026-01-27,2026-02-01,Pending,,2026-01-07
+LV-00634,EMP-00058,Sick,2026-06-06,2026-06-08,Cancelled,,2026-05-22
+LV-00635,EMP-00147,Unpaid,2026-04-18,2026-05-02,Pending,,2026-04-04
+LV-00636,EMP-00146,Annual,2026-06-18,2026-06-27,Approved,system-approval-workflow,2026-06-03
+LV-00637,EMP-00005,Annual,2026-01-21,2026-02-04,Pending,,2026-01-19
+LV-00638,EMP-00055,Unpaid,2025-11-15,2025-11-20,Approved,system-approval-workflow,2025-11-12
+LV-00639,EMP-00118,Annual,2026-02-26,2026-03-08,Approved,system-approval-workflow,2026-02-07
+LV-00640,EMP-00085,Personal / Carer's,2026-06-07,2026-06-10,Pending,,2026-05-26

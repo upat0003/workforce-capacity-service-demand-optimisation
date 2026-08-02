@@ -1,0 +1,21 @@
+request_id,client_id,service_type_id,location_id,requested_date,requested_by,urgency,complexity_score,requested_channel,status
+REQ-000001,CLT-00369,SVC-02,LOC-05,2025-08-01,Client,Routine,34.2,Portal,Cancelled
+REQ-000002,CLT-00457,SVC-01,LOC-05,2025-08-01,Client,Routine,35.2,Phone,Completed
+REQ-000003,CLT-00079,SVC-01,LOC-05,2025-08-01,Client,Routine,9.9,Phone,Cancelled
+REQ-000004,CLT-00499,SVC-02,LOC-10,2025-08-01,Case Manager,Routine,85.4,Portal,Cancelled
+REQ-000005,CLT-00353,SVC-02,LOC-10,2025-08-01,Case Manager,Urgent,26.6,Portal,Cancelled
+REQ-000006,CLT-00041,SVC-07,LOC-07,2025-08-01,Client,Priority,71.5,Portal,Cancelled
+REQ-000007,CLT-00512,SVC-06,LOC-09,2025-08-01,Case Manager,Urgent,33.5,Portal,Completed
+REQ-000008,CLT-00255,SVC-09,LOC-01,2025-08-01,Case Manager,Urgent,,Referral,Completed
+REQ-000009,CLT-00131,SVC-07,LOC-06,2025-08-01,Family Member,Routine,62.1,Phone,Cancelled
+REQ-000010,CLT-00301,SVC-05,LOC-01,2025-08-01,Family Member,Priority,78.1,Phone,Backlog
+REQ-000011,CLT-00072,SVC-06,LOC-08,2025-08-01,Client,Routine,15.8,Portal,Completed
+REQ-000012,CLT-00182,SVC-07,LOC-02,2025-08-01,Client,Routine,37.6,Portal,Cancelled
+REQ-000013,CLT-00258,SVC-09,LOC-07,2025-08-01,GP / Clinician,Priority,57.2,Phone,Scheduled
+REQ-000014,CLT-00024,SVC-01,LOC-04,2025-08-01,Client,Routine,13.1,Portal,Backlog
+REQ-000015,CLT-00266,SVC-05,LOC-10,2025-08-01,Family Member,Routine,65.1,Phone,Completed
+REQ-000016,CLT-00264,SVC-04,LOC-03,2025-08-01,Client,Priority,7.6,Portal,Cancelled
+REQ-000017,CLT-00163,SVC-03,LOC-09,2025-08-01,Client,Routine,12.3,Portal,Cancelled
+REQ-000018,CLT-00503,SVC-04,LOC-10,2025-08-01,Client,Urgent,11.8,Phone,Scheduled
+REQ-000019,CLT-00454,SVC-08,LOC-04,2025-08-01,Case Manager,Priority,68.5,Case Manager,Completed
+REQ-000020,CLT-00430,SVC-07,LOC-01,2025-08-01,Case Manager,Priority,42.9,Phone,Cancelled

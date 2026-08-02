@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw synthetic source extracts landed by python/transformation/build_bronze.py"
+    schema: bronze
+    tables:
+      - name: employees
+      - name: employee_skills
+      - name: availability
+      - name: leave
+      - name: clients
+      - name: service_requests
+      - name: shifts
+      - name: overtime
+      - name: appointments
+      - name: waiting_times
+      - name: cancellations
+      - name: outcomes
+      - name: locations
+      - name: skills
+      - name: service_types
+      - name: case_complexity
+      - name: service_level_targets
